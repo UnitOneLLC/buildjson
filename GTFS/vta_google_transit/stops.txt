@@ -1,0 +1,60 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon
+XLAMBEVTA,,Across from Lambert's Cove Beach,,41.44134,-70.66789
+AIRPOBUSINVTA,,Airport Business Park,,41.39423,-70.60187
+AQUINVTA,,Aquinnah Town Hall,,41.34259,-70.81176
+BLINKVTA,,Blinker Intersection,,41.42082,-70.60172
+CHILMVTA,,Chilmark Community Center,,41.34254,-70.74248
+OVERLVTA,,Chilmark Overlook,,41.3235,-70.77064
+CHURCVTA,,Church Street,,41.391,-70.51463
+RIDGEVTA,,Country & Tower Ridge Rd.,,41.43429,-70.57422
+GAYHEVTA,,Gay Head Lighthouse,,41.34663,-70.83645
+HEALEVTA,,Healey Way,,41.45591,-70.55691
+HILLSVTA,,Hillside Village Community Bldg,,41.43943,-70.60929
+JOHNHVTA,,John Hoft Road,,41.44965,-70.63719
+KATAMVTA,,Katama Airfield,,41.36356,-70.52344
+LOBSTVTA,,Lighthouse & Lobsterville Road,,41.35032,-70.79712
+MVHIGVTA,,M.V. High School Bench Stop,,41.41883,-70.59436
+AIRPOVTA,,Martha's Vineyard Airport,,41.38959,-70.61158
+HOSPIVTA,,Martha's Vineyard Hospital,,41.46081,-70.58031
+MATTAVTA,,Mattakesett Resort,,41.35316,-70.51051
+MEETIVTA,,Meetinghouse Road,,41.35548,-70.69584
+MENEMBVTA,,Menemsha Beach,,41.35418,-70.76598
+MESHAVTA,,Meshacket Road,,41.3859,-70.54092
+NIANTVTA,,Niantic Park,,41.45185,-70.5597
+OAKFIREVTA,,Oak Bluffs Fire Station Intersection,,41.44682,-70.57477
+OAKSSAVTA,,Oak Bluffs SSA Terminal,,41.45707,-70.55578
+OAKLIBVTA,,Oak Bluffs Town Hall / Library,,41.45401,-70.56823
+OCEANVTA,,Ocean Park,,41.45692,-70.55626
+POLLYVTA,,Polly Hill Arboretum,,41.39761,-70.67689
+PONDVVTA,,Pond View Drive,,41.44141,-70.58807
+SKATEVTA,,Skate Park,,41.41868,-70.59347
+SOUTHLEFTVTA,,South Beach - Left Fork,,41.3494,-70.51211
+SOUTHRIGHTVTA,,South Beach - Right Fork,,41.35081,-70.528
+SOUTHWATERVTA,,South Water Street,,41.38437,-70.51868
+STATERVTA,,State Road at North Road,,41.40313,-70.67731
+STONEYHILLVTA,,Stoney Hill Road,,41.43292,-70.63739
+TABORVTA,,Tabor House Road,,41.37154,-70.73277
+TASHMVTA,,Tashmoo Woods,,41.4691,-70.60582
+THORNVTA,,Thorncroft Inn,,41.46697,-70.60051
+TISBUPARKVTA,,Tisbury Park-and-Ride Lot,,41.4451,-70.61378
+TISBULIBVTA,,Tisbury Public Library,,41.45939,-70.60352
+TISBUBUSVTA,,Tisbury State Rd. Bus. District,,41.44671,-70.61604
+TISBUHALLVTA,,Tisbury Town Hall,,41.45407,-70.60517
+VINEYAVEVTA,,Vineyard Avenue,,41.45463,-70.5757
+VINEYVTA,,Vineyard Haven SSA Terminal,,41.45527,-70.60131
+WAMPAVTA,,Wampanoag Tribe,,41.33265,-70.79918
+WASKOVTA,,Waskosim's Rock Reservation,,41.39828,-70.70504
+WESTCVTA,,West Chop Tennis Club,,41.48052,-70.60455
+WESTDISVTA,,West Tisbury Business District,,41.41738,-70.66743
+WESTSCHVTA,,West Tisbury Elementary School,,41.40225,-70.6617
+WESTHALVTA,,West Tisbury Town Hall,,41.38082,-70.67487
+WOODSVTA,,Woodside Village / MVCS,,41.42249,-70.59515
+XHOLLYVTA,,Across from Holly Bear Lane,,41.39939,-70.54577
+XOAKLNVTA,,Across from Oak Lane,,41.42274,-70.64578
+DEEPBMVTA,,Deep Bottom Road,,41.38393,-70.63072
+METDRVTA,,Across from Metcalf Drive,,41.38764,-70.56608
+EDPOLICEVTA,,Edgartown Police Station,,41.387213,-70.51949
+DEACONVTA,,Deacon Vincent Way,,41.3774653,-70.518656
+XCROCKVTA,,Across from Crocker Drive,,41.366862,-70.512956
+YMCAVTA,,YMCA,,41.419493,-70.592955
+LIGHTVTA,,West Chop Lighthouse,,41.4805,-70.5999

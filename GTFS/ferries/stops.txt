@@ -1,0 +1,7 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station
+OBTERM, ,Oak Bluffs Terminal, ,41.45895,-70.55836, , , , 
+OBSSA, ,Oak Bluffs SSA Terminal, ,41.45707,-70.55578, , , , 
+VHSSA, ,Vineyard Haven Terminal, ,41.45527,-70.60131, , , , 
+WOODSHOLE, ,Woods Hole Terminal, ,41.52225,-70.67005, , , , 
+HYANTERM, ,Hyannis Terminal, ,41.6503,-70.27733, , , , 
+FALMOUTH, ,Falmouth, ,41.550779, -70.600517, , , ,

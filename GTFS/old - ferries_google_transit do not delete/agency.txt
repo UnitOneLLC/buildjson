@@ -1,0 +1,15 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone
+NEFAST,New England Fast Ferry,http://www.nefastferry.com/,America/New_York,en, 
+ISLAND,Island Commuter Corporation,http://www.islandqueen.com,America/New_York,en,508-548-4800
+CUTTY,Cuttyhunk Ferry Company,http://www.cuttyhunkferryco.com/,America/New_York,en,508-992-0200
+HYLIN,Hy-Line Cruises,http://www.hy-linecruises.com/,America/New_York,en,800-492-8082
+FALMO,Falmouth Ferry Service,http://www.falmouthferry.com/Falmouth_Ferry/Contact_Us.html,America/New_York,en,508-548-9400
+HARWI,Freedom Cruise Line,http://www.nantucketislandferry.com/,America/New_York,en, 
+SSA,Steamship Authority,http://www.steamshipauthority.com/ssa/,America/New_York,en,508-693-9130
+SAL,Salem Ferry,http://www.salemferry.com/,America/New_York,en, 
+BAYST,Bay State Cruise Company,http://www.baystatecruisecompany.com/,America/New_York,en, 
+HARBO,Boston Harbor Cruises,http://www.bostonharborcruises.com/,America/New_York,en,617-227-4321
+CHAPP,"Chappaquiddick Ferry, Inc.",http://www.chappyferry.net/,America/New_York,en,508-627-9427
+HARBOI,Boston Harbor Islands Ferries (operated by Boston's Best Cruises),http://www.bostonislands.com/trip_getthere.html,America/New_York,en,617-223-8666
+VINEY,Vineyard Fast Ferry,http://www.vineyardfastferry.com/,America/New_York,en,(401) 295-4040
+PLYMOPROVIBOAT,Capt. John Boats,http://www.provincetownferry.com/,America/New_York,en, 

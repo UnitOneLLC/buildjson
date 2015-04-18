@@ -1,0 +1,13 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+1VTA,VTA,1,Edgartown-Vineyard Haven,Last trip from Edgartown serves Vineyard Haven on request. Note that bus may be flagged anywhere along route.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,2D8DF7, 
+2VTA,VTA,2,West Tisbury-Vineyard Haven via Old Country Rd. and Lambert's Cove Rd.,Note that bus may be flagged anywhere along route.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,D38E99, 
+3VTA,VTA,3,West Tisbury-Vineyard Haven via State Road,Note that bus may be flagged anywhere along route.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,3BCE78, 
+4VTA,VTA,4,West Tisbury-Chilmark-Menemsha via North Road,Note that bus may be flagged anywhere along route.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,A76433, 
+5VTA,VTA,5,West Tisbury-Chilmark-Aquinnah via South Road,Note that bus may be flagged anywhere along route.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,E12C26, 
+6VTA,VTA,6,Edgartown-Airport-West Tisbury,"Note that bus may be flagged anywhere along route. During shoulder seasons 8:24 PM and 9:24 PM PM buses from Edgartown continue to West Tisbury on request.",3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,007CB0, 
+7VTA,VTA,7,Oak Bluffs-Airport via County Road / Barnes Road,Note that bus may be flagged anywhere along route.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,ED028C, 
+8VTA,VTA,8,South Beach Route,Note that bus may be flagged anywhere along route. Some routes run only in fair weather conditions; see vineyardtransit.org for more details.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,3DAB4B, 
+9VTA,VTA,9,Oak Bluffs - Hospital - Airport via Barnes Road / County Road,Note that bus may be flagged anywhere along route.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,90268F, 
+10VTA,VTA,10,Tisbury Park-and-Ride,Note that bus may be flagged anywhere along route. Service on Thanksgiving and Christmas operated by the Steamship Authority.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,E12C26, 
+10AVTA,VTA,10A,West Chop Loop,Note that bus may be flagged anywhere along route.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,E12C26, 
+13VTA,VTA,13,Edgartown-Oak Bluffs-Vineyard Haven via Beach Roads,Note that bus may be flagged anywhere along route.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,FEC657,
