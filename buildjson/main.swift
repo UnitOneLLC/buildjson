@@ -9,9 +9,9 @@
 import Foundation
 import CoreLocation
 
-//let basePath = "/Users/fred/Documents/xc/buildjson/GTFS/vta_google_transit/"
-//let basePath = "/Users/fred/Downloads/brta_google_transit/"
-let basePath = "/Users/fred/Documents/xc/buildjson/GTFS/ferries/"
+//var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/vta_google_transit/"
+//var basePath = "/Users/fred/Downloads/brta_google_transit/"
+var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/ferries/"
 
 
 struct Agency {
@@ -941,6 +941,10 @@ func generateJson(gtfs: GTFS) {
 var gtfs: GTFS!
 
 func process() {
+    if (Process.arguments.count > 1) {
+       basePath = Process.arguments[1]
+    }
+    
     let agencies = parseAgencies()
     let wps = parseWaypoints()
     let stops = parseStops()
