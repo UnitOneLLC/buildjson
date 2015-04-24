@@ -1,0 +1,5 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+PRESEASON,1,1,1,1,1,1,1,20150502,20150619
+SHLDRWKND,0,0,0,0,1,1,20150502,20150619
+SUMMERVTA,1,1,1,1,1,1,1,20150502,20151012
+BEACH1,1,1,1,1,1,1,1,20150523,20150907

@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone
+VTA,Martha's Vineyard Regional Transit Authority,http://www.vineyardtransit.com,America/New_York,en,508-693-9440
