@@ -1,4 +1,5 @@
 stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon
+LAMBERTVTA,,Lambert's Cove Beach,,41.44134,-70.66789
 XLAMBEVTA,,Across from Lambert's Cove Beach,,41.44134,-70.66789
 AIRPOBUSINVTA,,Airport Business Park,,41.39423,-70.60187
 AQUINVTA,,Aquinnah Town Hall,,41.34259,-70.81176
@@ -60,3 +61,4 @@ YMCAVTA,,YMCA,,41.419493,-70.592955
 LIGHTVTA,,West Chop Lighthouse,,41.4805,-70.5999
 FELIXNECK,,Felix Neck,,41.408045, -70.567063
 MVCAMP,,Across from Martha's Vineyard Campground,,41.434632, -70.607970
+GTPLAINSRD,,Great Plains Road,41.424720,-70.644162

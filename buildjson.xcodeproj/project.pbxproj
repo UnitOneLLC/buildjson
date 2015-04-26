@@ -25,6 +25,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B61E448F1AEC343400A58835 /* vtatrips.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = vtatrips.csv; sourceTree = "<group>"; };
+		B61E44901AEC34C100A58835 /* vta-trips-spring.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "vta-trips-spring.csv"; sourceTree = "<group>"; };
+		B61E44921AEC350600A58835 /* agency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = agency.txt; sourceTree = "<group>"; };
+		B61E44931AEC350600A58835 /* calendar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar.txt; sourceTree = "<group>"; };
+		B61E44941AEC350600A58835 /* calendar_dates.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar_dates.txt; sourceTree = "<group>"; };
+		B61E44951AEC350600A58835 /* routes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routes.txt; sourceTree = "<group>"; };
+		B61E44961AEC350600A58835 /* shapes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shapes.txt; sourceTree = "<group>"; };
+		B61E44971AEC350600A58835 /* stop_times.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stop_times.txt; sourceTree = "<group>"; };
+		B61E44981AEC350600A58835 /* stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.txt; sourceTree = "<group>"; };
+		B61E44991AEC350600A58835 /* trips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trips.txt; sourceTree = "<group>"; };
+		B61E449A1AEC350600A58835 /* waypoints.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = waypoints.txt; sourceTree = "<group>"; };
 		B666B3041AB73D4200107C2C /* buildjson */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = buildjson; sourceTree = BUILT_PRODUCTS_DIR; };
 		B666B3071AB73D4200107C2C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B666B30E1AB73F4C00107C2C /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
@@ -73,6 +84,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B61E448D1AEC343400A58835 /* meta */ = {
+			isa = PBXGroup;
+			children = (
+				B61E44901AEC34C100A58835 /* vta-trips-spring.csv */,
+				B61E448F1AEC343400A58835 /* vtatrips.csv */,
+			);
+			path = meta;
+			sourceTree = "<group>";
+		};
+		B61E44911AEC350600A58835 /* vta-2015 */ = {
+			isa = PBXGroup;
+			children = (
+				B61E44921AEC350600A58835 /* agency.txt */,
+				B61E44931AEC350600A58835 /* calendar.txt */,
+				B61E44941AEC350600A58835 /* calendar_dates.txt */,
+				B61E44951AEC350600A58835 /* routes.txt */,
+				B61E44961AEC350600A58835 /* shapes.txt */,
+				B61E44971AEC350600A58835 /* stop_times.txt */,
+				B61E44981AEC350600A58835 /* stops.txt */,
+				B61E44991AEC350600A58835 /* trips.txt */,
+				B61E449A1AEC350600A58835 /* waypoints.txt */,
+			);
+			path = "vta-2015";
+			sourceTree = "<group>";
+		};
 		B666B2FB1AB73D4200107C2C = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +139,8 @@
 		B6DD78FD1AE2F7170080207C /* GTFS */ = {
 			isa = PBXGroup;
 			children = (
+				B61E44911AEC350600A58835 /* vta-2015 */,
+				B61E448D1AEC343400A58835 /* meta */,
 				B6DD78FE1AE2F7170080207C /* ferries */,
 				B6DD790A1AE2F7170080207C /* old - ferries_google_transit do not delete */,
 				B6DD79161AE2F7170080207C /* vta_google_transit */,
