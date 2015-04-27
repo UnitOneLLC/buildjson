@@ -11,7 +11,7 @@ import CoreLocation
 
 //var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/vta_google_transit/"
 //var basePath = "/Users/fred/Downloads/brta_google_transit/"
-var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/ferries/"
+var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/vta-2015/"
 
 
 struct Agency {
@@ -134,6 +134,10 @@ func trim(string: String) -> String {
     return join(" ", components)
 }
 
+func isBlank(line: String) -> Bool {
+    return (count(line) == 1) &&
+        (line.substringToIndex(advance(line.startIndex,1)) == "\r")
+}
 
 func decomposeCsv(line: String) -> [String] {
     var parts = line.componentsSeparatedByString(",")
@@ -209,6 +213,9 @@ func parseAgencies() -> [Agency] {
         var fieldMap: [String: Int]!
         
         while let line = reader.nextLine() {
+            if isBlank(line) {
+                continue
+            }
             if isFirst {
                 isFirst = false
                 fieldMap = getFieldMap(line)
@@ -244,6 +251,9 @@ func parseStops() -> [Stop] {
         var fieldMap: [String: Int]!
         
         while let line = reader.nextLine() {
+            if isBlank(line) {
+                continue
+            }
             if isFirst {
                 isFirst = false
                 fieldMap = getFieldMap(line)
@@ -282,6 +292,9 @@ func parseWaypoints() -> [Waypoint] {
         var fieldMap: [String: Int]!
         
         while let line = reader.nextLine() {
+            if isBlank(line) {
+                continue
+            }
             if isFirst {
                 isFirst = false
                 fieldMap = getFieldMap(line)
@@ -315,6 +328,9 @@ func parseTrips() -> [Trip] {
         var isFirst = true
         var fieldMap : [String: Int]!
         while let line = reader.nextLine() {
+            if isBlank(line) {
+                continue
+            }
             if isFirst {
                 isFirst = false
                 fieldMap = getFieldMap(line)
@@ -346,6 +362,9 @@ func parseRoutes() -> [Route] {
         
         var fieldMap: [String: Int]!
         while var line = reader.nextLine() {
+            if isBlank(line) {
+                continue
+            }
             if isFirst {
                 isFirst = false
                 fieldMap = getFieldMap(line)
@@ -388,6 +407,9 @@ func parseStopTimes() -> [StopTime] {
         var isFirst = true
         var fieldMap: [String: Int]!
         while let line = reader.nextLine() {
+            if isBlank(line) {
+                continue
+            }
             if isFirst {
                 isFirst = false
                 fieldMap = getFieldMap(line)
@@ -420,6 +442,9 @@ func parseShapes() -> [Shape] {
         var isFirst = true
         var fieldMap: [String: Int]!
         while let line = reader.nextLine() {
+            if isBlank(line) {
+                continue
+            }
             if isFirst {
                 fieldMap = getFieldMap(line)
                 isFirst = false
@@ -473,6 +498,9 @@ func parseCalendars() -> [Calendar] {
         var isFirst = true
         
         while let line = reader.nextLine() {
+            if isBlank(line) {
+                continue
+            }
             if isFirst {
                 isFirst = false
                 continue
@@ -510,6 +538,9 @@ func parseCalendarDates() -> [CalendarDate] {
         var isFirst = true
         var fieldMap: [String: Int]!
         while let line = reader.nextLine() {
+            if isBlank(line) {
+                continue
+            }
             if isFirst {
                 isFirst = false
                 fieldMap = getFieldMap(line)
