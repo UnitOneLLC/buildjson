@@ -5,6 +5,7 @@ AIRPOBUSINVTA,,Airport Business Park,,41.39423,-70.60187
 AQUINVTA,,Aquinnah Town Hall,,41.34259,-70.81176
 BLINKVTA,,Blinker Intersection,,41.42082,-70.60172
 CHILMVTA,,Chilmark Community Center,,41.34254,-70.74248
+XCHILMVTA,,Across from Chilmark Community Center,,41.34254,-70.74248
 OVERLVTA,,Chilmark Overlook,,41.3235,-70.77064
 CHURCVTA,,Church Street,,41.391,-70.51463
 RIDGEVTA,,Country & Tower Ridge Rd.,,41.43429,-70.57422
@@ -19,6 +20,7 @@ AIRPOVTA,,Martha's Vineyard Airport,,41.38959,-70.61158
 HOSPIVTA,,Martha's Vineyard Hospital,,41.46081,-70.58031
 MATTAVTA,,Mattakesett Resort,,41.35316,-70.51051
 MEETIVTA,,Meetinghouse Road,,41.35548,-70.69584
+XMEETIVTA,,Across from Meetinghouse Road,,41.35548,-70.69584
 MENEMBVTA,,Menemsha Beach,,41.35418,-70.76598
 MESHAVTA,,Meshacket Road,,41.3859,-70.54092
 NIANTVTA,,Niantic Park,,41.45185,-70.5597
@@ -52,6 +54,7 @@ XWASKOVTA,,Across from Waskosim's Rock Reservation,,41.398,-70.70504
 WESTCVTA,,West Chop Tennis Club,,41.48052,-70.60455
 WESTDISVTA,,West Tisbury Business District,,41.41738,-70.66743
 WESTSCHVTA,,West Tisbury Elementary School,,41.40225,-70.6617
+WESTGRANGEVTA,West Tisbury Grange Hall,41.380169,-70.674784
 WESTHALVTA,,West Tisbury Town Hall,,41.38082,-70.67487
 WOODSVTA,,Woodside Village / MVCS,,41.42249,-70.59515
 XHOLLYVTA,,Across from Holly Bear Lane,,41.39939,-70.54577
