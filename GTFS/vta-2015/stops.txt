@@ -34,17 +34,21 @@ SOUTHRIGHTVTA,,South Beach - Right Fork,,41.35081,-70.528
 SOUTHWATERVTA,,South Water Street,,41.38437,-70.51868
 STATERVTA,,State Road at North Road,,41.40313,-70.67731
 STONEYHILLVTA,,Stoney Hill Road,,41.43292,-70.63739
+XSTONEYHILLVTA,,Across from Stoney Hill Road,,41.432951,-70.637495
 TABORVTA,,Tabor House Road,,41.37154,-70.73277
+XTABORVTA,,Across from Tabor House Road,,41.371588,-70.732797
 TASHMVTA,,Tashmoo Woods,,41.4691,-70.60582
 THORNVTA,,Thorncroft Inn,,41.46697,-70.60051
 TISBUPARKVTA,,Tisbury Park-and-Ride Lot,,41.4451,-70.61378
 TISBULIBVTA,,Tisbury Public Library,,41.45939,-70.60352
 TISBUBUSVTA,,Tisbury State Rd. Bus. District,,41.44671,-70.61604
 TISBUHALLVTA,,Tisbury Town Hall,,41.45407,-70.60517
+TOWNPKGLOTVTA,Town Parking Lot (off Tabor House),41.366492,-70.726296
 VINEYAVEVTA,,Vineyard Avenue,,41.45463,-70.5757
 VINEYVTA,,Vineyard Haven SSA Terminal,,41.45527,-70.60131
 WAMPAVTA,,Wampanoag Tribe,,41.33265,-70.79918
 WASKOVTA,,Waskosim's Rock Reservation,,41.39828,-70.70504
+XWASKOVTA,,Across from Waskosim's Rock Reservation,,41.398,-70.70504
 WESTCVTA,,West Chop Tennis Club,,41.48052,-70.60455
 WESTDISVTA,,West Tisbury Business District,,41.41738,-70.66743
 WESTSCHVTA,,West Tisbury Elementary School,,41.40225,-70.6617
@@ -62,3 +66,4 @@ LIGHTVTA,,West Chop Lighthouse,,41.4805,-70.5999
 FELIXNECK,,Felix Neck,,41.408045, -70.567063
 MVCAMP,,Across from Martha's Vineyard Campground,,41.434632, -70.607970
 GTPLAINSRD,,Great Plains Road,41.424720,-70.644162
+BUNGVTA,Beetlebung Corner,41.343006,-70.743987
