@@ -49,8 +49,10 @@ TABORVTA,,Tabor House Road,,41.37154,-70.73277
 XTABORVTA,,Across from Tabor House Road,,41.371588,-70.732797
 TASHMVTA,,Tashmoo Woods,,41.4691,-70.60582
 THORNVTA,,Thorncroft Inn,,41.46697,-70.60051
+XTHORNVTA,,Across from Thorncroft Inn,,41.46697,-70.60051
 TISBUPARKVTA,,Tisbury Park-and-Ride Lot,,41.4451,-70.61378
 TISBULIBVTA,,Tisbury Public Library,,41.45939,-70.60352
+XTISBULIBVTA,,Across from Tisbury Public Library,,41.45939,-70.60352
 TISBUBUSVTA,,Tisbury State Rd. Bus. District,,41.44671,-70.61604
 TISBUHALLVTA,,Tisbury Town Hall,,41.45407,-70.60517
 TOWNPKGLOTVTA,,Town Parking Lot (off Tabor House),,41.366492,-70.726296
