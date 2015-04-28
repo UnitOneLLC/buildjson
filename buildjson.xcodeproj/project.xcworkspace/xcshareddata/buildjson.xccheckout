@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E4A876CA-C3ED-473E-83EA-1FC467BE5011</string>
 	<key>IDESourceControlProjectName</key>
-	<string>buildjson</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>4EAF771064565DBE17765FF3DD269DF84FA18B0E</key>
 		<string>https://github.com/UnitOneLLC/buildjson.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>buildjson.xcodeproj</string>
+	<string>buildjson.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4EAF771064565DBE17765FF3DD269DF84FA18B0E</key>
