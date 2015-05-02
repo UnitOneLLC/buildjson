@@ -40,6 +40,7 @@
 		B666B3071AB73D4200107C2C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B666B30E1AB73F4C00107C2C /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
 		B666B3101AB8CFDB00107C2C /* Polyline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polyline.swift; sourceTree = "<group>"; };
+		B6AF7D731AF552450005B221 /* bus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bus.json; sourceTree = "<group>"; };
 		B6DD78FF1AE2F7170080207C /* agency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = agency.txt; sourceTree = "<group>"; };
 		B6DD79001AE2F7170080207C /* calendar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar.txt; sourceTree = "<group>"; };
 		B6DD79011AE2F7170080207C /* calendar_dates.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar_dates.txt; sourceTree = "<group>"; };
@@ -102,6 +103,7 @@
 				B61E44951AEC350600A58835 /* routes.txt */,
 				B61E44961AEC350600A58835 /* shapes.txt */,
 				B61E44971AEC350600A58835 /* stop_times.txt */,
+				B6AF7D721AF552450005B221 /* generated */,
 				B61E44981AEC350600A58835 /* stops.txt */,
 				B61E44991AEC350600A58835 /* trips.txt */,
 				B61E449A1AEC350600A58835 /* waypoints.txt */,
@@ -134,6 +136,14 @@
 				B666B30E1AB73F4C00107C2C /* StreamReader.swift */,
 			);
 			path = buildjson;
+			sourceTree = "<group>";
+		};
+		B6AF7D721AF552450005B221 /* generated */ = {
+			isa = PBXGroup;
+			children = (
+				B6AF7D731AF552450005B221 /* bus.json */,
+			);
+			path = generated;
 			sourceTree = "<group>";
 		};
 		B6DD78FD1AE2F7170080207C /* GTFS */ = {
