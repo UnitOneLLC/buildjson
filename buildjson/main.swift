@@ -115,7 +115,7 @@ struct Connection {
     let shortName: String
 }
 
-struct TimeOfDay {
+struct TimeOfDay : Comparable, Equatable {
     let hour: Int!
     let minute: Int!
     
@@ -125,7 +125,29 @@ struct TimeOfDay {
         self.hour = (array[0] as NSString).integerValue
         self.minute = (array[1] as NSString).integerValue
     }
+    
 }
+
+func <(lhs: TimeOfDay, rhs: TimeOfDay) -> Bool {
+    if lhs.hour < rhs.hour {
+        return true
+    }
+    if lhs.minute < rhs.minute {
+        return true
+    }
+    
+    return false
+}
+func ==(lhs: TimeOfDay, rhs: TimeOfDay) -> Bool {
+    if lhs.hour != rhs.hour {
+        return false
+    }
+    if lhs.minute != rhs.minute {
+        return false
+    }
+    return true
+}
+
 
 func trim(string: String) -> String {
     let components = string.componentsSeparatedByCharactersInSet(
@@ -755,6 +777,26 @@ func getWayPointForRoute(routeId: String, gtfs: GTFS) -> String {
     return ""
 }
 
+func getTripStartTime(trip: Trip) -> TimeOfDay? {
+    let stopTimes = getStopTimesForTrip(trip.tripId, gtfs)
+    if stopTimes.count > 0 {
+        return TimeOfDay(fromString: stopTimes[0].arrivalTime)
+    }
+    return nil
+}
+
+func sortTripsByStartTime(inout trips: [Trip]) {
+    sort(&trips) { (t1, t2) in
+        let time1 = getTripStartTime(t1)
+        let time2 = getTripStartTime(t2)
+        if (time1 == nil) || (time2 == nil) {
+            return false
+        }
+        
+        return time1! < time2!
+    }
+}
+
 func generateJsonForRoute(route: Route, isLast: Bool, gtfs: GTFS) {
     let level = 3
 
@@ -788,6 +830,8 @@ func generateJsonForRoute(route: Route, isLast: Bool, gtfs: GTFS) {
         else {
             tripsToDest = trips
         }
+        
+        sortTripsByStartTime(&tripsToDest!)
         
         println("\(indent(level: level)){")
         println("\(indent(level: level+1))\"destination\": \"\(dest)\",")
