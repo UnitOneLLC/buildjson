@@ -378,137 +378,6 @@
 					},
 
 					{
-						"tripId": "1PRE_IN_22VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "16:07", "seq": 1 },
-							{ "id": "FELIXNECK", "time": "16:14", "seq": 2 },
-							{ "id": "SKATEVTA", "time": "16:19", "seq": 3 },
-							{ "id": "MVCAMP", "time": "16:22", "seq": 4 },
-							{ "id": "HILLSVTA", "time": "16:24", "seq": 5 },
-							{ "id": "VINEYVTA", "time": "16:31", "seq": 6 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_22VTA", "shortName": "13", "time": "16:45"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_11VTA", "shortName": "3", "time": "17:07"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_IN_24VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "17:07", "seq": 1 },
-							{ "id": "FELIXNECK", "time": "17:14", "seq": 2 },
-							{ "id": "YMCAVTA", "time": "17:18", "seq": 4 },
-							{ "id": "MVCAMP", "time": "17:26", "seq": 5 },
-							{ "id": "VINEYVTA", "time": "17:34", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_12VTA", "shortName": "3", "time": "18:07"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_24VTA", "shortName": "13", "time": "17:45"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_8VTA", "shortName": "2", "time": "17:52"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_IN_26VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "18:07", "seq": 1 },
-							{ "id": "FELIXNECK", "time": "18:14", "seq": 2 },
-							{ "id": "SKATEVTA", "time": "18:19", "seq": 3 },
-							{ "id": "MVCAMP", "time": "18:22", "seq": 4 },
-							{ "id": "VINEYVTA", "time": "18:29", "seq": 5 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_9VTA", "shortName": "10A", "time": "19:02"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_26VTA", "shortName": "13", "time": "18:45"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_13VTA", "shortName": "3", "time": "19:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_9VTA", "shortName": "2", "time": "19:22"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_IN_28VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "19:07", "seq": 1 },
-							{ "id": "FELIXNECK", "time": "19:13", "seq": 2 },
-							{ "id": "SKATEVTA", "time": "19:17", "seq": 3 },
-							{ "id": "MVCAMP", "time": "19:20", "seq": 4 },
-							{ "id": "VINEYVTA", "time": "19:26", "seq": 5 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_28VTA", "shortName": "13", "time": "19:45"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_14VTA", "shortName": "3", "time": "20:07"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_IN_30VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "20:07", "seq": 1 },
-							{ "id": "FELIXNECK", "time": "20:13", "seq": 2 },
-							{ "id": "SKATEVTA", "time": "20:17", "seq": 3 },
-							{ "id": "MVCAMP", "time": "20:20", "seq": 4 },
-							{ "id": "VINEYVTA", "time": "20:26", "seq": 5 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13SHLDR_OUT_1VTA", "shortName": "13", "time": "20:45"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_1VTA", "shortName": "3", "time": "21:07"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_IN_32VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "21:07", "seq": 1 },
-							{ "id": "FELIXNECK", "time": "21:13", "seq": 2 },
-							{ "id": "SKATEVTA", "time": "21:17", "seq": 3 },
-							{ "id": "MVCAMP", "time": "21:20", "seq": 4 },
-							{ "id": "VINEYVTA", "time": "21:26", "seq": 5 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13SHLDR_OUT_2VTA", "shortName": "13", "time": "21:45"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_2VTA", "shortName": "3", "time": "22:07"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_IN_34VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "22:07", "seq": 1 },
-							{ "id": "FELIXNECK", "time": "22:13", "seq": 2 },
-							{ "id": "SKATEVTA", "time": "22:17", "seq": 3 },
-							{ "id": "MVCAMP", "time": "22:20", "seq": 4 },
-							{ "id": "VINEYVTA", "time": "22:26", "seq": 5 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_31VTA", "shortName": "13", "time": "22:35"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_3VTA", "shortName": "3", "time": "23:07"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_IN_36VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "23:07", "seq": 1 },
-							{ "id": "FELIXNECK", "time": "23:13", "seq": 2 },
-							{ "id": "SKATEVTA", "time": "23:17", "seq": 3 },
-							{ "id": "MVCAMP", "time": "23:20", "seq": 4 },
-							{ "id": "VINEYVTA", "time": "23:26", "seq": 5 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_32VTA", "shortName": "13", "time": "23:30"}
-						]
-					},
-
-					{
 						"tripId": "1PRE_IN_21VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -523,6 +392,23 @@
 							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_21VTA", "shortName": "13", "time": "16:15"},
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_10VTA", "shortName": "3", "time": "16:07"},
 							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_7VTA", "shortName": "2", "time": "16:22"}
+						]
+					},
+
+					{
+						"tripId": "1PRE_IN_22VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "16:07", "seq": 1 },
+							{ "id": "FELIXNECK", "time": "16:14", "seq": 2 },
+							{ "id": "SKATEVTA", "time": "16:19", "seq": 3 },
+							{ "id": "MVCAMP", "time": "16:22", "seq": 4 },
+							{ "id": "HILLSVTA", "time": "16:24", "seq": 5 },
+							{ "id": "VINEYVTA", "time": "16:31", "seq": 6 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_22VTA", "shortName": "13", "time": "16:45"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_11VTA", "shortName": "3", "time": "17:07"}
 						]
 					},
 
@@ -545,6 +431,23 @@
 					},
 
 					{
+						"tripId": "1PRE_IN_24VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "17:07", "seq": 1 },
+							{ "id": "FELIXNECK", "time": "17:14", "seq": 2 },
+							{ "id": "YMCAVTA", "time": "17:18", "seq": 4 },
+							{ "id": "MVCAMP", "time": "17:26", "seq": 5 },
+							{ "id": "VINEYVTA", "time": "17:34", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_12VTA", "shortName": "3", "time": "18:07"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_24VTA", "shortName": "13", "time": "17:45"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_8VTA", "shortName": "2", "time": "17:52"}
+						]
+					},
+
+					{
 						"tripId": "1PRE_IN_25VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -557,6 +460,24 @@
 						"connections": [
 							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_25VTA", "shortName": "13", "time": "18:15"},
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_12VTA", "shortName": "3", "time": "18:07"}
+						]
+					},
+
+					{
+						"tripId": "1PRE_IN_26VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "18:07", "seq": 1 },
+							{ "id": "FELIXNECK", "time": "18:14", "seq": 2 },
+							{ "id": "SKATEVTA", "time": "18:19", "seq": 3 },
+							{ "id": "MVCAMP", "time": "18:22", "seq": 4 },
+							{ "id": "VINEYVTA", "time": "18:29", "seq": 5 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_9VTA", "shortName": "10A", "time": "19:02"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_26VTA", "shortName": "13", "time": "18:45"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_13VTA", "shortName": "3", "time": "19:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_9VTA", "shortName": "2", "time": "19:22"}
 						]
 					},
 
@@ -579,6 +500,22 @@
 					},
 
 					{
+						"tripId": "1PRE_IN_28VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "19:07", "seq": 1 },
+							{ "id": "FELIXNECK", "time": "19:13", "seq": 2 },
+							{ "id": "SKATEVTA", "time": "19:17", "seq": 3 },
+							{ "id": "MVCAMP", "time": "19:20", "seq": 4 },
+							{ "id": "VINEYVTA", "time": "19:26", "seq": 5 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_28VTA", "shortName": "13", "time": "19:45"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_14VTA", "shortName": "3", "time": "20:07"}
+						]
+					},
+
+					{
 						"tripId": "1PRE_IN_29VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -591,6 +528,22 @@
 						"connections": [
 							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_29VTA", "shortName": "13", "time": "20:25"},
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_14VTA", "shortName": "3", "time": "20:07"}
+						]
+					},
+
+					{
+						"tripId": "1PRE_IN_30VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "20:07", "seq": 1 },
+							{ "id": "FELIXNECK", "time": "20:13", "seq": 2 },
+							{ "id": "SKATEVTA", "time": "20:17", "seq": 3 },
+							{ "id": "MVCAMP", "time": "20:20", "seq": 4 },
+							{ "id": "VINEYVTA", "time": "20:26", "seq": 5 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13SHLDR_OUT_1VTA", "shortName": "13", "time": "20:45"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_1VTA", "shortName": "3", "time": "21:07"}
 						]
 					},
 
@@ -611,6 +564,22 @@
 					},
 
 					{
+						"tripId": "1PRE_IN_32VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "21:07", "seq": 1 },
+							{ "id": "FELIXNECK", "time": "21:13", "seq": 2 },
+							{ "id": "SKATEVTA", "time": "21:17", "seq": 3 },
+							{ "id": "MVCAMP", "time": "21:20", "seq": 4 },
+							{ "id": "VINEYVTA", "time": "21:26", "seq": 5 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13SHLDR_OUT_2VTA", "shortName": "13", "time": "21:45"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_2VTA", "shortName": "3", "time": "22:07"}
+						]
+					},
+
+					{
 						"tripId": "1PRE_IN_33VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -627,6 +596,22 @@
 					},
 
 					{
+						"tripId": "1PRE_IN_34VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "22:07", "seq": 1 },
+							{ "id": "FELIXNECK", "time": "22:13", "seq": 2 },
+							{ "id": "SKATEVTA", "time": "22:17", "seq": 3 },
+							{ "id": "MVCAMP", "time": "22:20", "seq": 4 },
+							{ "id": "VINEYVTA", "time": "22:26", "seq": 5 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_31VTA", "shortName": "13", "time": "22:35"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_3VTA", "shortName": "3", "time": "23:07"}
+						]
+					},
+
+					{
 						"tripId": "1PRE_IN_35VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -639,6 +624,21 @@
 						"connections": [
 							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_32VTA", "shortName": "13", "time": "23:30"},
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_3VTA", "shortName": "3", "time": "23:07"}
+						]
+					},
+
+					{
+						"tripId": "1PRE_IN_36VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "23:07", "seq": 1 },
+							{ "id": "FELIXNECK", "time": "23:13", "seq": 2 },
+							{ "id": "SKATEVTA", "time": "23:17", "seq": 3 },
+							{ "id": "MVCAMP", "time": "23:20", "seq": 4 },
+							{ "id": "VINEYVTA", "time": "23:26", "seq": 5 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_32VTA", "shortName": "13", "time": "23:30"}
 						]
 					},
 
@@ -695,6 +695,23 @@
 					},
 
 					{
+						"tripId": "1PRE_OUT_1VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "06:30", "seq": 1 },
+							{ "id": "MVCAMP", "time": "06:35", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "06:38", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "06:41", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "06:49", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_2VTA", "shortName": "13", "time": " 7:15"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_2VTA", "shortName": "6", "time": " 7:12"},
+							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_1VTA", "shortName": "8", "time": " 7:00"}
+						]
+					},
+
+					{
 						"tripId": "1PRE_OUT_2VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -708,6 +725,24 @@
 							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_3VTA", "shortName": "13", "time": " 7:45"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_3VTA", "shortName": "6", "time": " 8:12"},
 							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_2VTA", "shortName": "8", "time": " 7:30"}
+						]
+					},
+
+					{
+						"tripId": "1PRE_OUT_3VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "07:37", "seq": 1 },
+							{ "id": "MVCAMP", "time": "07:43", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "07:46", "seq": 4 },
+							{ "id": "YMCAVTA", "time": "07:47", "seq": 5 },
+							{ "id": "FELIXNECK", "time": "07:52", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "08:02", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_4VTA", "shortName": "13", "time": " 8:15"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_3VTA", "shortName": "6", "time": " 8:12"},
+							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_3VTA", "shortName": "8", "time": " 8:30"}
 						]
 					},
 
@@ -730,6 +765,23 @@
 					},
 
 					{
+						"tripId": "1PRE_OUT_5VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "08:37", "seq": 1 },
+							{ "id": "MVCAMP", "time": "08:43", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "08:46", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "08:50", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "09:00", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_6VTA", "shortName": "13", "time": " 9:15"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_4VTA", "shortName": "6", "time": " 9:12"},
+							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_4VTA", "shortName": "8", "time": " 9:30"}
+						]
+					},
+
+					{
 						"tripId": "1PRE_OUT_6VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -741,6 +793,23 @@
 						],
 						"connections": [
 							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_7VTA", "shortName": "13", "time": " 9:45"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_5VTA", "shortName": "6", "time": "10:12"},
+							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_3VTA", "shortName": "8", "time": "10:00"}
+						]
+					},
+
+					{
+						"tripId": "1PRE_OUT_7VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "09:37", "seq": 1 },
+							{ "id": "MVCAMP", "time": "09:42", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "09:45", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "09:48", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "09:56", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_8VTA", "shortName": "13", "time": "10:15"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_5VTA", "shortName": "6", "time": "10:12"},
 							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_3VTA", "shortName": "8", "time": "10:00"}
 						]
@@ -765,6 +834,23 @@
 					},
 
 					{
+						"tripId": "1PRE_OUT_9VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "10:37", "seq": 1 },
+							{ "id": "MVCAMP", "time": "10:42", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "10:45", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "10:48", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "10:56", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_10VTA", "shortName": "13", "time": "11:15"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_6VTA", "shortName": "6", "time": "11:12"},
+							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_4VTA", "shortName": "8", "time": "11:00"}
+						]
+					},
+
+					{
 						"tripId": "1PRE_OUT_10VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -778,6 +864,23 @@
 							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_11VTA", "shortName": "13", "time": "11:45"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_7VTA", "shortName": "6", "time": "12:12"},
 							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_6VTA", "shortName": "8", "time": "11:30"}
+						]
+					},
+
+					{
+						"tripId": "1PRE_OUT_11VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "11:37", "seq": 1 },
+							{ "id": "MVCAMP", "time": "11:42", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "11:45", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "11:48", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "11:56", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_12VTA", "shortName": "13", "time": "12:15"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_7VTA", "shortName": "6", "time": "12:12"},
+							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_5VTA", "shortName": "8", "time": "12:00"}
 						]
 					},
 
@@ -800,6 +903,23 @@
 					},
 
 					{
+						"tripId": "1PRE_OUT_13VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "12:37", "seq": 1 },
+							{ "id": "MVCAMP", "time": "12:42", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "12:45", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "12:48", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "12:56", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_14VTA", "shortName": "13", "time": "13:15"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_8VTA", "shortName": "6", "time": "13:12"},
+							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_6VTA", "shortName": "8", "time": "13:00"}
+						]
+					},
+
+					{
 						"tripId": "1PRE_OUT_14VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -813,6 +933,23 @@
 							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_15VTA", "shortName": "13", "time": "13:45"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_9VTA", "shortName": "6", "time": "14:12"},
 							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_8VTA", "shortName": "8", "time": "13:30"}
+						]
+					},
+
+					{
+						"tripId": "1PRE_OUT_15VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "13:37", "seq": 1 },
+							{ "id": "MVCAMP", "time": "13:42", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "13:45", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "13:48", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "13:56", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_16VTA", "shortName": "13", "time": "14:15"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_9VTA", "shortName": "6", "time": "14:12"},
+							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_7VTA", "shortName": "8", "time": "14:00"}
 						]
 					},
 
@@ -835,6 +972,23 @@
 					},
 
 					{
+						"tripId": "1PRE_OUT_18VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "14:37", "seq": 1 },
+							{ "id": "MVCAMP", "time": "14:42", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "14:45", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "14:48", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "14:56", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_18VTA", "shortName": "13", "time": "15:15"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_10VTA", "shortName": "6", "time": "15:12"},
+							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_8VTA", "shortName": "8", "time": "15:00"}
+						]
+					},
+
+					{
 						"tripId": "1PRE_OUT_19VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -848,6 +1002,23 @@
 							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_19VTA", "shortName": "13", "time": "15:45"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_11VTA", "shortName": "6", "time": "16:12"},
 							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_10VTA", "shortName": "8", "time": "15:30"}
+						]
+					},
+
+					{
+						"tripId": "1PRE_OUT_20VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "15:37", "seq": 1 },
+							{ "id": "MVCAMP", "time": "15:43", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "15:46", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "15:50", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "16:00", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_20VTA", "shortName": "13", "time": "16:15"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_11VTA", "shortName": "6", "time": "16:12"},
+							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_11VTA", "shortName": "8", "time": "16:30"}
 						]
 					},
 
@@ -870,6 +1041,23 @@
 					},
 
 					{
+						"tripId": "1PRE_OUT_22VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "16:37", "seq": 1 },
+							{ "id": "MVCAMP", "time": "16:43", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "16:46", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "16:50", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "17:00", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_22VTA", "shortName": "13", "time": "17:15"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_12VTA", "shortName": "6", "time": "17:12"},
+							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_12VTA", "shortName": "8", "time": "17:30"}
+						]
+					},
+
+					{
 						"tripId": "1PRE_OUT_23VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -883,6 +1071,22 @@
 							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_23VTA", "shortName": "13", "time": "17:45"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_13VTA", "shortName": "6", "time": "18:12"},
 							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_11VTA", "shortName": "8", "time": "18:00"}
+						]
+					},
+
+					{
+						"tripId": "1PRE_OUT_24VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "17:37", "seq": 1 },
+							{ "id": "MVCAMP", "time": "17:43", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "17:46", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "17:50", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "18:00", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_13VTA", "shortName": "6", "time": "18:12"},
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_24VTA", "shortName": "13", "time": "18:15"}
 						]
 					},
 
@@ -904,288 +1108,6 @@
 					},
 
 					{
-						"tripId": "1PRE_OUT_27VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "19:07", "seq": 1 },
-							{ "id": "MVCAMP", "time": "19:12", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "19:15", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "19:18", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "19:26", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_15VTA", "shortName": "6", "time": "20:12"},
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_27VTA", "shortName": "13", "time": "19:45"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_OUT_29VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "20:07", "seq": 1 },
-							{ "id": "MVCAMP", "time": "20:12", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "20:15", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "20:18", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "20:26", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_16VTA", "shortName": "6", "time": "21:12"},
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_29VTA", "shortName": "13", "time": "20:55"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_OUT_31VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "21:07", "seq": 1 },
-							{ "id": "MVCAMP", "time": "21:12", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "21:15", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "21:18", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "21:26", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SHLDR_OUT_1VTA", "shortName": "6", "time": "22:12"},
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_30VTA", "shortName": "13", "time": "21:55"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_OUT_33VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "22:07", "seq": 1 },
-							{ "id": "MVCAMP", "time": "22:12", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "22:15", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "22:18", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "22:26", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SHLDR_OUT_2VTA", "shortName": "6", "time": "23:12"},
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_31VTA", "shortName": "13", "time": "23:00"}
-						]
-					},
-
-					{
-						"tripId": "1SHLDR_OUT_1VTA",
-						"calId": "SHLDRWKND",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "23:07", "seq": 1 },
-							{ "id": "MVCAMP", "time": "23:12", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "23:15", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "23:18", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "23:26", "seq": 7 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "1PRE_OUT_1VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "06:30", "seq": 1 },
-							{ "id": "MVCAMP", "time": "06:35", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "06:38", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "06:41", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "06:49", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_2VTA", "shortName": "13", "time": " 7:15"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_2VTA", "shortName": "6", "time": " 7:12"},
-							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_1VTA", "shortName": "8", "time": " 7:00"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_OUT_3VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "07:37", "seq": 1 },
-							{ "id": "MVCAMP", "time": "07:43", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "07:46", "seq": 4 },
-							{ "id": "YMCAVTA", "time": "07:47", "seq": 5 },
-							{ "id": "FELIXNECK", "time": "07:52", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "08:02", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_4VTA", "shortName": "13", "time": " 8:15"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_3VTA", "shortName": "6", "time": " 8:12"},
-							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_3VTA", "shortName": "8", "time": " 8:30"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_OUT_5VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "08:37", "seq": 1 },
-							{ "id": "MVCAMP", "time": "08:43", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "08:46", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "08:50", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "09:00", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_6VTA", "shortName": "13", "time": " 9:15"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_4VTA", "shortName": "6", "time": " 9:12"},
-							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_4VTA", "shortName": "8", "time": " 9:30"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_OUT_7VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "09:37", "seq": 1 },
-							{ "id": "MVCAMP", "time": "09:42", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "09:45", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "09:48", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "09:56", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_8VTA", "shortName": "13", "time": "10:15"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_5VTA", "shortName": "6", "time": "10:12"},
-							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_3VTA", "shortName": "8", "time": "10:00"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_OUT_9VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "10:37", "seq": 1 },
-							{ "id": "MVCAMP", "time": "10:42", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "10:45", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "10:48", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "10:56", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_10VTA", "shortName": "13", "time": "11:15"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_6VTA", "shortName": "6", "time": "11:12"},
-							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_4VTA", "shortName": "8", "time": "11:00"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_OUT_11VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "11:37", "seq": 1 },
-							{ "id": "MVCAMP", "time": "11:42", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "11:45", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "11:48", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "11:56", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_12VTA", "shortName": "13", "time": "12:15"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_7VTA", "shortName": "6", "time": "12:12"},
-							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_5VTA", "shortName": "8", "time": "12:00"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_OUT_13VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "12:37", "seq": 1 },
-							{ "id": "MVCAMP", "time": "12:42", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "12:45", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "12:48", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "12:56", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_14VTA", "shortName": "13", "time": "13:15"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_8VTA", "shortName": "6", "time": "13:12"},
-							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_6VTA", "shortName": "8", "time": "13:00"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_OUT_15VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "13:37", "seq": 1 },
-							{ "id": "MVCAMP", "time": "13:42", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "13:45", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "13:48", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "13:56", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_16VTA", "shortName": "13", "time": "14:15"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_9VTA", "shortName": "6", "time": "14:12"},
-							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_7VTA", "shortName": "8", "time": "14:00"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_OUT_18VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "14:37", "seq": 1 },
-							{ "id": "MVCAMP", "time": "14:42", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "14:45", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "14:48", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "14:56", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_18VTA", "shortName": "13", "time": "15:15"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_10VTA", "shortName": "6", "time": "15:12"},
-							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_8VTA", "shortName": "8", "time": "15:00"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_OUT_20VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "15:37", "seq": 1 },
-							{ "id": "MVCAMP", "time": "15:43", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "15:46", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "15:50", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "16:00", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_20VTA", "shortName": "13", "time": "16:15"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_11VTA", "shortName": "6", "time": "16:12"},
-							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_11VTA", "shortName": "8", "time": "16:30"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_OUT_22VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "16:37", "seq": 1 },
-							{ "id": "MVCAMP", "time": "16:43", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "16:46", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "16:50", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "17:00", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_22VTA", "shortName": "13", "time": "17:15"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_12VTA", "shortName": "6", "time": "17:12"},
-							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_12VTA", "shortName": "8", "time": "17:30"}
-						]
-					},
-
-					{
-						"tripId": "1PRE_OUT_24VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "17:37", "seq": 1 },
-							{ "id": "MVCAMP", "time": "17:43", "seq": 3 },
-							{ "id": "MVHIGVTA", "time": "17:46", "seq": 4 },
-							{ "id": "FELIXNECK", "time": "17:50", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "18:00", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_13VTA", "shortName": "6", "time": "18:12"},
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_24VTA", "shortName": "13", "time": "18:15"}
-						]
-					},
-
-					{
 						"tripId": "1PRE_OUT_26VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -1198,6 +1120,22 @@
 						"connections": [
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_14VTA", "shortName": "6", "time": "19:12"},
 							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_26VTA", "shortName": "13", "time": "19:15"}
+						]
+					},
+
+					{
+						"tripId": "1PRE_OUT_27VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "19:07", "seq": 1 },
+							{ "id": "MVCAMP", "time": "19:12", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "19:15", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "19:18", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "19:26", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_15VTA", "shortName": "6", "time": "20:12"},
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_27VTA", "shortName": "13", "time": "19:45"}
 						]
 					},
 
@@ -1218,6 +1156,22 @@
 					},
 
 					{
+						"tripId": "1PRE_OUT_29VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "20:07", "seq": 1 },
+							{ "id": "MVCAMP", "time": "20:12", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "20:15", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "20:18", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "20:26", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_16VTA", "shortName": "6", "time": "21:12"},
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_29VTA", "shortName": "13", "time": "20:55"}
+						]
+					},
+
+					{
 						"tripId": "1PRE_OUT_30VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -1230,6 +1184,22 @@
 						"connections": [
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_16VTA", "shortName": "6", "time": "21:12"},
 							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13SHLDR_IN_1VTA", "shortName": "13", "time": "21:15"}
+						]
+					},
+
+					{
+						"tripId": "1PRE_OUT_31VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "21:07", "seq": 1 },
+							{ "id": "MVCAMP", "time": "21:12", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "21:15", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "21:18", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "21:26", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SHLDR_OUT_1VTA", "shortName": "6", "time": "22:12"},
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_30VTA", "shortName": "13", "time": "21:55"}
 						]
 					},
 
@@ -1250,6 +1220,22 @@
 					},
 
 					{
+						"tripId": "1PRE_OUT_33VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "22:07", "seq": 1 },
+							{ "id": "MVCAMP", "time": "22:12", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "22:15", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "22:18", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "22:26", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SHLDR_OUT_2VTA", "shortName": "6", "time": "23:12"},
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_31VTA", "shortName": "13", "time": "23:00"}
+						]
+					},
+
+					{
 						"tripId": "1PRE_OUT_34VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -1262,6 +1248,20 @@
 						"connections": [
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SHLDR_OUT_2VTA", "shortName": "6", "time": "23:12"},
 							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_31VTA", "shortName": "13", "time": "23:00"}
+						]
+					},
+
+					{
+						"tripId": "1SHLDR_OUT_1VTA",
+						"calId": "SHLDRWKND",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "23:07", "seq": 1 },
+							{ "id": "MVCAMP", "time": "23:12", "seq": 3 },
+							{ "id": "MVHIGVTA", "time": "23:15", "seq": 4 },
+							{ "id": "FELIXNECK", "time": "23:18", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "23:26", "seq": 7 }
+						],
+						"connections": [
 						]
 					},
 
@@ -1295,90 +1295,6 @@
 				"destination": "Vineyard Haven",
 				"trips": [
 					{
-						"tripId": "02SUMR_IN_2VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "WESTHALVTA", "time": "09:21", "seq": 1 },
-							{ "id": "WESTSCHVTA", "time": "09:25", "seq": 2 },
-							{ "id": "GTPLAINSRD", "time": "09:28", "seq": 3 },
-							{ "id": "WESTDISVTA", "time": "09:34", "seq": 4 },
-							{ "id": "XLAMBEVTA", "time": "09:40", "seq": 5 },
-							{ "id": "JOHNHVTA", "time": "09:43", "seq": 6 },
-							{ "id": "TISBUBUSVTA", "time": "09:49", "seq": 7 },
-							{ "id": "VINEYVTA", "time": "09:55", "seq": 8 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_3VTA", "shortName": "10A", "time": "10:02"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_9VTA", "shortName": "13", "time": "10:15"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_4VTA", "shortName": "3", "time": "10:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_8VTA", "shortName": "1", "time": "10:07"}
-						]
-					},
-
-					{
-						"tripId": "02SUMR_IN_4VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "WESTHALVTA", "time": "12:21", "seq": 1 },
-							{ "id": "WESTSCHVTA", "time": "12:25", "seq": 2 },
-							{ "id": "GTPLAINSRD", "time": "12:28", "seq": 3 },
-							{ "id": "WESTDISVTA", "time": "12:34", "seq": 4 },
-							{ "id": "XLAMBEVTA", "time": "12:40", "seq": 5 },
-							{ "id": "JOHNHVTA", "time": "12:43", "seq": 6 },
-							{ "id": "TISBUBUSVTA", "time": "12:49", "seq": 7 },
-							{ "id": "VINEYVTA", "time": "12:55", "seq": 8 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_5VTA", "shortName": "10A", "time": "13:02"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_15VTA", "shortName": "13", "time": "13:15"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_7VTA", "shortName": "3", "time": "13:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_14VTA", "shortName": "1", "time": "13:07"}
-						]
-					},
-
-					{
-						"tripId": "02SUMR_IN_6VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "WESTHALVTA", "time": "15:21", "seq": 1 },
-							{ "id": "WESTSCHVTA", "time": "15:25", "seq": 2 },
-							{ "id": "GTPLAINSRD", "time": "15:28", "seq": 3 },
-							{ "id": "WESTDISVTA", "time": "15:34", "seq": 4 },
-							{ "id": "XLAMBEVTA", "time": "15:40", "seq": 5 },
-							{ "id": "JOHNHVTA", "time": "15:43", "seq": 6 },
-							{ "id": "TISBUBUSVTA", "time": "15:49", "seq": 7 },
-							{ "id": "VINEYVTA", "time": "15:55", "seq": 8 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_7VTA", "shortName": "10A", "time": "16:02"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_21VTA", "shortName": "13", "time": "16:15"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_10VTA", "shortName": "3", "time": "16:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_21VTA", "shortName": "1", "time": "16:07"}
-						]
-					},
-
-					{
-						"tripId": "02SUMR_IN_8VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "WESTHALVTA", "time": "18:21", "seq": 1 },
-							{ "id": "WESTSCHVTA", "time": "18:25", "seq": 2 },
-							{ "id": "GTPLAINSRD", "time": "18:28", "seq": 3 },
-							{ "id": "WESTDISVTA", "time": "18:34", "seq": 4 },
-							{ "id": "XLAMBEVTA", "time": "18:40", "seq": 5 },
-							{ "id": "JOHNHVTA", "time": "18:43", "seq": 6 },
-							{ "id": "TISBUBUSVTA", "time": "18:49", "seq": 7 },
-							{ "id": "VINEYVTA", "time": "18:55", "seq": 8 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_9VTA", "shortName": "10A", "time": "19:02"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_27VTA", "shortName": "13", "time": "19:15"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_13VTA", "shortName": "3", "time": "19:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_27VTA", "shortName": "1", "time": "19:07"}
-						]
-					},
-
-					{
 						"tripId": "02SUMR_IN_1VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -1396,6 +1312,27 @@
 							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_6VTA", "shortName": "13", "time": " 8:45"},
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_3VTA", "shortName": "3", "time": " 9:07"},
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_5VTA", "shortName": "1", "time": " 8:37"}
+						]
+					},
+
+					{
+						"tripId": "02SUMR_IN_2VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "WESTHALVTA", "time": "09:21", "seq": 1 },
+							{ "id": "WESTSCHVTA", "time": "09:25", "seq": 2 },
+							{ "id": "GTPLAINSRD", "time": "09:28", "seq": 3 },
+							{ "id": "WESTDISVTA", "time": "09:34", "seq": 4 },
+							{ "id": "XLAMBEVTA", "time": "09:40", "seq": 5 },
+							{ "id": "JOHNHVTA", "time": "09:43", "seq": 6 },
+							{ "id": "TISBUBUSVTA", "time": "09:49", "seq": 7 },
+							{ "id": "VINEYVTA", "time": "09:55", "seq": 8 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_3VTA", "shortName": "10A", "time": "10:02"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_9VTA", "shortName": "13", "time": "10:15"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_4VTA", "shortName": "3", "time": "10:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_8VTA", "shortName": "1", "time": "10:07"}
 						]
 					},
 
@@ -1421,6 +1358,27 @@
 					},
 
 					{
+						"tripId": "02SUMR_IN_4VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "WESTHALVTA", "time": "12:21", "seq": 1 },
+							{ "id": "WESTSCHVTA", "time": "12:25", "seq": 2 },
+							{ "id": "GTPLAINSRD", "time": "12:28", "seq": 3 },
+							{ "id": "WESTDISVTA", "time": "12:34", "seq": 4 },
+							{ "id": "XLAMBEVTA", "time": "12:40", "seq": 5 },
+							{ "id": "JOHNHVTA", "time": "12:43", "seq": 6 },
+							{ "id": "TISBUBUSVTA", "time": "12:49", "seq": 7 },
+							{ "id": "VINEYVTA", "time": "12:55", "seq": 8 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_5VTA", "shortName": "10A", "time": "13:02"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_15VTA", "shortName": "13", "time": "13:15"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_7VTA", "shortName": "3", "time": "13:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_14VTA", "shortName": "1", "time": "13:07"}
+						]
+					},
+
+					{
 						"tripId": "02SUMR_IN_5VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -1442,6 +1400,27 @@
 					},
 
 					{
+						"tripId": "02SUMR_IN_6VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "WESTHALVTA", "time": "15:21", "seq": 1 },
+							{ "id": "WESTSCHVTA", "time": "15:25", "seq": 2 },
+							{ "id": "GTPLAINSRD", "time": "15:28", "seq": 3 },
+							{ "id": "WESTDISVTA", "time": "15:34", "seq": 4 },
+							{ "id": "XLAMBEVTA", "time": "15:40", "seq": 5 },
+							{ "id": "JOHNHVTA", "time": "15:43", "seq": 6 },
+							{ "id": "TISBUBUSVTA", "time": "15:49", "seq": 7 },
+							{ "id": "VINEYVTA", "time": "15:55", "seq": 8 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_7VTA", "shortName": "10A", "time": "16:02"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_21VTA", "shortName": "13", "time": "16:15"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_10VTA", "shortName": "3", "time": "16:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_21VTA", "shortName": "1", "time": "16:07"}
+						]
+					},
+
+					{
 						"tripId": "02SUMR_IN_7VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -1459,6 +1438,27 @@
 							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_24VTA", "shortName": "13", "time": "17:45"},
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_12VTA", "shortName": "3", "time": "18:07"},
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_24VTA", "shortName": "1", "time": "17:37"}
+						]
+					},
+
+					{
+						"tripId": "02SUMR_IN_8VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "WESTHALVTA", "time": "18:21", "seq": 1 },
+							{ "id": "WESTSCHVTA", "time": "18:25", "seq": 2 },
+							{ "id": "GTPLAINSRD", "time": "18:28", "seq": 3 },
+							{ "id": "WESTDISVTA", "time": "18:34", "seq": 4 },
+							{ "id": "XLAMBEVTA", "time": "18:40", "seq": 5 },
+							{ "id": "JOHNHVTA", "time": "18:43", "seq": 6 },
+							{ "id": "TISBUBUSVTA", "time": "18:49", "seq": 7 },
+							{ "id": "VINEYVTA", "time": "18:55", "seq": 8 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_9VTA", "shortName": "10A", "time": "19:02"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_27VTA", "shortName": "13", "time": "19:15"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_13VTA", "shortName": "3", "time": "19:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_27VTA", "shortName": "1", "time": "19:07"}
 						]
 					}
 				],
@@ -1487,82 +1487,6 @@
 					},
 
 					{
-						"tripId": "02SUMR_OUT_3VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "10:22", "seq": 1 },
-							{ "id": "TISBUBUSVTA", "time": "10:28", "seq": 2 },
-							{ "id": "JOHNHVTA", "time": "10:33", "seq": 3 },
-							{ "id": "LAMBERTVTA", "time": "10:36", "seq": 4 },
-							{ "id": "WESTDISVTA", "time": "10:44", "seq": 5 },
-							{ "id": "POLLYVTA", "time": "10:46", "seq": 6 },
-							{ "id": "WESTHALVTA", "time": "10:50", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "6VTA", "headsign": "Edgartown", "tripId": "06SUMR_IN_5VTA", "shortName": "6", "time": "11:38"},
-							{"routeId": "4VTA", "headsign": "Chilmark", "tripId": "04SUMR_OUT_5VTA", "shortName": "4", "time": "11:40"},
-							{"routeId": "3VTA", "headsign": "Vineyard Haven", "tripId": "03SUMR_IN_5VTA", "shortName": "3", "time": "11:36"}
-						]
-					},
-
-					{
-						"tripId": "02SUMR_OUT_5VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "13:22", "seq": 1 },
-							{ "id": "TISBUBUSVTA", "time": "13:28", "seq": 2 },
-							{ "id": "JOHNHVTA", "time": "13:33", "seq": 3 },
-							{ "id": "LAMBERTVTA", "time": "13:36", "seq": 4 },
-							{ "id": "WESTDISVTA", "time": "13:44", "seq": 5 },
-							{ "id": "POLLYVTA", "time": "13:46", "seq": 6 },
-							{ "id": "WESTHALVTA", "time": "13:50", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "6VTA", "headsign": "Edgartown", "tripId": "06SUMR_IN_8VTA", "shortName": "6", "time": "14:38"},
-							{"routeId": "4VTA", "headsign": "Chilmark", "tripId": "04SUMR_OUT_8VTA", "shortName": "4", "time": "14:40"},
-							{"routeId": "3VTA", "headsign": "Vineyard Haven", "tripId": "03SUMR_IN_8VTA", "shortName": "3", "time": "14:36"}
-						]
-					},
-
-					{
-						"tripId": "02SUMR_OUT_7VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "16:22", "seq": 1 },
-							{ "id": "TISBUBUSVTA", "time": "16:28", "seq": 2 },
-							{ "id": "JOHNHVTA", "time": "16:33", "seq": 3 },
-							{ "id": "LAMBERTVTA", "time": "16:36", "seq": 4 },
-							{ "id": "WESTDISVTA", "time": "16:44", "seq": 5 },
-							{ "id": "POLLYVTA", "time": "16:46", "seq": 6 },
-							{ "id": "WESTHALVTA", "time": "16:50", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "6VTA", "headsign": "Edgartown", "tripId": "06SUMR_IN_11VTA", "shortName": "6", "time": "17:38"},
-							{"routeId": "4VTA", "headsign": "Chilmark", "tripId": "04SUMR_OUT_11VTA", "shortName": "4", "time": "17:40"},
-							{"routeId": "3VTA", "headsign": "Vineyard Haven", "tripId": "03SUMR_IN_11VTA", "shortName": "3", "time": "17:36"}
-						]
-					},
-
-					{
-						"tripId": "02SUMR_OUT_9VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "19:22", "seq": 1 },
-							{ "id": "TISBUBUSVTA", "time": "19:28", "seq": 2 },
-							{ "id": "JOHNHVTA", "time": "19:33", "seq": 3 },
-							{ "id": "LAMBERTVTA", "time": "19:36", "seq": 4 },
-							{ "id": "WESTDISVTA", "time": "19:44", "seq": 5 },
-							{ "id": "POLLYVTA", "time": "19:46", "seq": 6 },
-							{ "id": "WESTHALVTA", "time": "19:50", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "6VTA", "headsign": "Edgartown", "tripId": "06SUMR_IN_14VTA", "shortName": "6", "time": "20:38"},
-							{"routeId": "4VTA", "headsign": "Chilmark", "tripId": "04SHLDR_OUT_2VTA", "shortName": "4", "time": "20:40"},
-							{"routeId": "3VTA", "headsign": "Vineyard Haven", "tripId": "03SUMR_IN_14VTA", "shortName": "3", "time": "20:36"}
-						]
-					},
-
-					{
 						"tripId": "02SUMR_OUT_2VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -1578,6 +1502,25 @@
 							{"routeId": "6VTA", "headsign": "Edgartown", "tripId": "06SUMR_IN_3VTA", "shortName": "6", "time": " 9:38"},
 							{"routeId": "4VTA", "headsign": "Chilmark", "tripId": "04SUMR_OUT_3VTA", "shortName": "4", "time": " 9:40"},
 							{"routeId": "3VTA", "headsign": "Vineyard Haven", "tripId": "03SUMR_IN_3VTA", "shortName": "3", "time": " 9:36"}
+						]
+					},
+
+					{
+						"tripId": "02SUMR_OUT_3VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "10:22", "seq": 1 },
+							{ "id": "TISBUBUSVTA", "time": "10:28", "seq": 2 },
+							{ "id": "JOHNHVTA", "time": "10:33", "seq": 3 },
+							{ "id": "LAMBERTVTA", "time": "10:36", "seq": 4 },
+							{ "id": "WESTDISVTA", "time": "10:44", "seq": 5 },
+							{ "id": "POLLYVTA", "time": "10:46", "seq": 6 },
+							{ "id": "WESTHALVTA", "time": "10:50", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "6VTA", "headsign": "Edgartown", "tripId": "06SUMR_IN_5VTA", "shortName": "6", "time": "11:38"},
+							{"routeId": "4VTA", "headsign": "Chilmark", "tripId": "04SUMR_OUT_5VTA", "shortName": "4", "time": "11:40"},
+							{"routeId": "3VTA", "headsign": "Vineyard Haven", "tripId": "03SUMR_IN_5VTA", "shortName": "3", "time": "11:36"}
 						]
 					},
 
@@ -1601,6 +1544,25 @@
 					},
 
 					{
+						"tripId": "02SUMR_OUT_5VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "13:22", "seq": 1 },
+							{ "id": "TISBUBUSVTA", "time": "13:28", "seq": 2 },
+							{ "id": "JOHNHVTA", "time": "13:33", "seq": 3 },
+							{ "id": "LAMBERTVTA", "time": "13:36", "seq": 4 },
+							{ "id": "WESTDISVTA", "time": "13:44", "seq": 5 },
+							{ "id": "POLLYVTA", "time": "13:46", "seq": 6 },
+							{ "id": "WESTHALVTA", "time": "13:50", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "6VTA", "headsign": "Edgartown", "tripId": "06SUMR_IN_8VTA", "shortName": "6", "time": "14:38"},
+							{"routeId": "4VTA", "headsign": "Chilmark", "tripId": "04SUMR_OUT_8VTA", "shortName": "4", "time": "14:40"},
+							{"routeId": "3VTA", "headsign": "Vineyard Haven", "tripId": "03SUMR_IN_8VTA", "shortName": "3", "time": "14:36"}
+						]
+					},
+
+					{
 						"tripId": "02SUMR_OUT_6VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -1620,6 +1582,25 @@
 					},
 
 					{
+						"tripId": "02SUMR_OUT_7VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "16:22", "seq": 1 },
+							{ "id": "TISBUBUSVTA", "time": "16:28", "seq": 2 },
+							{ "id": "JOHNHVTA", "time": "16:33", "seq": 3 },
+							{ "id": "LAMBERTVTA", "time": "16:36", "seq": 4 },
+							{ "id": "WESTDISVTA", "time": "16:44", "seq": 5 },
+							{ "id": "POLLYVTA", "time": "16:46", "seq": 6 },
+							{ "id": "WESTHALVTA", "time": "16:50", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "6VTA", "headsign": "Edgartown", "tripId": "06SUMR_IN_11VTA", "shortName": "6", "time": "17:38"},
+							{"routeId": "4VTA", "headsign": "Chilmark", "tripId": "04SUMR_OUT_11VTA", "shortName": "4", "time": "17:40"},
+							{"routeId": "3VTA", "headsign": "Vineyard Haven", "tripId": "03SUMR_IN_11VTA", "shortName": "3", "time": "17:36"}
+						]
+					},
+
+					{
 						"tripId": "02SUMR_OUT_8VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -1635,6 +1616,25 @@
 							{"routeId": "6VTA", "headsign": "Edgartown", "tripId": "06SUMR_IN_12VTA", "shortName": "6", "time": "18:38"},
 							{"routeId": "4VTA", "headsign": "Chilmark", "tripId": "04SUMR_OUT_12VTA", "shortName": "4", "time": "18:40"},
 							{"routeId": "3VTA", "headsign": "Vineyard Haven", "tripId": "03SUMR_IN_12VTA", "shortName": "3", "time": "18:36"}
+						]
+					},
+
+					{
+						"tripId": "02SUMR_OUT_9VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "19:22", "seq": 1 },
+							{ "id": "TISBUBUSVTA", "time": "19:28", "seq": 2 },
+							{ "id": "JOHNHVTA", "time": "19:33", "seq": 3 },
+							{ "id": "LAMBERTVTA", "time": "19:36", "seq": 4 },
+							{ "id": "WESTDISVTA", "time": "19:44", "seq": 5 },
+							{ "id": "POLLYVTA", "time": "19:46", "seq": 6 },
+							{ "id": "WESTHALVTA", "time": "19:50", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "6VTA", "headsign": "Edgartown", "tripId": "06SUMR_IN_14VTA", "shortName": "6", "time": "20:38"},
+							{"routeId": "4VTA", "headsign": "Chilmark", "tripId": "04SHLDR_OUT_2VTA", "shortName": "4", "time": "20:40"},
+							{"routeId": "3VTA", "headsign": "Vineyard Haven", "tripId": "03SUMR_IN_14VTA", "shortName": "3", "time": "20:36"}
 						]
 					}
 				],
@@ -3464,6 +3464,22 @@
 					},
 
 					{
+						"tripId": "06SUMR_IN_1VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "AIRPOVTA", "time": "06:49", "seq": 3 },
+							{ "id": "XBOLDVTA", "time": "06:57", "seq": 4 },
+							{ "id": "MESHAVTA", "time": "06:59", "seq": 5 },
+							{ "id": "CHURCVTA", "time": "07:04", "seq": 6 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_2VTA", "shortName": "13", "time": " 7:15"},
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_4VTA", "shortName": "1", "time": " 7:07"},
+							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_2VTA", "shortName": "8", "time": " 7:30"}
+						]
+					},
+
+					{
 						"tripId": "06SUMR_IN_15VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -3756,22 +3772,6 @@
 							{"routeId": "9VTA", "headsign": "Oak Bluffs", "tripId": "09SHLDR_IN_4VTA", "shortName": "9", "time": "23:28"},
 							{"routeId": "7VTA", "headsign": "Oak Bluffs", "tripId": "07SHLDR_IN_4VTA", "shortName": "7", "time": "22:55"}
 						]
-					},
-
-					{
-						"tripId": "06SUMR_IN_1VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "AIRPOVTA", "time": "06:49", "seq": 3 },
-							{ "id": "XBOLDVTA", "time": "06:57", "seq": 4 },
-							{ "id": "MESHAVTA", "time": "06:59", "seq": 5 },
-							{ "id": "CHURCVTA", "time": "07:04", "seq": 6 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_2VTA", "shortName": "13", "time": " 7:15"},
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_4VTA", "shortName": "1", "time": " 7:07"},
-							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_2VTA", "shortName": "8", "time": " 7:30"}
-						]
 					}
 				],
 				"polyline": "mlq{FdrjnLiAGgAk@o@iAKiBt@uDH_CMmIu@{^cAuVYga@sBac@iAwT^eRMaJk@uGnDijADiJKoI}Gy}A{Hh@_CvAiCvA}@?_AEy@`@G?yAlASrAp@~@f@^XEZa@Ba@fAgAZw@d@kArBy@vCoBpIw@o@gJy@}N[cFyBuUsC{YImCs@gTqCuaAo@uUG}QtHalBfEccBH_Mw@oIuCqIoF_OsHm]cF}j@i@mCoAkDvBaMMgChB}GgCmB"
@@ -3787,6 +3787,19 @@
 							{ "id": "AIRPOVTA", "time": "00:52", "seq": 4 }
 						],
 						"connections": [
+						]
+					},
+
+					{
+						"tripId": "06SUMR_OUT_1VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "AIRPOVTA", "time": "06:24", "seq": 4 },
+							{ "id": "HOSTEL", "time": "06:32", "seq": 5 },
+							{ "id": "WESTGRANGEVTA", "time": "06:36", "seq": 6 }
+						],
+						"connections": [
+							{"routeId": "5VTA", "headsign": "Aquinnah", "tripId": "05SUMR_IN_1VTA", "shortName": "5", "time": " 6:38"}
 						]
 					},
 
@@ -4059,19 +4072,6 @@
 						],
 						"connections": [
 							{"routeId": "5VTA", "headsign": "Aquinnah", "tripId": "05SHLDR_IN_4VTA", "shortName": "5", "time": "23:38"}
-						]
-					},
-
-					{
-						"tripId": "06SUMR_OUT_1VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "AIRPOVTA", "time": "06:24", "seq": 4 },
-							{ "id": "HOSTEL", "time": "06:32", "seq": 5 },
-							{ "id": "WESTGRANGEVTA", "time": "06:36", "seq": 6 }
-						],
-						"connections": [
-							{"routeId": "5VTA", "headsign": "Aquinnah", "tripId": "05SUMR_IN_1VTA", "shortName": "5", "time": " 6:38"}
 						]
 					}
 				],
@@ -4791,6 +4791,25 @@
 					},
 
 					{
+						"tripId": "08SUMR_LOOP_2VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "07:30", "seq": 1 },
+							{ "id": "KATAMVTA", "time": "07:37", "seq": 2 },
+							{ "id": "SOUTHRIGHTVTA", "time": "07:40", "seq": 3 },
+							{ "id": "SOUTHLEFTVTA", "time": "07:45", "seq": 4 },
+							{ "id": "MATTAVTA", "time": "07:46", "seq": 5 },
+							{ "id": "SOUTHWATERVTA", "time": "07:49", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "07:54", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_4VTA", "shortName": "13", "time": " 8:15"},
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_6VTA", "shortName": "1", "time": " 8:07"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_3VTA", "shortName": "6", "time": " 8:12"}
+						]
+					},
+
+					{
 						"tripId": "08BEACH1_LOOP_1VTA",
 						"calId": "BEACH1",
 						"stops": [
@@ -4805,6 +4824,25 @@
 						"connections": [
 							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_5VTA", "shortName": "13", "time": " 8:45"},
 							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_7VTA", "shortName": "1", "time": " 8:37"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_4VTA", "shortName": "6", "time": " 9:12"}
+						]
+					},
+
+					{
+						"tripId": "08SUMR_LOOP_3VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "08:30", "seq": 1 },
+							{ "id": "KATAMVTA", "time": "08:37", "seq": 2 },
+							{ "id": "SOUTHRIGHTVTA", "time": "08:40", "seq": 3 },
+							{ "id": "SOUTHLEFTVTA", "time": "08:45", "seq": 4 },
+							{ "id": "MATTAVTA", "time": "08:46", "seq": 5 },
+							{ "id": "SOUTHWATERVTA", "time": "08:49", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "08:54", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_6VTA", "shortName": "13", "time": " 9:15"},
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_8VTA", "shortName": "1", "time": " 9:07"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_4VTA", "shortName": "6", "time": " 9:12"}
 						]
 					},
@@ -4829,6 +4867,25 @@
 					},
 
 					{
+						"tripId": "08SUMR_LOOP_4VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "09:30", "seq": 1 },
+							{ "id": "KATAMVTA", "time": "09:37", "seq": 2 },
+							{ "id": "SOUTHRIGHTVTA", "time": "09:40", "seq": 3 },
+							{ "id": "SOUTHLEFTVTA", "time": "09:45", "seq": 4 },
+							{ "id": "MATTAVTA", "time": "09:46", "seq": 5 },
+							{ "id": "SOUTHWATERVTA", "time": "09:49", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "09:54", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_8VTA", "shortName": "13", "time": "10:15"},
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_10VTA", "shortName": "1", "time": "10:07"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_5VTA", "shortName": "6", "time": "10:12"}
+						]
+					},
+
+					{
 						"tripId": "08BEACH1_LOOP_3VTA",
 						"calId": "BEACH1",
 						"stops": [
@@ -4843,6 +4900,25 @@
 						"connections": [
 							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_9VTA", "shortName": "13", "time": "10:45"},
 							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_11VTA", "shortName": "1", "time": "10:37"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_6VTA", "shortName": "6", "time": "11:12"}
+						]
+					},
+
+					{
+						"tripId": "08SUMR_LOOP_5VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "10:30", "seq": 1 },
+							{ "id": "KATAMVTA", "time": "10:37", "seq": 2 },
+							{ "id": "SOUTHRIGHTVTA", "time": "10:40", "seq": 3 },
+							{ "id": "SOUTHLEFTVTA", "time": "10:45", "seq": 4 },
+							{ "id": "MATTAVTA", "time": "10:46", "seq": 5 },
+							{ "id": "SOUTHWATERVTA", "time": "10:49", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "10:54", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_10VTA", "shortName": "13", "time": "11:15"},
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_12VTA", "shortName": "1", "time": "11:07"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_6VTA", "shortName": "6", "time": "11:12"}
 						]
 					},
@@ -4867,6 +4943,25 @@
 					},
 
 					{
+						"tripId": "08SUMR_LOOP_6VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "11:30", "seq": 1 },
+							{ "id": "KATAMVTA", "time": "11:37", "seq": 2 },
+							{ "id": "SOUTHRIGHTVTA", "time": "11:40", "seq": 3 },
+							{ "id": "SOUTHLEFTVTA", "time": "11:45", "seq": 4 },
+							{ "id": "MATTAVTA", "time": "11:46", "seq": 5 },
+							{ "id": "SOUTHWATERVTA", "time": "11:49", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "11:54", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_12VTA", "shortName": "13", "time": "12:15"},
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_14VTA", "shortName": "1", "time": "12:07"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_7VTA", "shortName": "6", "time": "12:12"}
+						]
+					},
+
+					{
 						"tripId": "08BEACH1_LOOP_5VTA",
 						"calId": "BEACH1",
 						"stops": [
@@ -4881,6 +4976,25 @@
 						"connections": [
 							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_13VTA", "shortName": "13", "time": "12:45"},
 							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_15VTA", "shortName": "1", "time": "12:37"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_8VTA", "shortName": "6", "time": "13:12"}
+						]
+					},
+
+					{
+						"tripId": "08SUMR_LOOP_7VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "12:30", "seq": 1 },
+							{ "id": "KATAMVTA", "time": "12:37", "seq": 2 },
+							{ "id": "SOUTHRIGHTVTA", "time": "12:40", "seq": 3 },
+							{ "id": "SOUTHLEFTVTA", "time": "12:45", "seq": 4 },
+							{ "id": "MATTAVTA", "time": "12:46", "seq": 5 },
+							{ "id": "SOUTHWATERVTA", "time": "12:49", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "12:54", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_14VTA", "shortName": "13", "time": "13:15"},
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_16VTA", "shortName": "1", "time": "13:07"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_8VTA", "shortName": "6", "time": "13:12"}
 						]
 					},
@@ -4905,6 +5019,25 @@
 					},
 
 					{
+						"tripId": "08SUMR_LOOP_8VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "13:30", "seq": 1 },
+							{ "id": "KATAMVTA", "time": "13:37", "seq": 2 },
+							{ "id": "SOUTHRIGHTVTA", "time": "13:40", "seq": 3 },
+							{ "id": "SOUTHLEFTVTA", "time": "13:45", "seq": 4 },
+							{ "id": "MATTAVTA", "time": "13:46", "seq": 5 },
+							{ "id": "SOUTHWATERVTA", "time": "13:49", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "13:54", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_16VTA", "shortName": "13", "time": "14:15"},
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_18VTA", "shortName": "1", "time": "14:07"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_9VTA", "shortName": "6", "time": "14:12"}
+						]
+					},
+
+					{
 						"tripId": "08BEACH1_LOOP_7VTA",
 						"calId": "BEACH1",
 						"stops": [
@@ -4919,6 +5052,25 @@
 						"connections": [
 							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_17VTA", "shortName": "13", "time": "14:45"},
 							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_19VTA", "shortName": "1", "time": "14:37"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_10VTA", "shortName": "6", "time": "15:12"}
+						]
+					},
+
+					{
+						"tripId": "08SUMR_LOOP_9VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "14:30", "seq": 1 },
+							{ "id": "KATAMVTA", "time": "14:37", "seq": 2 },
+							{ "id": "SOUTHRIGHTVTA", "time": "14:40", "seq": 3 },
+							{ "id": "SOUTHLEFTVTA", "time": "14:45", "seq": 4 },
+							{ "id": "MATTAVTA", "time": "14:46", "seq": 5 },
+							{ "id": "SOUTHWATERVTA", "time": "14:49", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "14:54", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_18VTA", "shortName": "13", "time": "15:15"},
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_20VTA", "shortName": "1", "time": "15:07"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_10VTA", "shortName": "6", "time": "15:12"}
 						]
 					},
@@ -4943,6 +5095,25 @@
 					},
 
 					{
+						"tripId": "08SUMR_LOOP_10VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "15:30", "seq": 1 },
+							{ "id": "KATAMVTA", "time": "15:37", "seq": 2 },
+							{ "id": "SOUTHRIGHTVTA", "time": "15:40", "seq": 3 },
+							{ "id": "SOUTHLEFTVTA", "time": "15:45", "seq": 4 },
+							{ "id": "MATTAVTA", "time": "15:46", "seq": 5 },
+							{ "id": "SOUTHWATERVTA", "time": "15:49", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "15:54", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_20VTA", "shortName": "13", "time": "16:15"},
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_22VTA", "shortName": "1", "time": "16:07"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_11VTA", "shortName": "6", "time": "16:12"}
+						]
+					},
+
+					{
 						"tripId": "08BEACH1_LOOP_9VTA",
 						"calId": "BEACH1",
 						"stops": [
@@ -4957,6 +5128,25 @@
 						"connections": [
 							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_21VTA", "shortName": "13", "time": "16:45"},
 							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_23VTA", "shortName": "1", "time": "16:37"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_12VTA", "shortName": "6", "time": "17:12"}
+						]
+					},
+
+					{
+						"tripId": "08SUMR_LOOP_11VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "16:30", "seq": 1 },
+							{ "id": "KATAMVTA", "time": "16:37", "seq": 2 },
+							{ "id": "SOUTHRIGHTVTA", "time": "16:40", "seq": 3 },
+							{ "id": "SOUTHLEFTVTA", "time": "16:45", "seq": 4 },
+							{ "id": "MATTAVTA", "time": "16:46", "seq": 5 },
+							{ "id": "SOUTHWATERVTA", "time": "16:49", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "16:54", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_22VTA", "shortName": "13", "time": "17:15"},
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_24VTA", "shortName": "1", "time": "17:07"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_12VTA", "shortName": "6", "time": "17:12"}
 						]
 					},
@@ -4981,215 +5171,6 @@
 					},
 
 					{
-						"tripId": "08BEACH1_LOOP_11VTA",
-						"calId": "BEACH1",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "18:00", "seq": 1 },
-							{ "id": "KATAMVTA", "time": "18:07", "seq": 2 },
-							{ "id": "SOUTHRIGHTVTA", "time": "18:10", "seq": 3 },
-							{ "id": "SOUTHLEFTVTA", "time": "18:15", "seq": 4 },
-							{ "id": "MATTAVTA", "time": "18:16", "seq": 5 },
-							{ "id": "SOUTHWATERVTA", "time": "18:19", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "18:25", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_25VTA", "shortName": "13", "time": "18:45"},
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_27VTA", "shortName": "1", "time": "18:37"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_14VTA", "shortName": "6", "time": "19:12"}
-						]
-					},
-
-					{
-						"tripId": "08SUMR_LOOP_2VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "07:30", "seq": 1 },
-							{ "id": "KATAMVTA", "time": "07:37", "seq": 2 },
-							{ "id": "SOUTHRIGHTVTA", "time": "07:40", "seq": 3 },
-							{ "id": "SOUTHLEFTVTA", "time": "07:45", "seq": 4 },
-							{ "id": "MATTAVTA", "time": "07:46", "seq": 5 },
-							{ "id": "SOUTHWATERVTA", "time": "07:49", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "07:54", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_4VTA", "shortName": "13", "time": " 8:15"},
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_6VTA", "shortName": "1", "time": " 8:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_3VTA", "shortName": "6", "time": " 8:12"}
-						]
-					},
-
-					{
-						"tripId": "08SUMR_LOOP_3VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "08:30", "seq": 1 },
-							{ "id": "KATAMVTA", "time": "08:37", "seq": 2 },
-							{ "id": "SOUTHRIGHTVTA", "time": "08:40", "seq": 3 },
-							{ "id": "SOUTHLEFTVTA", "time": "08:45", "seq": 4 },
-							{ "id": "MATTAVTA", "time": "08:46", "seq": 5 },
-							{ "id": "SOUTHWATERVTA", "time": "08:49", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "08:54", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_6VTA", "shortName": "13", "time": " 9:15"},
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_8VTA", "shortName": "1", "time": " 9:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_4VTA", "shortName": "6", "time": " 9:12"}
-						]
-					},
-
-					{
-						"tripId": "08SUMR_LOOP_4VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "09:30", "seq": 1 },
-							{ "id": "KATAMVTA", "time": "09:37", "seq": 2 },
-							{ "id": "SOUTHRIGHTVTA", "time": "09:40", "seq": 3 },
-							{ "id": "SOUTHLEFTVTA", "time": "09:45", "seq": 4 },
-							{ "id": "MATTAVTA", "time": "09:46", "seq": 5 },
-							{ "id": "SOUTHWATERVTA", "time": "09:49", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "09:54", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_8VTA", "shortName": "13", "time": "10:15"},
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_10VTA", "shortName": "1", "time": "10:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_5VTA", "shortName": "6", "time": "10:12"}
-						]
-					},
-
-					{
-						"tripId": "08SUMR_LOOP_5VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "10:30", "seq": 1 },
-							{ "id": "KATAMVTA", "time": "10:37", "seq": 2 },
-							{ "id": "SOUTHRIGHTVTA", "time": "10:40", "seq": 3 },
-							{ "id": "SOUTHLEFTVTA", "time": "10:45", "seq": 4 },
-							{ "id": "MATTAVTA", "time": "10:46", "seq": 5 },
-							{ "id": "SOUTHWATERVTA", "time": "10:49", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "10:54", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_10VTA", "shortName": "13", "time": "11:15"},
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_12VTA", "shortName": "1", "time": "11:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_6VTA", "shortName": "6", "time": "11:12"}
-						]
-					},
-
-					{
-						"tripId": "08SUMR_LOOP_6VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "11:30", "seq": 1 },
-							{ "id": "KATAMVTA", "time": "11:37", "seq": 2 },
-							{ "id": "SOUTHRIGHTVTA", "time": "11:40", "seq": 3 },
-							{ "id": "SOUTHLEFTVTA", "time": "11:45", "seq": 4 },
-							{ "id": "MATTAVTA", "time": "11:46", "seq": 5 },
-							{ "id": "SOUTHWATERVTA", "time": "11:49", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "11:54", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_12VTA", "shortName": "13", "time": "12:15"},
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_14VTA", "shortName": "1", "time": "12:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_7VTA", "shortName": "6", "time": "12:12"}
-						]
-					},
-
-					{
-						"tripId": "08SUMR_LOOP_7VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "12:30", "seq": 1 },
-							{ "id": "KATAMVTA", "time": "12:37", "seq": 2 },
-							{ "id": "SOUTHRIGHTVTA", "time": "12:40", "seq": 3 },
-							{ "id": "SOUTHLEFTVTA", "time": "12:45", "seq": 4 },
-							{ "id": "MATTAVTA", "time": "12:46", "seq": 5 },
-							{ "id": "SOUTHWATERVTA", "time": "12:49", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "12:54", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_14VTA", "shortName": "13", "time": "13:15"},
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_16VTA", "shortName": "1", "time": "13:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_8VTA", "shortName": "6", "time": "13:12"}
-						]
-					},
-
-					{
-						"tripId": "08SUMR_LOOP_8VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "13:30", "seq": 1 },
-							{ "id": "KATAMVTA", "time": "13:37", "seq": 2 },
-							{ "id": "SOUTHRIGHTVTA", "time": "13:40", "seq": 3 },
-							{ "id": "SOUTHLEFTVTA", "time": "13:45", "seq": 4 },
-							{ "id": "MATTAVTA", "time": "13:46", "seq": 5 },
-							{ "id": "SOUTHWATERVTA", "time": "13:49", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "13:54", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_16VTA", "shortName": "13", "time": "14:15"},
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_18VTA", "shortName": "1", "time": "14:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_9VTA", "shortName": "6", "time": "14:12"}
-						]
-					},
-
-					{
-						"tripId": "08SUMR_LOOP_9VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "14:30", "seq": 1 },
-							{ "id": "KATAMVTA", "time": "14:37", "seq": 2 },
-							{ "id": "SOUTHRIGHTVTA", "time": "14:40", "seq": 3 },
-							{ "id": "SOUTHLEFTVTA", "time": "14:45", "seq": 4 },
-							{ "id": "MATTAVTA", "time": "14:46", "seq": 5 },
-							{ "id": "SOUTHWATERVTA", "time": "14:49", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "14:54", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_18VTA", "shortName": "13", "time": "15:15"},
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_20VTA", "shortName": "1", "time": "15:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_10VTA", "shortName": "6", "time": "15:12"}
-						]
-					},
-
-					{
-						"tripId": "08SUMR_LOOP_10VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "15:30", "seq": 1 },
-							{ "id": "KATAMVTA", "time": "15:37", "seq": 2 },
-							{ "id": "SOUTHRIGHTVTA", "time": "15:40", "seq": 3 },
-							{ "id": "SOUTHLEFTVTA", "time": "15:45", "seq": 4 },
-							{ "id": "MATTAVTA", "time": "15:46", "seq": 5 },
-							{ "id": "SOUTHWATERVTA", "time": "15:49", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "15:54", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_20VTA", "shortName": "13", "time": "16:15"},
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_22VTA", "shortName": "1", "time": "16:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_11VTA", "shortName": "6", "time": "16:12"}
-						]
-					},
-
-					{
-						"tripId": "08SUMR_LOOP_11VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "16:30", "seq": 1 },
-							{ "id": "KATAMVTA", "time": "16:37", "seq": 2 },
-							{ "id": "SOUTHRIGHTVTA", "time": "16:40", "seq": 3 },
-							{ "id": "SOUTHLEFTVTA", "time": "16:45", "seq": 4 },
-							{ "id": "MATTAVTA", "time": "16:46", "seq": 5 },
-							{ "id": "SOUTHWATERVTA", "time": "16:49", "seq": 6 },
-							{ "id": "CHURCVTA", "time": "16:54", "seq": 7 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_22VTA", "shortName": "13", "time": "17:15"},
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_24VTA", "shortName": "1", "time": "17:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_12VTA", "shortName": "6", "time": "17:12"}
-						]
-					},
-
-					{
 						"tripId": "08SUMR_LOOP_12VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -5205,6 +5186,25 @@
 							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_24VTA", "shortName": "13", "time": "18:15"},
 							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_26VTA", "shortName": "1", "time": "18:07"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_13VTA", "shortName": "6", "time": "18:12"}
+						]
+					},
+
+					{
+						"tripId": "08BEACH1_LOOP_11VTA",
+						"calId": "BEACH1",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "18:00", "seq": 1 },
+							{ "id": "KATAMVTA", "time": "18:07", "seq": 2 },
+							{ "id": "SOUTHRIGHTVTA", "time": "18:10", "seq": 3 },
+							{ "id": "SOUTHLEFTVTA", "time": "18:15", "seq": 4 },
+							{ "id": "MATTAVTA", "time": "18:16", "seq": 5 },
+							{ "id": "SOUTHWATERVTA", "time": "18:19", "seq": 6 },
+							{ "id": "CHURCVTA", "time": "18:25", "seq": 7 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Vineyard Haven", "tripId": "13PRE_IN_25VTA", "shortName": "13", "time": "18:45"},
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_27VTA", "shortName": "1", "time": "18:37"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_14VTA", "shortName": "6", "time": "19:12"}
 						]
 					}
 				],
@@ -5889,6 +5889,66 @@
 				"destination": "Loop",
 				"trips": [
 					{
+						"tripId": "10SUMR_LOOP_1VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "05:30", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "05:38", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_1VTA", "shortName": "1", "time": " 6:30"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_1VTA", "shortName": "13", "time": " 6:15"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_2VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "05:45", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "06:23", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_1VTA", "shortName": "10A", "time": " 6:50"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_2VTA", "shortName": "13", "time": " 6:50"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_1VTA", "shortName": "3", "time": " 7:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_1VTA", "shortName": "1", "time": " 6:30"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_1VTA", "shortName": "2", "time": " 7:22"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_3VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "06:30", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "06:38", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_1VTA", "shortName": "10A", "time": " 6:50"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_2VTA", "shortName": "13", "time": " 6:50"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_1VTA", "shortName": "3", "time": " 7:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_2VTA", "shortName": "1", "time": " 7:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_1VTA", "shortName": "2", "time": " 7:22"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_4VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "06:45", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "06:53", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_3VTA", "shortName": "13", "time": " 7:15"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_1VTA", "shortName": "3", "time": " 7:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_2VTA", "shortName": "1", "time": " 7:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_1VTA", "shortName": "2", "time": " 7:22"}
+						]
+					},
+
+					{
 						"tripId": "10SUMR_LOOP_5VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -5914,6 +5974,37 @@
 							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_4VTA", "shortName": "13", "time": " 7:50"},
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_3VTA", "shortName": "1", "time": " 7:37"},
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_2VTA", "shortName": "3", "time": " 8:07"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_7VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "07:30", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "07:38", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_2VTA", "shortName": "10A", "time": " 8:32"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_4VTA", "shortName": "13", "time": " 7:50"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_2VTA", "shortName": "3", "time": " 8:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_4VTA", "shortName": "1", "time": " 8:07"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_8VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "07:45", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "07:53", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_2VTA", "shortName": "10A", "time": " 8:32"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_5VTA", "shortName": "13", "time": " 8:15"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_2VTA", "shortName": "3", "time": " 8:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_4VTA", "shortName": "1", "time": " 8:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_2VTA", "shortName": "2", "time": " 8:52"}
 						]
 					},
 
@@ -5950,6 +6041,35 @@
 					},
 
 					{
+						"tripId": "10SUMR_LOOP_11VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "08:30", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "08:38", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_6VTA", "shortName": "13", "time": " 8:45"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_3VTA", "shortName": "3", "time": " 9:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_6VTA", "shortName": "1", "time": " 9:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_2VTA", "shortName": "2", "time": " 8:52"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_12VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "08:45", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "08:53", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_7VTA", "shortName": "13", "time": " 9:15"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_6VTA", "shortName": "1", "time": " 9:07"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_3VTA", "shortName": "3", "time": " 9:07"}
+						]
+					},
+
+					{
 						"tripId": "10SUMR_LOOP_13VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -5981,6 +6101,38 @@
 					},
 
 					{
+						"tripId": "10SUMR_LOOP_15VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "09:30", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "09:38", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_3VTA", "shortName": "10A", "time": "10:02"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_8VTA", "shortName": "13", "time": " 9:45"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_4VTA", "shortName": "3", "time": "10:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_8VTA", "shortName": "1", "time": "10:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_3VTA", "shortName": "2", "time": "10:22"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_16VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "09:45", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "09:53", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_3VTA", "shortName": "10A", "time": "10:02"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_9VTA", "shortName": "13", "time": "10:15"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_4VTA", "shortName": "3", "time": "10:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_8VTA", "shortName": "1", "time": "10:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_3VTA", "shortName": "2", "time": "10:22"}
+						]
+					},
+
+					{
 						"tripId": "10SUMR_LOOP_17VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -6006,6 +6158,37 @@
 							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_10VTA", "shortName": "13", "time": "10:45"},
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_9VTA", "shortName": "1", "time": "10:37"},
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_5VTA", "shortName": "3", "time": "11:07"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_19VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "10:30", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "10:38", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_4VTA", "shortName": "10A", "time": "11:32"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_10VTA", "shortName": "13", "time": "10:45"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_5VTA", "shortName": "3", "time": "11:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_10VTA", "shortName": "1", "time": "11:07"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_20VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "10:45", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "10:53", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_4VTA", "shortName": "10A", "time": "11:32"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_11VTA", "shortName": "13", "time": "11:15"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_5VTA", "shortName": "3", "time": "11:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_10VTA", "shortName": "1", "time": "11:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_4VTA", "shortName": "2", "time": "11:52"}
 						]
 					},
 
@@ -6042,377 +6225,6 @@
 					},
 
 					{
-						"tripId": "10SUMR_LOOP_29VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "13:00", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "13:08", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_15VTA", "shortName": "13", "time": "13:15"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_8VTA", "shortName": "3", "time": "14:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_15VTA", "shortName": "1", "time": "13:37"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_5VTA", "shortName": "2", "time": "13:22"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_33VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "14:00", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "14:08", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_6VTA", "shortName": "10A", "time": "14:32"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_17VTA", "shortName": "13", "time": "14:15"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_9VTA", "shortName": "3", "time": "15:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_18VTA", "shortName": "1", "time": "14:37"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_6VTA", "shortName": "2", "time": "14:52"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_35VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "15:00", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "15:08", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_7VTA", "shortName": "10A", "time": "16:02"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_19VTA", "shortName": "13", "time": "15:15"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_10VTA", "shortName": "3", "time": "16:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_20VTA", "shortName": "1", "time": "15:37"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_39VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "16:00", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "16:08", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_21VTA", "shortName": "13", "time": "16:15"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_11VTA", "shortName": "3", "time": "17:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_22VTA", "shortName": "1", "time": "16:37"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_7VTA", "shortName": "2", "time": "16:22"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_43VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "17:00", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "17:08", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_8VTA", "shortName": "10A", "time": "17:32"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_23VTA", "shortName": "13", "time": "17:15"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_12VTA", "shortName": "3", "time": "18:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_24VTA", "shortName": "1", "time": "17:37"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_8VTA", "shortName": "2", "time": "17:52"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_47VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "18:00", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "18:08", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_9VTA", "shortName": "10A", "time": "19:02"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_25VTA", "shortName": "13", "time": "18:15"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_13VTA", "shortName": "3", "time": "19:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_26VTA", "shortName": "1", "time": "18:37"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_51VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "19:00", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "19:08", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_27VTA", "shortName": "13", "time": "19:15"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_14VTA", "shortName": "3", "time": "20:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_28VTA", "shortName": "1", "time": "19:37"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_9VTA", "shortName": "2", "time": "19:22"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_53VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "20:00", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "20:08", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_29VTA", "shortName": "13", "time": "20:25"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_30VTA", "shortName": "1", "time": "20:37"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_1VTA", "shortName": "3", "time": "21:07"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_57VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "21:00", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "21:08", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_30VTA", "shortName": "13", "time": "21:25"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_32VTA", "shortName": "1", "time": "21:37"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_2VTA", "shortName": "3", "time": "22:07"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_60VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "22:00", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "22:08", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_31VTA", "shortName": "13", "time": "22:35"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_34VTA", "shortName": "1", "time": "22:37"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_3VTA", "shortName": "3", "time": "23:07"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_30VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "13:15", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "13:23", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_16VTA", "shortName": "13", "time": "13:45"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_15VTA", "shortName": "1", "time": "13:37"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_8VTA", "shortName": "3", "time": "14:07"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_36VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "15:15", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "15:23", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_7VTA", "shortName": "10A", "time": "16:02"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_20VTA", "shortName": "13", "time": "15:45"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_10VTA", "shortName": "3", "time": "16:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_20VTA", "shortName": "1", "time": "15:37"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_7VTA", "shortName": "2", "time": "16:22"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_40VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "16:15", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "16:23", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_22VTA", "shortName": "13", "time": "16:45"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_22VTA", "shortName": "1", "time": "16:37"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_11VTA", "shortName": "3", "time": "17:07"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_44VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "17:15", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "17:23", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_8VTA", "shortName": "10A", "time": "17:32"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_24VTA", "shortName": "13", "time": "17:45"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_12VTA", "shortName": "3", "time": "18:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_24VTA", "shortName": "1", "time": "17:37"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_8VTA", "shortName": "2", "time": "17:52"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_48VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "18:15", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "18:23", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_9VTA", "shortName": "10A", "time": "19:02"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_26VTA", "shortName": "13", "time": "18:45"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_13VTA", "shortName": "3", "time": "19:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_26VTA", "shortName": "1", "time": "18:37"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_9VTA", "shortName": "2", "time": "19:22"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_52VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "19:15", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "19:23", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_28VTA", "shortName": "13", "time": "19:45"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_28VTA", "shortName": "1", "time": "19:37"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_14VTA", "shortName": "3", "time": "20:07"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_54VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "20:15", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "20:23", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_29VTA", "shortName": "13", "time": "20:25"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_30VTA", "shortName": "1", "time": "20:37"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_1VTA", "shortName": "3", "time": "21:07"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_58VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "21:15", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "21:23", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_30VTA", "shortName": "13", "time": "21:25"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_32VTA", "shortName": "1", "time": "21:37"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_2VTA", "shortName": "3", "time": "22:07"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_24VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "22:15", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "22:23", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_31VTA", "shortName": "13", "time": "22:35"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_34VTA", "shortName": "1", "time": "22:37"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_3VTA", "shortName": "3", "time": "23:07"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_1VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "05:30", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "05:38", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_1VTA", "shortName": "1", "time": " 6:30"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_1VTA", "shortName": "13", "time": " 6:15"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_3VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "06:30", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "06:38", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_1VTA", "shortName": "10A", "time": " 6:50"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_2VTA", "shortName": "13", "time": " 6:50"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_1VTA", "shortName": "3", "time": " 7:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_2VTA", "shortName": "1", "time": " 7:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_1VTA", "shortName": "2", "time": " 7:22"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_7VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "07:30", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "07:38", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_2VTA", "shortName": "10A", "time": " 8:32"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_4VTA", "shortName": "13", "time": " 7:50"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_2VTA", "shortName": "3", "time": " 8:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_4VTA", "shortName": "1", "time": " 8:07"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_11VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "08:30", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "08:38", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_6VTA", "shortName": "13", "time": " 8:45"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_3VTA", "shortName": "3", "time": " 9:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_6VTA", "shortName": "1", "time": " 9:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_2VTA", "shortName": "2", "time": " 8:52"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_15VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "09:30", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "09:38", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_3VTA", "shortName": "10A", "time": "10:02"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_8VTA", "shortName": "13", "time": " 9:45"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_4VTA", "shortName": "3", "time": "10:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_8VTA", "shortName": "1", "time": "10:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_3VTA", "shortName": "2", "time": "10:22"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_19VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "10:30", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "10:38", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_4VTA", "shortName": "10A", "time": "11:32"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_10VTA", "shortName": "13", "time": "10:45"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_5VTA", "shortName": "3", "time": "11:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_10VTA", "shortName": "1", "time": "11:07"}
-						]
-					},
-
-					{
 						"tripId": "10SUMR_LOOP_23VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -6444,99 +6256,6 @@
 					},
 
 					{
-						"tripId": "10SUMR_LOOP_2VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "05:45", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "06:23", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_1VTA", "shortName": "10A", "time": " 6:50"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_2VTA", "shortName": "13", "time": " 6:50"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_1VTA", "shortName": "3", "time": " 7:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_1VTA", "shortName": "1", "time": " 6:30"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_1VTA", "shortName": "2", "time": " 7:22"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_4VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "06:45", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "06:53", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_3VTA", "shortName": "13", "time": " 7:15"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_1VTA", "shortName": "3", "time": " 7:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_2VTA", "shortName": "1", "time": " 7:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_1VTA", "shortName": "2", "time": " 7:22"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_8VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "07:45", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "07:53", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_2VTA", "shortName": "10A", "time": " 8:32"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_5VTA", "shortName": "13", "time": " 8:15"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_2VTA", "shortName": "3", "time": " 8:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_4VTA", "shortName": "1", "time": " 8:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_2VTA", "shortName": "2", "time": " 8:52"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_12VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "08:45", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "08:53", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_7VTA", "shortName": "13", "time": " 9:15"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_6VTA", "shortName": "1", "time": " 9:07"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_3VTA", "shortName": "3", "time": " 9:07"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_16VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "09:45", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "09:53", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_3VTA", "shortName": "10A", "time": "10:02"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_9VTA", "shortName": "13", "time": "10:15"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_4VTA", "shortName": "3", "time": "10:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_8VTA", "shortName": "1", "time": "10:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_3VTA", "shortName": "2", "time": "10:22"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_20VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "10:45", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "10:53", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_4VTA", "shortName": "10A", "time": "11:32"},
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_11VTA", "shortName": "13", "time": "11:15"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_5VTA", "shortName": "3", "time": "11:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_10VTA", "shortName": "1", "time": "11:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_4VTA", "shortName": "2", "time": "11:52"}
-						]
-					},
-
-					{
 						"tripId": "10SUMR_LOOP_28VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -6549,6 +6268,35 @@
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_7VTA", "shortName": "3", "time": "13:07"},
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_14VTA", "shortName": "1", "time": "13:07"},
 							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_5VTA", "shortName": "2", "time": "13:22"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_29VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "13:00", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "13:08", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_15VTA", "shortName": "13", "time": "13:15"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_8VTA", "shortName": "3", "time": "14:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_15VTA", "shortName": "1", "time": "13:37"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_5VTA", "shortName": "2", "time": "13:22"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_30VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "13:15", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "13:23", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_16VTA", "shortName": "13", "time": "13:45"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_15VTA", "shortName": "1", "time": "13:37"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_8VTA", "shortName": "3", "time": "14:07"}
 						]
 					},
 
@@ -6584,6 +6332,22 @@
 					},
 
 					{
+						"tripId": "10SUMR_LOOP_33VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "14:00", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "14:08", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_6VTA", "shortName": "10A", "time": "14:32"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_17VTA", "shortName": "13", "time": "14:15"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_9VTA", "shortName": "3", "time": "15:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_18VTA", "shortName": "1", "time": "14:37"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_6VTA", "shortName": "2", "time": "14:52"}
+						]
+					},
+
+					{
 						"tripId": "10SUMR_LOOP_25VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -6609,6 +6373,37 @@
 							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_19VTA", "shortName": "13", "time": "15:15"},
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_19VTA", "shortName": "1", "time": "15:07"},
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_9VTA", "shortName": "3", "time": "15:07"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_35VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "15:00", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "15:08", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_7VTA", "shortName": "10A", "time": "16:02"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_19VTA", "shortName": "13", "time": "15:15"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_10VTA", "shortName": "3", "time": "16:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_20VTA", "shortName": "1", "time": "15:37"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_36VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "15:15", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "15:23", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_7VTA", "shortName": "10A", "time": "16:02"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_20VTA", "shortName": "13", "time": "15:45"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_10VTA", "shortName": "3", "time": "16:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_20VTA", "shortName": "1", "time": "15:37"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_7VTA", "shortName": "2", "time": "16:22"}
 						]
 					},
 
@@ -6645,6 +6440,35 @@
 					},
 
 					{
+						"tripId": "10SUMR_LOOP_39VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "16:00", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "16:08", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_21VTA", "shortName": "13", "time": "16:15"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_11VTA", "shortName": "3", "time": "17:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_22VTA", "shortName": "1", "time": "16:37"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_7VTA", "shortName": "2", "time": "16:22"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_40VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "16:15", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "16:23", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_22VTA", "shortName": "13", "time": "16:45"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_22VTA", "shortName": "1", "time": "16:37"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_11VTA", "shortName": "3", "time": "17:07"}
+						]
+					},
+
+					{
 						"tripId": "10SUMR_LOOP_41VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -6660,6 +6484,38 @@
 					},
 
 					{
+						"tripId": "10SUMR_LOOP_43VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "17:00", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "17:08", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_8VTA", "shortName": "10A", "time": "17:32"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_23VTA", "shortName": "13", "time": "17:15"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_12VTA", "shortName": "3", "time": "18:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_24VTA", "shortName": "1", "time": "17:37"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_8VTA", "shortName": "2", "time": "17:52"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_44VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "17:15", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "17:23", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_8VTA", "shortName": "10A", "time": "17:32"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_24VTA", "shortName": "13", "time": "17:45"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_12VTA", "shortName": "3", "time": "18:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_24VTA", "shortName": "1", "time": "17:37"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_8VTA", "shortName": "2", "time": "17:52"}
+						]
+					},
+
+					{
 						"tripId": "10SUMR_LOOP_45VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -6671,6 +6527,51 @@
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_12VTA", "shortName": "3", "time": "18:07"},
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_25VTA", "shortName": "1", "time": "18:07"},
 							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_8VTA", "shortName": "2", "time": "17:52"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_46VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "17:45", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "17:53", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_25VTA", "shortName": "13", "time": "18:15"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_25VTA", "shortName": "1", "time": "18:07"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_12VTA", "shortName": "3", "time": "18:07"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_47VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "18:00", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "18:08", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_9VTA", "shortName": "10A", "time": "19:02"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_25VTA", "shortName": "13", "time": "18:15"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_13VTA", "shortName": "3", "time": "19:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_26VTA", "shortName": "1", "time": "18:37"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_48VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "18:15", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "18:23", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_9VTA", "shortName": "10A", "time": "19:02"},
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_26VTA", "shortName": "13", "time": "18:45"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_13VTA", "shortName": "3", "time": "19:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_26VTA", "shortName": "1", "time": "18:37"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_9VTA", "shortName": "2", "time": "19:22"}
 						]
 					},
 
@@ -6691,62 +6592,6 @@
 					},
 
 					{
-						"tripId": "10SUMR_LOOP_55VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "20:30", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "20:38", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13SHLDR_OUT_1VTA", "shortName": "13", "time": "20:45"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_31VTA", "shortName": "1", "time": "21:07"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_1VTA", "shortName": "3", "time": "21:07"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_59VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "21:30", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "21:38", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13SHLDR_OUT_2VTA", "shortName": "13", "time": "21:45"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_33VTA", "shortName": "1", "time": "22:07"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_2VTA", "shortName": "3", "time": "22:07"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_26VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "22:30", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "22:38", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_32VTA", "shortName": "13", "time": "23:30"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1SHLDR_OUT_1VTA", "shortName": "1", "time": "23:07"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_3VTA", "shortName": "3", "time": "23:07"}
-						]
-					},
-
-					{
-						"tripId": "10SUMR_LOOP_46VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "TISBUPARKVTA", "time": "17:45", "seq": 1 },
-							{ "id": "VINEYVTA", "time": "17:53", "seq": 2 }
-						],
-						"connections": [
-							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_25VTA", "shortName": "13", "time": "18:15"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_25VTA", "shortName": "1", "time": "18:07"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_12VTA", "shortName": "3", "time": "18:07"}
-						]
-					},
-
-					{
 						"tripId": "10SUMR_LOOP_50VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -6759,6 +6604,77 @@
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_13VTA", "shortName": "3", "time": "19:07"},
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_27VTA", "shortName": "1", "time": "19:07"},
 							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_9VTA", "shortName": "2", "time": "19:22"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_51VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "19:00", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "19:08", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_27VTA", "shortName": "13", "time": "19:15"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_14VTA", "shortName": "3", "time": "20:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_28VTA", "shortName": "1", "time": "19:37"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_9VTA", "shortName": "2", "time": "19:22"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_52VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "19:15", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "19:23", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_28VTA", "shortName": "13", "time": "19:45"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_28VTA", "shortName": "1", "time": "19:37"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_14VTA", "shortName": "3", "time": "20:07"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_53VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "20:00", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "20:08", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_29VTA", "shortName": "13", "time": "20:25"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_30VTA", "shortName": "1", "time": "20:37"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_1VTA", "shortName": "3", "time": "21:07"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_54VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "20:15", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "20:23", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_29VTA", "shortName": "13", "time": "20:25"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_30VTA", "shortName": "1", "time": "20:37"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_1VTA", "shortName": "3", "time": "21:07"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_55VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "20:30", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "20:38", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13SHLDR_OUT_1VTA", "shortName": "13", "time": "20:45"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_31VTA", "shortName": "1", "time": "21:07"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_1VTA", "shortName": "3", "time": "21:07"}
 						]
 					},
 
@@ -6777,6 +6693,48 @@
 					},
 
 					{
+						"tripId": "10SUMR_LOOP_57VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "21:00", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "21:08", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_30VTA", "shortName": "13", "time": "21:25"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_32VTA", "shortName": "1", "time": "21:37"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_2VTA", "shortName": "3", "time": "22:07"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_58VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "21:15", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "21:23", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_30VTA", "shortName": "13", "time": "21:25"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_32VTA", "shortName": "1", "time": "21:37"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_2VTA", "shortName": "3", "time": "22:07"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_59VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "21:30", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "21:38", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13SHLDR_OUT_2VTA", "shortName": "13", "time": "21:45"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_33VTA", "shortName": "1", "time": "22:07"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_2VTA", "shortName": "3", "time": "22:07"}
+						]
+					},
+
+					{
 						"tripId": "10SUMR_LOOP_42VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -6787,6 +6745,48 @@
 							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_31VTA", "shortName": "13", "time": "22:35"},
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_33VTA", "shortName": "1", "time": "22:07"},
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_2VTA", "shortName": "3", "time": "22:07"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_60VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "22:00", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "22:08", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_31VTA", "shortName": "13", "time": "22:35"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_34VTA", "shortName": "1", "time": "22:37"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_3VTA", "shortName": "3", "time": "23:07"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_24VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "22:15", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "22:23", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_31VTA", "shortName": "13", "time": "22:35"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_34VTA", "shortName": "1", "time": "22:37"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_3VTA", "shortName": "3", "time": "23:07"}
+						]
+					},
+
+					{
+						"tripId": "10SUMR_LOOP_26VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "TISBUPARKVTA", "time": "22:30", "seq": 1 },
+							{ "id": "VINEYVTA", "time": "22:38", "seq": 2 }
+						],
+						"connections": [
+							{"routeId": "13VTA", "headsign": "Edgartown", "tripId": "13PRE_OUT_32VTA", "shortName": "13", "time": "23:30"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1SHLDR_OUT_1VTA", "shortName": "1", "time": "23:07"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_3VTA", "shortName": "3", "time": "23:07"}
 						]
 					}
 				],
@@ -6806,64 +6806,16 @@
 				"destination": "Loop",
 				"trips": [
 					{
-						"tripId": "10ASUMR_LOOP_3VTA",
+						"tripId": "10ASUMR_LOOP_1VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
-							{ "id": "VINEYVTA", "time": "10:02", "seq": 1 },
-							{ "id": "XTISBULIBVTA", "time": "10:05", "seq": 2 },
-							{ "id": "XTHORNVTA", "time": "10:06", "seq": 3 },
-							{ "id": "LIGHTVTA", "time": "10:07", "seq": 4 },
-							{ "id": "WESTCVTA", "time": "10:08", "seq": 5 },
-							{ "id": "TASHMVTA", "time": "10:10", "seq": 6 },
-							{ "id": "TISBUHALLVTA", "time": "10:12", "seq": 7 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "10ASUMR_LOOP_5VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "13:02", "seq": 1 },
-							{ "id": "XTISBULIBVTA", "time": "13:05", "seq": 2 },
-							{ "id": "XTHORNVTA", "time": "13:06", "seq": 3 },
-							{ "id": "LIGHTVTA", "time": "13:07", "seq": 4 },
-							{ "id": "WESTCVTA", "time": "13:08", "seq": 5 },
-							{ "id": "TASHMVTA", "time": "13:10", "seq": 6 },
-							{ "id": "TISBUHALLVTA", "time": "13:12", "seq": 7 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "10ASUMR_LOOP_7VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "16:02", "seq": 1 },
-							{ "id": "XTISBULIBVTA", "time": "16:05", "seq": 2 },
-							{ "id": "XTHORNVTA", "time": "16:06", "seq": 3 },
-							{ "id": "LIGHTVTA", "time": "16:07", "seq": 4 },
-							{ "id": "WESTCVTA", "time": "16:08", "seq": 5 },
-							{ "id": "TASHMVTA", "time": "16:10", "seq": 6 },
-							{ "id": "TISBUHALLVTA", "time": "16:12", "seq": 7 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "10ASUMR_LOOP_9VTA",
-						"calId": "SUMMERVTA",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "19:02", "seq": 1 },
-							{ "id": "XTISBULIBVTA", "time": "19:05", "seq": 2 },
-							{ "id": "XTHORNVTA", "time": "19:06", "seq": 3 },
-							{ "id": "LIGHTVTA", "time": "19:07", "seq": 4 },
-							{ "id": "WESTCVTA", "time": "19:08", "seq": 5 },
-							{ "id": "TASHMVTA", "time": "19:10", "seq": 6 },
-							{ "id": "TISBUHALLVTA", "time": "19:12", "seq": 7 }
+							{ "id": "VINEYVTA", "time": "06:50", "seq": 1 },
+							{ "id": "XTISBULIBVTA", "time": "06:53", "seq": 2 },
+							{ "id": "XTHORNVTA", "time": "06:54", "seq": 3 },
+							{ "id": "LIGHTVTA", "time": "06:55", "seq": 4 },
+							{ "id": "WESTCVTA", "time": "06:56", "seq": 5 },
+							{ "id": "TASHMVTA", "time": "06:58", "seq": 6 },
+							{ "id": "TISBUHALLVTA", "time": "07:00", "seq": 7 }
 						],
 						"connections": [
 						]
@@ -6886,6 +6838,22 @@
 					},
 
 					{
+						"tripId": "10ASUMR_LOOP_3VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "10:02", "seq": 1 },
+							{ "id": "XTISBULIBVTA", "time": "10:05", "seq": 2 },
+							{ "id": "XTHORNVTA", "time": "10:06", "seq": 3 },
+							{ "id": "LIGHTVTA", "time": "10:07", "seq": 4 },
+							{ "id": "WESTCVTA", "time": "10:08", "seq": 5 },
+							{ "id": "TASHMVTA", "time": "10:10", "seq": 6 },
+							{ "id": "TISBUHALLVTA", "time": "10:12", "seq": 7 }
+						],
+						"connections": [
+						]
+					},
+
+					{
 						"tripId": "10ASUMR_LOOP_4VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -6896,6 +6864,22 @@
 							{ "id": "WESTCVTA", "time": "11:38", "seq": 5 },
 							{ "id": "TASHMVTA", "time": "11:40", "seq": 6 },
 							{ "id": "TISBUHALLVTA", "time": "11:42", "seq": 7 }
+						],
+						"connections": [
+						]
+					},
+
+					{
+						"tripId": "10ASUMR_LOOP_5VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "13:02", "seq": 1 },
+							{ "id": "XTISBULIBVTA", "time": "13:05", "seq": 2 },
+							{ "id": "XTHORNVTA", "time": "13:06", "seq": 3 },
+							{ "id": "LIGHTVTA", "time": "13:07", "seq": 4 },
+							{ "id": "WESTCVTA", "time": "13:08", "seq": 5 },
+							{ "id": "TASHMVTA", "time": "13:10", "seq": 6 },
+							{ "id": "TISBUHALLVTA", "time": "13:12", "seq": 7 }
 						],
 						"connections": [
 						]
@@ -6918,6 +6902,22 @@
 					},
 
 					{
+						"tripId": "10ASUMR_LOOP_7VTA",
+						"calId": "SUMMERVTA",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "16:02", "seq": 1 },
+							{ "id": "XTISBULIBVTA", "time": "16:05", "seq": 2 },
+							{ "id": "XTHORNVTA", "time": "16:06", "seq": 3 },
+							{ "id": "LIGHTVTA", "time": "16:07", "seq": 4 },
+							{ "id": "WESTCVTA", "time": "16:08", "seq": 5 },
+							{ "id": "TASHMVTA", "time": "16:10", "seq": 6 },
+							{ "id": "TISBUHALLVTA", "time": "16:12", "seq": 7 }
+						],
+						"connections": [
+						]
+					},
+
+					{
 						"tripId": "10ASUMR_LOOP_8VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
@@ -6934,16 +6934,16 @@
 					},
 
 					{
-						"tripId": "10ASUMR_LOOP_1VTA",
+						"tripId": "10ASUMR_LOOP_9VTA",
 						"calId": "SUMMERVTA",
 						"stops": [
-							{ "id": "VINEYVTA", "time": "06:50", "seq": 1 },
-							{ "id": "XTISBULIBVTA", "time": "06:53", "seq": 2 },
-							{ "id": "XTHORNVTA", "time": "06:54", "seq": 3 },
-							{ "id": "LIGHTVTA", "time": "06:55", "seq": 4 },
-							{ "id": "WESTCVTA", "time": "06:56", "seq": 5 },
-							{ "id": "TASHMVTA", "time": "06:58", "seq": 6 },
-							{ "id": "TISBUHALLVTA", "time": "07:00", "seq": 7 }
+							{ "id": "VINEYVTA", "time": "19:02", "seq": 1 },
+							{ "id": "XTISBULIBVTA", "time": "19:05", "seq": 2 },
+							{ "id": "XTHORNVTA", "time": "19:06", "seq": 3 },
+							{ "id": "LIGHTVTA", "time": "19:07", "seq": 4 },
+							{ "id": "WESTCVTA", "time": "19:08", "seq": 5 },
+							{ "id": "TASHMVTA", "time": "19:10", "seq": 6 },
+							{ "id": "TISBUHALLVTA", "time": "19:12", "seq": 7 }
 						],
 						"connections": [
 						]
@@ -6977,19 +6977,6 @@
 					},
 
 					{
-						"tripId": "13PRE_IN_31VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "23:00", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "23:15", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "23:25", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_35VTA", "shortName": "1", "time": "23:37"}
-						]
-					},
-
-					{
 						"tripId": "13SHLDRLATE_IN_1VTA",
 						"calId": "SHLDRWKNDLATE",
 						"stops": [
@@ -6998,246 +6985,6 @@
 							{ "id": "VINEYVTA", "time": "01:25", "seq": 3 }
 						],
 						"connections": [
-						]
-					},
-
-					{
-						"tripId": "13PRE_IN_2VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "07:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "07:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "07:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_2VTA", "shortName": "10A", "time": " 8:32"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_4VTA", "shortName": "1", "time": " 8:07"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_2VTA", "shortName": "3", "time": " 8:07"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_IN_4VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "08:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "08:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "08:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_3VTA", "shortName": "3", "time": " 9:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_6VTA", "shortName": "1", "time": " 9:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_2VTA", "shortName": "2", "time": " 8:52"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_IN_6VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "09:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "09:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "09:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_3VTA", "shortName": "10A", "time": "10:02"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_4VTA", "shortName": "3", "time": "10:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_8VTA", "shortName": "1", "time": "10:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_3VTA", "shortName": "2", "time": "10:22"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_IN_8VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "10:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "10:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "10:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_4VTA", "shortName": "10A", "time": "11:32"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_10VTA", "shortName": "1", "time": "11:07"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_5VTA", "shortName": "3", "time": "11:07"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_IN_10VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "11:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "11:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "11:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_6VTA", "shortName": "3", "time": "12:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_12VTA", "shortName": "1", "time": "12:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_4VTA", "shortName": "2", "time": "11:52"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_IN_12VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "12:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "12:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "12:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_5VTA", "shortName": "10A", "time": "13:02"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_7VTA", "shortName": "3", "time": "13:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_14VTA", "shortName": "1", "time": "13:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_5VTA", "shortName": "2", "time": "13:22"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_IN_14VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "13:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "13:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "13:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_6VTA", "shortName": "10A", "time": "14:32"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_17VTA", "shortName": "1", "time": "14:07"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_8VTA", "shortName": "3", "time": "14:07"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_IN_16VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "14:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "14:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "14:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_9VTA", "shortName": "3", "time": "15:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_19VTA", "shortName": "1", "time": "15:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_6VTA", "shortName": "2", "time": "14:52"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_IN_18VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "15:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "15:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "15:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_7VTA", "shortName": "10A", "time": "16:02"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_10VTA", "shortName": "3", "time": "16:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_21VTA", "shortName": "1", "time": "16:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_7VTA", "shortName": "2", "time": "16:22"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_IN_20VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "16:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "16:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "16:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_8VTA", "shortName": "10A", "time": "17:32"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_23VTA", "shortName": "1", "time": "17:07"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_11VTA", "shortName": "3", "time": "17:07"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_IN_22VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "17:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "17:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "17:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_12VTA", "shortName": "3", "time": "18:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_25VTA", "shortName": "1", "time": "18:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_8VTA", "shortName": "2", "time": "17:52"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_IN_24VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "18:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "18:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "18:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_9VTA", "shortName": "10A", "time": "19:02"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_13VTA", "shortName": "3", "time": "19:07"},
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_27VTA", "shortName": "1", "time": "19:07"},
-							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_9VTA", "shortName": "2", "time": "19:22"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_IN_26VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "19:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "19:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "19:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_29VTA", "shortName": "1", "time": "20:07"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_14VTA", "shortName": "3", "time": "20:07"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_IN_28VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "20:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "20:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "20:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_31VTA", "shortName": "1", "time": "21:07"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_1VTA", "shortName": "3", "time": "21:07"}
-						]
-					},
-
-					{
-						"tripId": "13SHLDR_IN_1VTA",
-						"calId": "SHLDRWKND",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "21:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "21:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "21:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_33VTA", "shortName": "1", "time": "22:07"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_2VTA", "shortName": "3", "time": "22:07"}
-						]
-					},
-
-					{
-						"tripId": "13SHLDR_IN_2VTA",
-						"calId": "SHLDRWKND",
-						"stops": [
-							{ "id": "CHURCVTA", "time": "22:15", "seq": 1 },
-							{ "id": "OAKSSAVTA", "time": "22:30", "seq": 2 },
-							{ "id": "VINEYVTA", "time": "22:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1SHLDR_OUT_1VTA", "shortName": "1", "time": "23:07"},
-							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_3VTA", "shortName": "3", "time": "23:07"}
 						]
 					},
 
@@ -7253,6 +7000,21 @@
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_2VTA", "shortName": "3", "time": " 8:07"},
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_3VTA", "shortName": "1", "time": " 7:37"},
 							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_1VTA", "shortName": "2", "time": " 7:22"}
+						]
+					},
+
+					{
+						"tripId": "13PRE_IN_2VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "07:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "07:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "07:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_2VTA", "shortName": "10A", "time": " 8:32"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_4VTA", "shortName": "1", "time": " 8:07"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_2VTA", "shortName": "3", "time": " 8:07"}
 						]
 					},
 
@@ -7273,6 +7035,21 @@
 					},
 
 					{
+						"tripId": "13PRE_IN_4VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "08:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "08:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "08:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_3VTA", "shortName": "3", "time": " 9:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_6VTA", "shortName": "1", "time": " 9:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_2VTA", "shortName": "2", "time": " 8:52"}
+						]
+					},
+
+					{
 						"tripId": "13PRE_IN_5VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -7288,6 +7065,22 @@
 					},
 
 					{
+						"tripId": "13PRE_IN_6VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "09:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "09:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "09:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_3VTA", "shortName": "10A", "time": "10:02"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_4VTA", "shortName": "3", "time": "10:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_8VTA", "shortName": "1", "time": "10:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_3VTA", "shortName": "2", "time": "10:22"}
+						]
+					},
+
+					{
 						"tripId": "13PRE_IN_7VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -7299,6 +7092,21 @@
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_5VTA", "shortName": "3", "time": "11:07"},
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_9VTA", "shortName": "1", "time": "10:37"},
 							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_3VTA", "shortName": "2", "time": "10:22"}
+						]
+					},
+
+					{
+						"tripId": "13PRE_IN_8VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "10:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "10:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "10:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_4VTA", "shortName": "10A", "time": "11:32"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_10VTA", "shortName": "1", "time": "11:07"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_5VTA", "shortName": "3", "time": "11:07"}
 						]
 					},
 
@@ -7319,6 +7127,21 @@
 					},
 
 					{
+						"tripId": "13PRE_IN_10VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "11:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "11:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "11:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_6VTA", "shortName": "3", "time": "12:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_12VTA", "shortName": "1", "time": "12:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_4VTA", "shortName": "2", "time": "11:52"}
+						]
+					},
+
+					{
 						"tripId": "13PRE_IN_11VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -7334,6 +7157,22 @@
 					},
 
 					{
+						"tripId": "13PRE_IN_12VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "12:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "12:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "12:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_5VTA", "shortName": "10A", "time": "13:02"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_7VTA", "shortName": "3", "time": "13:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_14VTA", "shortName": "1", "time": "13:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_5VTA", "shortName": "2", "time": "13:22"}
+						]
+					},
+
+					{
 						"tripId": "13PRE_IN_13VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -7345,6 +7184,21 @@
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_8VTA", "shortName": "3", "time": "14:07"},
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_15VTA", "shortName": "1", "time": "13:37"},
 							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_5VTA", "shortName": "2", "time": "13:22"}
+						]
+					},
+
+					{
+						"tripId": "13PRE_IN_14VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "13:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "13:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "13:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_6VTA", "shortName": "10A", "time": "14:32"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_17VTA", "shortName": "1", "time": "14:07"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_8VTA", "shortName": "3", "time": "14:07"}
 						]
 					},
 
@@ -7365,6 +7219,21 @@
 					},
 
 					{
+						"tripId": "13PRE_IN_16VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "14:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "14:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "14:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_9VTA", "shortName": "3", "time": "15:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_19VTA", "shortName": "1", "time": "15:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_6VTA", "shortName": "2", "time": "14:52"}
+						]
+					},
+
+					{
 						"tripId": "13PRE_IN_17VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -7380,6 +7249,22 @@
 					},
 
 					{
+						"tripId": "13PRE_IN_18VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "15:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "15:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "15:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_7VTA", "shortName": "10A", "time": "16:02"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_10VTA", "shortName": "3", "time": "16:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_21VTA", "shortName": "1", "time": "16:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_7VTA", "shortName": "2", "time": "16:22"}
+						]
+					},
+
+					{
 						"tripId": "13PRE_IN_19VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -7391,6 +7276,21 @@
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_11VTA", "shortName": "3", "time": "17:07"},
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_22VTA", "shortName": "1", "time": "16:37"},
 							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_7VTA", "shortName": "2", "time": "16:22"}
+						]
+					},
+
+					{
+						"tripId": "13PRE_IN_20VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "16:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "16:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "16:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_8VTA", "shortName": "10A", "time": "17:32"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_23VTA", "shortName": "1", "time": "17:07"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_11VTA", "shortName": "3", "time": "17:07"}
 						]
 					},
 
@@ -7411,6 +7311,21 @@
 					},
 
 					{
+						"tripId": "13PRE_IN_22VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "17:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "17:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "17:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_12VTA", "shortName": "3", "time": "18:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_25VTA", "shortName": "1", "time": "18:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_8VTA", "shortName": "2", "time": "17:52"}
+						]
+					},
+
+					{
 						"tripId": "13PRE_IN_23VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -7422,6 +7337,22 @@
 							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_9VTA", "shortName": "10A", "time": "19:02"},
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_26VTA", "shortName": "1", "time": "18:37"},
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_13VTA", "shortName": "3", "time": "19:07"}
+						]
+					},
+
+					{
+						"tripId": "13PRE_IN_24VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "18:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "18:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "18:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "10AVTA", "headsign": "", "tripId": "10ASUMR_LOOP_9VTA", "shortName": "10A", "time": "19:02"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_13VTA", "shortName": "3", "time": "19:07"},
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_27VTA", "shortName": "1", "time": "19:07"},
+							{"routeId": "2VTA", "headsign": "West Tisbury", "tripId": "02SUMR_OUT_9VTA", "shortName": "2", "time": "19:22"}
 						]
 					},
 
@@ -7441,6 +7372,20 @@
 					},
 
 					{
+						"tripId": "13PRE_IN_26VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "19:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "19:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "19:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_29VTA", "shortName": "1", "time": "20:07"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SUMR_OUT_14VTA", "shortName": "3", "time": "20:07"}
+						]
+					},
+
+					{
 						"tripId": "13PRE_IN_27VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -7450,6 +7395,20 @@
 						],
 						"connections": [
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_30VTA", "shortName": "1", "time": "20:37"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_1VTA", "shortName": "3", "time": "21:07"}
+						]
+					},
+
+					{
+						"tripId": "13PRE_IN_28VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "20:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "20:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "20:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_31VTA", "shortName": "1", "time": "21:07"},
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_1VTA", "shortName": "3", "time": "21:07"}
 						]
 					},
@@ -7469,6 +7428,20 @@
 					},
 
 					{
+						"tripId": "13SHLDR_IN_1VTA",
+						"calId": "SHLDRWKND",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "21:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "21:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "21:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_33VTA", "shortName": "1", "time": "22:07"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_2VTA", "shortName": "3", "time": "22:07"}
+						]
+					},
+
+					{
 						"tripId": "13PRE_IN_30VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -7479,6 +7452,33 @@
 						"connections": [
 							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_34VTA", "shortName": "1", "time": "22:37"},
 							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_3VTA", "shortName": "3", "time": "23:07"}
+						]
+					},
+
+					{
+						"tripId": "13SHLDR_IN_2VTA",
+						"calId": "SHLDRWKND",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "22:15", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "22:30", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "22:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1SHLDR_OUT_1VTA", "shortName": "1", "time": "23:07"},
+							{"routeId": "3VTA", "headsign": "West Tisbury", "tripId": "03SHLDR_OUT_3VTA", "shortName": "3", "time": "23:07"}
+						]
+					},
+
+					{
+						"tripId": "13PRE_IN_31VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "CHURCVTA", "time": "23:00", "seq": 1 },
+							{ "id": "OAKSSAVTA", "time": "23:15", "seq": 2 },
+							{ "id": "VINEYVTA", "time": "23:25", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "1VTA", "headsign": "Edgartown", "tripId": "1PRE_OUT_35VTA", "shortName": "1", "time": "23:37"}
 						]
 					}
 				],
@@ -7756,133 +7756,6 @@
 					},
 
 					{
-						"tripId": "13PRE_OUT_19VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "15:15", "seq": 1 },
-							{ "id": "OCEANVTA", "time": "15:30", "seq": 2 },
-							{ "id": "CHURCVTA", "time": "15:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_9VTA", "shortName": "8", "time": "16:00"},
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_22VTA", "shortName": "1", "time": "16:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_11VTA", "shortName": "6", "time": "16:12"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_OUT_21VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "16:15", "seq": 1 },
-							{ "id": "OCEANVTA", "time": "16:30", "seq": 2 },
-							{ "id": "CHURCVTA", "time": "16:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_10VTA", "shortName": "8", "time": "17:00"},
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_24VTA", "shortName": "1", "time": "17:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_12VTA", "shortName": "6", "time": "17:12"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_OUT_23VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "17:15", "seq": 1 },
-							{ "id": "OCEANVTA", "time": "17:30", "seq": 2 },
-							{ "id": "CHURCVTA", "time": "17:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_11VTA", "shortName": "8", "time": "18:00"},
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_26VTA", "shortName": "1", "time": "18:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_13VTA", "shortName": "6", "time": "18:12"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_OUT_25VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "18:15", "seq": 1 },
-							{ "id": "OCEANVTA", "time": "18:30", "seq": 2 },
-							{ "id": "CHURCVTA", "time": "18:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_28VTA", "shortName": "1", "time": "19:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_14VTA", "shortName": "6", "time": "19:12"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_OUT_27VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "19:15", "seq": 1 },
-							{ "id": "OCEANVTA", "time": "19:30", "seq": 2 },
-							{ "id": "CHURCVTA", "time": "19:45", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_30VTA", "shortName": "1", "time": "20:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_15VTA", "shortName": "6", "time": "20:12"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_OUT_29VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "20:25", "seq": 1 },
-							{ "id": "OCEANVTA", "time": "20:40", "seq": 2 },
-							{ "id": "CHURCVTA", "time": "20:55", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_32VTA", "shortName": "1", "time": "21:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_16VTA", "shortName": "6", "time": "21:12"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_OUT_30VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "21:25", "seq": 1 },
-							{ "id": "OCEANVTA", "time": "21:40", "seq": 2 },
-							{ "id": "CHURCVTA", "time": "21:55", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_34VTA", "shortName": "1", "time": "22:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SHLDR_OUT_1VTA", "shortName": "6", "time": "22:12"}
-						]
-					},
-
-					{
-						"tripId": "13PRE_OUT_32VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "23:30", "seq": 1 },
-							{ "id": "OCEANVTA", "time": "23:45", "seq": 2 },
-							{ "id": "CHURCVTA", "time": "23:55", "seq": 3 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "13PRE_OUT_31VTA",
-						"calId": "PRESEASON",
-						"stops": [
-							{ "id": "VINEYVTA", "time": "22:35", "seq": 1 },
-							{ "id": "OCEANVTA", "time": "22:45", "seq": 2 },
-							{ "id": "CHURCVTA", "time": "23:00", "seq": 3 }
-						],
-						"connections": [
-							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_36VTA", "shortName": "1", "time": "23:07"},
-							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SHLDR_OUT_2VTA", "shortName": "6", "time": "23:12"}
-						]
-					},
-
-					{
 						"tripId": "13PRE_OUT_18VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -7893,6 +7766,21 @@
 						"connections": [
 							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_10VTA", "shortName": "8", "time": "15:30"},
 							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_21VTA", "shortName": "1", "time": "15:37"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_11VTA", "shortName": "6", "time": "16:12"}
+						]
+					},
+
+					{
+						"tripId": "13PRE_OUT_19VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "15:15", "seq": 1 },
+							{ "id": "OCEANVTA", "time": "15:30", "seq": 2 },
+							{ "id": "CHURCVTA", "time": "15:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_9VTA", "shortName": "8", "time": "16:00"},
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_22VTA", "shortName": "1", "time": "16:07"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_11VTA", "shortName": "6", "time": "16:12"}
 						]
 					},
@@ -7913,6 +7801,21 @@
 					},
 
 					{
+						"tripId": "13PRE_OUT_21VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "16:15", "seq": 1 },
+							{ "id": "OCEANVTA", "time": "16:30", "seq": 2 },
+							{ "id": "CHURCVTA", "time": "16:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_10VTA", "shortName": "8", "time": "17:00"},
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_24VTA", "shortName": "1", "time": "17:07"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_12VTA", "shortName": "6", "time": "17:12"}
+						]
+					},
+
+					{
 						"tripId": "13PRE_OUT_22VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -7923,6 +7826,21 @@
 						"connections": [
 							{"routeId": "8VTA", "headsign": "", "tripId": "08SUMR_LOOP_12VTA", "shortName": "8", "time": "17:30"},
 							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_25VTA", "shortName": "1", "time": "17:37"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_13VTA", "shortName": "6", "time": "18:12"}
+						]
+					},
+
+					{
+						"tripId": "13PRE_OUT_23VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "17:15", "seq": 1 },
+							{ "id": "OCEANVTA", "time": "17:30", "seq": 2 },
+							{ "id": "CHURCVTA", "time": "17:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "8VTA", "headsign": "", "tripId": "08BEACH1_LOOP_11VTA", "shortName": "8", "time": "18:00"},
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_26VTA", "shortName": "1", "time": "18:07"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_13VTA", "shortName": "6", "time": "18:12"}
 						]
 					},
@@ -7942,6 +7860,20 @@
 					},
 
 					{
+						"tripId": "13PRE_OUT_25VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "18:15", "seq": 1 },
+							{ "id": "OCEANVTA", "time": "18:30", "seq": 2 },
+							{ "id": "CHURCVTA", "time": "18:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_28VTA", "shortName": "1", "time": "19:07"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_14VTA", "shortName": "6", "time": "19:12"}
+						]
+					},
+
+					{
 						"tripId": "13PRE_OUT_26VTA",
 						"calId": "PRESEASON",
 						"stops": [
@@ -7951,6 +7883,20 @@
 						],
 						"connections": [
 							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_29VTA", "shortName": "1", "time": "19:37"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_15VTA", "shortName": "6", "time": "20:12"}
+						]
+					},
+
+					{
+						"tripId": "13PRE_OUT_27VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "19:15", "seq": 1 },
+							{ "id": "OCEANVTA", "time": "19:30", "seq": 2 },
+							{ "id": "CHURCVTA", "time": "19:45", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_30VTA", "shortName": "1", "time": "20:07"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_15VTA", "shortName": "6", "time": "20:12"}
 						]
 					},
@@ -7970,6 +7916,20 @@
 					},
 
 					{
+						"tripId": "13PRE_OUT_29VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "20:25", "seq": 1 },
+							{ "id": "OCEANVTA", "time": "20:40", "seq": 2 },
+							{ "id": "CHURCVTA", "time": "20:55", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_32VTA", "shortName": "1", "time": "21:07"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SUMR_OUT_16VTA", "shortName": "6", "time": "21:12"}
+						]
+					},
+
+					{
 						"tripId": "13SHLDR_OUT_1VTA",
 						"calId": "SHLDRWKND",
 						"stops": [
@@ -7979,6 +7939,20 @@
 						],
 						"connections": [
 							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_33VTA", "shortName": "1", "time": "21:37"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SHLDR_OUT_1VTA", "shortName": "6", "time": "22:12"}
+						]
+					},
+
+					{
+						"tripId": "13PRE_OUT_30VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "21:25", "seq": 1 },
+							{ "id": "OCEANVTA", "time": "21:40", "seq": 2 },
+							{ "id": "CHURCVTA", "time": "21:55", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_34VTA", "shortName": "1", "time": "22:07"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SHLDR_OUT_1VTA", "shortName": "6", "time": "22:12"}
 						]
 					},
@@ -7994,6 +7968,32 @@
 						"connections": [
 							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_35VTA", "shortName": "1", "time": "22:37"},
 							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SHLDR_OUT_2VTA", "shortName": "6", "time": "23:12"}
+						]
+					},
+
+					{
+						"tripId": "13PRE_OUT_31VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "22:35", "seq": 1 },
+							{ "id": "OCEANVTA", "time": "22:45", "seq": 2 },
+							{ "id": "CHURCVTA", "time": "23:00", "seq": 3 }
+						],
+						"connections": [
+							{"routeId": "1VTA", "headsign": "Vineyard Haven", "tripId": "1PRE_IN_36VTA", "shortName": "1", "time": "23:07"},
+							{"routeId": "6VTA", "headsign": "West Tisbury", "tripId": "06SHLDR_OUT_2VTA", "shortName": "6", "time": "23:12"}
+						]
+					},
+
+					{
+						"tripId": "13PRE_OUT_32VTA",
+						"calId": "PRESEASON",
+						"stops": [
+							{ "id": "VINEYVTA", "time": "23:30", "seq": 1 },
+							{ "id": "OCEANVTA", "time": "23:45", "seq": 2 },
+							{ "id": "CHURCVTA", "time": "23:55", "seq": 3 }
+						],
+						"connections": [
 						]
 					}
 				],

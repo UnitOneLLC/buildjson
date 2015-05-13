@@ -72,6 +72,7 @@
 		B6DD791D1AE2F7170080207C /* stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.txt; sourceTree = "<group>"; };
 		B6DD791E1AE2F7170080207C /* trips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trips.txt; sourceTree = "<group>"; };
 		B6DD791F1AE2F7170080207C /* waypoints.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = waypoints.txt; sourceTree = "<group>"; };
+		B6F2E3E51B03826800A1E152 /* ferrytrips-spring-2015.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ferrytrips-spring-2015.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 			children = (
 				B61E44901AEC34C100A58835 /* vta-trips-spring.csv */,
 				B61E448F1AEC343400A58835 /* vtatrips.csv */,
+				B6F2E3E51B03826800A1E152 /* ferrytrips-spring-2015.csv */,
 			);
 			path = meta;
 			sourceTree = "<group>";

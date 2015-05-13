@@ -11,7 +11,9 @@ import CoreLocation
 
 //var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/vta_google_transit/"
 //var basePath = "/Users/fred/Downloads/brta_google_transit/"
-var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/vta-2015/"
+//var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/vta-2015/"
+var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/ferries/"
+var allowConnections: Bool = false
 
 
 struct Agency {
@@ -131,6 +133,9 @@ struct TimeOfDay : Comparable, Equatable {
 func <(lhs: TimeOfDay, rhs: TimeOfDay) -> Bool {
     if lhs.hour < rhs.hour {
         return true
+    }
+    if lhs.hour > rhs.hour {
+        return false
     }
     if lhs.minute < rhs.minute {
         return true
@@ -628,6 +633,9 @@ func indent(level: Int = 1) -> String {
 
 func getConnectionsForTrip(trip: Trip, gtfs: GTFS) -> [Connection] {
     var result = [Connection]()
+    if !allowConnections {
+        return result
+    }
     let stopTimes = getStopTimesForTrip(trip.tripId, gtfs)
     if stopTimes.count == 0 {
         return result

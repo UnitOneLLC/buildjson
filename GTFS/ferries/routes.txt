@@ -1,4 +1,5 @@
 route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
 VINEYBOAT,SSA, ,Woods Hole and Vineyard Haven, Reservations required.,4,http://www.steamshipauthority.com/ssa/mv.cfm, , 
-ISLANDBOAT,ISLAND, ,Island Queen,Falmouth-Oak Bluffs,4,http://www.islandqueen.com, , 
+OAKBLBOAT,SSA, ,Woods Hole and Oak Bluffs, Reservations required.,4,http://www.steamshipauthority.com/ssa/mv.cfm, ,
+ISLANDBOAT,ISLAND, ,Island Queen,Falmouth-Oak Bluffs,4,http://www.islandqueen.com, ,
 HYANNISOBHS,HYLINE, ,Hyannis and Oak Bluffs - High Speed, ,4,http://www.hy-linecruises.com/, ,
