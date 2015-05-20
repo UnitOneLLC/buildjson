@@ -40,6 +40,7 @@
 		B666B3071AB73D4200107C2C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B666B30E1AB73F4C00107C2C /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
 		B666B3101AB8CFDB00107C2C /* Polyline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polyline.swift; sourceTree = "<group>"; };
+		B699E79A1B0CCF2C00AEA0A0 /* generated */ = {isa = PBXFileReference; lastKnownFileType = folder; path = generated; sourceTree = "<group>"; };
 		B6AF7D731AF552450005B221 /* bus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bus.json; sourceTree = "<group>"; };
 		B6DD78FF1AE2F7170080207C /* agency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = agency.txt; sourceTree = "<group>"; };
 		B6DD79001AE2F7170080207C /* calendar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar.txt; sourceTree = "<group>"; };
@@ -151,6 +152,7 @@
 		B6DD78FD1AE2F7170080207C /* GTFS */ = {
 			isa = PBXGroup;
 			children = (
+				B699E79A1B0CCF2C00AEA0A0 /* generated */,
 				B61E44911AEC350600A58835 /* vta-2015 */,
 				B61E448D1AEC343400A58835 /* meta */,
 				B6DD78FE1AE2F7170080207C /* ferries */,
