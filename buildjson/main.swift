@@ -162,8 +162,8 @@ func trim(string: String) -> String {
 }
 
 func isBlank(line: String) -> Bool {
-    return (count(line) == 1) &&
-        (line.substringToIndex(advance(line.startIndex,1)) == "\r")
+    return (count(line) == 0) || ((count(line) == 1) &&
+        (line.substringToIndex(advance(line.startIndex,1)) == "\r"))
 }
 
 func decomposeCsv(line: String) -> [String] {

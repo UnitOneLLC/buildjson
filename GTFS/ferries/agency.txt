@@ -2,3 +2,4 @@ agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone
 ISLAND,Island Commuter Corporation,http://www.islandqueen.com,America/New_York,en,508-548-4800
 SSA,Steamship Authority,http://www.steamshipauthority.com/ssa/,America/New_York,en,508-693-9130
 HYLINE,Hy-Line Cruises,http://www.hy-linecruises.com/,America/New_York,en,800-492-8082
+RIFF,Rhode Island Fast Ferry,http://http://www.vineyardfastferry.com,America/New_York,en,401-295-4040
