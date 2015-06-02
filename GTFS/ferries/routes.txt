@@ -5,4 +5,4 @@ ISLANDBOAT,ISLAND, ,Island Queen,Falmouth-Oak Bluffs,4,http://www.islandqueen.co
 HYANNISOBHS,HYLINE, ,Hyannis and Oak Bluffs - High Speed, ,4,http://www.hy-linecruises.com/, ,
 HYANNISOBTRAD,HYLINE, ,Hyannis and Oak Bluffs - Traditional, ,4,http://www.hy-linecruises.com/, ,
 RIFFBOAT,RIFF, ,Quonset RI and Oak Bluffs, ,4,http://www.vineyardfastferry.com, ,
-NEWBEDBOAT,STREAK, ,New Bedord and Oak Bluffs, ,4,http://seastreak.com, ,
+NEWBEDBOAT,STREAK, ,New Bedford and Oak Bluffs, ,4,http://seastreak.com, ,
