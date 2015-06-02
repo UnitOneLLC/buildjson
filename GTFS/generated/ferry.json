@@ -1,1707 +1,1960 @@
 {
-	"agencies": [
-		{
-			"id": "ISLAND",
-			"name": "Island Commuter Corporation",
-			"url": "http://www.islandqueen.com",
-			"timezone": "America/New_York",
-			"phone": "508-548-4800",
-			"lang": "en"
-		},
-		{
-			"id": "SSA",
-			"name": "Steamship Authority",
-			"url": "http://www.steamshipauthority.com/ssa/",
-			"timezone": "America/New_York",
-			"phone": "508-693-9130",
-			"lang": "en"
-		},
-		{
-			"id": "HYLINE",
-			"name": "Hy-Line Cruises",
-			"url": "http://www.hy-linecruises.com/",
-			"timezone": "America/New_York",
-			"phone": "800-492-8082",
-			"lang": "en"
-		},
-		{
-			"id": "RIFF",
-			"name": "Rhode Island Fast Ferry",
-			"url": "http://http://www.vineyardfastferry.com",
-			"timezone": "America/New_York",
-			"phone": "401-295-4040",
-			"lang": "en"
-		}
-	],
-	"routes": [
-	{
-			"id": "VINEYBOAT",
-			"agency": "SSA",
-			"shortName": "",
-			"longName": "Woods Hole and Vineyard Haven",
-			"colorCode": "",
-			"waypoint": "",
-			"vectors": [
-			{
-				"destination": "Woods Hole",
-				"trips": [
-					{
-						"tripId": "VHWHSSA01",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "VHSSA", "time": "6:00:", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "6:45:", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_IN_1VHWH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "VHSSA", "time": "06:00", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "06:45", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "VHWHSSA02",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "VHSSA", "time": "7:00:", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "7:45:", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_IN_2VHWH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "VHSSA", "time": "07:00", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "07:45", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "VHWHSSA03",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "VHSSA", "time": "8:15:", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "9:00:", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_IN_3VHWH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "VHSSA", "time": "08:15", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "09:00", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "VHWHSSA04",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "VHSSA", "time": "9:30:", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "10:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_IN_4VHWH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "VHSSA", "time": "09:30", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "10:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "VHWHSSA05",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "VHSSA", "time": "10:45", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "11:30", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "VHWHSSA06",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "VHSSA", "time": "12:00", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "12:45", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_IN_5VHWH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "VHSSA", "time": "12:00", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "12:45", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "VHWHSSA07",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "VHSSA", "time": "13:15", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "14:00", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "VHWHSSA08",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "VHSSA", "time": "14:30", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "15:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_IN_6VHWH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "VHSSA", "time": "14:30", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "15:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "VHWHSSA09",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "VHSSA", "time": "15:45", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "16:30", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "VHWHSSA10",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "VHSSA", "time": "17:00", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "17:45", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_IN_7VHWH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "VHSSA", "time": "17:00", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "17:45", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "VHWHSSA11",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "VHSSA", "time": "18:15", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "19:00", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "VHWHSSA12",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "VHSSA", "time": "19:15", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "20:00", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_IN_8VHWH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "VHSSA", "time": "19:15", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "20:00", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "VHWHSSA13",
-						"calId": "SSAPEAK",
-						"stops": [
-							{ "id": "VHSSA", "time": "20:30", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "21:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_IN_9VHWH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "VHSSA", "time": "20:30", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "21:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "VHWHSSA14",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "VHSSA", "time": "21:30", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "22:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_IN_10VHWH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "VHSSA", "time": "21:30", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "22:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					}
-				],
-				"polyline": "wyl|FtzinLlDjH`ViErXgSb^sg@`Uac@b]c|@|_@sgBxl@woDve@mm@p[gJ~d@wBn{@zK`SfJzErGxE~T"
-			},
-			{
-				"destination": "Vineyard Haven",
-				"trips": [
-					{
-						"tripId": "WHVHSSA01",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "6:00:", "seq": 1 },
-							{ "id": "VHSSA", "time": "6:45:", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_OUT_1WHVH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "06:00", "seq": 1 },
-							{ "id": "VHSSA", "time": "06:45", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "WHVHSSA02",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "7:00:", "seq": 1 },
-							{ "id": "VHSSA", "time": "7:45:", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_OUT_2WHVH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "07:00", "seq": 1 },
-							{ "id": "VHSSA", "time": "07:45", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "WHVHSSA03",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "8:15:", "seq": 1 },
-							{ "id": "VHSSA", "time": "9:00:", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_OUT_3WHVH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "08:15", "seq": 1 },
-							{ "id": "VHSSA", "time": "09:00", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "WHVHSSA04",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "9:30:", "seq": 1 },
-							{ "id": "VHSSA", "time": "10:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "WHVHSSA05",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "10:45", "seq": 1 },
-							{ "id": "VHSSA", "time": "11:30", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_OUT_4WHVH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "10:45", "seq": 1 },
-							{ "id": "VHSSA", "time": "11:30", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "WHVHSSA06",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "12:00", "seq": 1 },
-							{ "id": "VHSSA", "time": "12:45", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "WHVHSSA07",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "13:15", "seq": 1 },
-							{ "id": "VHSSA", "time": "14:00", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_OUT_5WHVH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "13:15", "seq": 1 },
-							{ "id": "VHSSA", "time": "14:00", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "WHVHSSA08",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "14:30", "seq": 1 },
-							{ "id": "VHSSA", "time": "15:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "WHVHSSA09",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "15:45", "seq": 1 },
-							{ "id": "VHSSA", "time": "16:30", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_OUT_6WHVH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "15:45", "seq": 1 },
-							{ "id": "VHSSA", "time": "16:30", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "WHVHSSA10",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "17:00", "seq": 1 },
-							{ "id": "VHSSA", "time": "17:45", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "WHVHSSA11",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "18:15", "seq": 1 },
-							{ "id": "VHSSA", "time": "19:00", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_OUT_7WHVH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "18:15", "seq": 1 },
-							{ "id": "VHSSA", "time": "19:00", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "WHVHSSA12",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "19:30", "seq": 1 },
-							{ "id": "VHSSA", "time": "20:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_OUT_8WHVH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "19:30", "seq": 1 },
-							{ "id": "VHSSA", "time": "20:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "WHVHSSA13",
-						"calId": "SSADAILY",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "20:30", "seq": 1 },
-							{ "id": "VHSSA", "time": "21:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_OUT_9WHVH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "20:30", "seq": 1 },
-							{ "id": "VHSSA", "time": "21:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "WHVHSSA14",
-						"calId": "SSAPEAK",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "21:45", "seq": 1 },
-							{ "id": "VHSSA", "time": "22:30", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_OUT_10WHVH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "21:45", "seq": 1 },
-							{ "id": "VHSSA", "time": "22:30", "seq": 2 }
-						],
-						"connections": [
-						]
-					}
-				],
-				"polyline": "wyl|FtzinLlDjH`ViErXgSb^sg@`Uac@b]c|@|_@sgBxl@woDve@mm@p[gJ~d@wBn{@zK`SfJzErGxE~T"
-			}
-		]
-	},
-	{
-			"id": "OAKBLBOAT",
-			"agency": "SSA",
-			"shortName": "",
-			"longName": "Woods Hole and Oak Bluffs",
-			"colorCode": "",
-			"waypoint": "",
-			"vectors": [
-			{
-				"destination": "Oak Bluffs",
-				"trips": [
-					{
-						"tripId": "SSMJ_OUT_1WHOB",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "09:30", "seq": 1 },
-							{ "id": "OBSSA", "time": "10:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_OUT_2WHOB",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "12:00", "seq": 1 },
-							{ "id": "OBSSA", "time": "12:45", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_OUT_3WHOB",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "14:30", "seq": 1 },
-							{ "id": "OBSSA", "time": "15:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_OUT_4WHOB",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "WOODSHOLE", "time": "17:00", "seq": 1 },
-							{ "id": "OBSSA", "time": "17:45", "seq": 2 }
-						],
-						"connections": [
-						]
-					}
-				],
-				"polyline": "qyl|FvyinLfBvBjBPvV}FfVgSv^wv@l]soAbJck@z`@{~Cpc@qbCln@_uB|c@iw@xqA_r@hZoFvBr@"
-			},
-			{
-				"destination": "Woods Hole",
-				"trips": [
-					{
-						"tripId": "SSMJ_IN_1OBWH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "OBSSA", "time": "10:45", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "11:30", "seq": 0 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_IN_2OBWH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "OBSSA", "time": "13:15", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "14:00", "seq": 0 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_IN_3OBWH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "OBSSA", "time": "15:45", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "16:30", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "SSMJ_IN_4OBWH",
-						"calId": "SSMAYJUNE",
-						"stops": [
-							{ "id": "OBSSA", "time": "18:15", "seq": 1 },
-							{ "id": "WOODSHOLE", "time": "19:00", "seq": 2 }
-						],
-						"connections": [
-						]
-					}
-				],
-				"polyline": "qyl|FvyinLfBvBjBPvV}FfVgSv^wv@l]soAbJck@z`@{~Cpc@qbCln@_uB|c@iw@xqA_r@hZoFvBr@"
-			}
-		]
-	},
-	{
-			"id": "ISLANDBOAT",
-			"agency": "ISLAND",
-			"shortName": "",
-			"longName": "Island Queen",
-			"colorCode": "",
-			"waypoint": "",
-			"vectors": [
-			{
-				"destination": "Oak Bluffs",
-				"trips": [
-					{
-						"tripId": "ISMTWT01",
-						"calId": "ISLANDMTWT",
-						"stops": [
-							{ "id": "FALMOUTH", "time": "09:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "09:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISFRIDAY01",
-						"calId": "ISLANDFRI",
-						"stops": [
-							{ "id": "FALMOUTH", "time": "09:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "09:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISWKND01",
-						"calId": "ISLANDWKND",
-						"stops": [
-							{ "id": "FALMOUTH", "time": "09:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "09:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISMTWT02",
-						"calId": "ISLANDMTWT",
-						"stops": [
-							{ "id": "FALMOUTH", "time": "10:30", "seq": 1 },
-							{ "id": "OBTERM", "time": "11:05", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISFRIDAY02",
-						"calId": "ISLANDFRI",
-						"stops": [
-							{ "id": "FALMOUTH", "time": "10:30", "seq": 1 },
-							{ "id": "OBTERM", "time": "11:05", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISWKND02",
-						"calId": "ISLANDWKND",
-						"stops": [
-							{ "id": "FALMOUTH", "time": "10:30", "seq": 1 },
-							{ "id": "OBTERM", "time": "11:05", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISWKND03",
-						"calId": "ISLANDWKND",
-						"stops": [
-							{ "id": "FALMOUTH", "time": "12:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "12:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISFRIDAY03",
-						"calId": "ISLANDFRI",
-						"stops": [
-							{ "id": "FALMOUTH", "time": "15:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "15:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISWKND04",
-						"calId": "ISLANDWKND",
-						"stops": [
-							{ "id": "FALMOUTH", "time": "15:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "15:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISWKND05",
-						"calId": "ISLANDWKND",
-						"stops": [
-							{ "id": "FALMOUTH", "time": "16:30", "seq": 1 },
-							{ "id": "OBTERM", "time": "17:05", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISFRIDAY04",
-						"calId": "ISLANDFRI",
-						"stops": [
-							{ "id": "FALMOUTH", "time": "18:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "18:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISFRIDAY05",
-						"calId": "ISLANDFRI",
-						"stops": [
-							{ "id": "FALMOUTH", "time": "20:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "20:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					}
-				],
-				"polyline": "_kr|Fhd|mL`@|An\\bQtMlRbDxCbGBv|DuqBbmE_eD`t@sc@pZ{Mv]_HrEjD"
-			},
-			{
-				"destination": "Falmouth",
-				"trips": [
-					{
-						"tripId": "ISFRIDAY06",
-						"calId": "ISLANDFRI",
-						"stops": [
-							{ "id": "OBTERM", "time": "09:40", "seq": 1 },
-							{ "id": "FALMOUTH", "time": "10:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISWKND06",
-						"calId": "ISLANDWKND",
-						"stops": [
-							{ "id": "OBTERM", "time": "09:40", "seq": 1 },
-							{ "id": "FALMOUTH", "time": "10:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISWKND07",
-						"calId": "ISLANDWKND",
-						"stops": [
-							{ "id": "OBTERM", "time": "11:05", "seq": 1 },
-							{ "id": "FALMOUTH", "time": "11:40", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISMTWT03",
-						"calId": "ISLANDMTWT",
-						"stops": [
-							{ "id": "OBTERM", "time": "14:15", "seq": 1 },
-							{ "id": "FALMOUTH", "time": "14:50", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISFRIDAY07",
-						"calId": "ISLANDFRI",
-						"stops": [
-							{ "id": "OBTERM", "time": "14:15", "seq": 1 },
-							{ "id": "FALMOUTH", "time": "14:50", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISWKND08",
-						"calId": "ISLANDWKND",
-						"stops": [
-							{ "id": "OBTERM", "time": "14:15", "seq": 1 },
-							{ "id": "FALMOUTH", "time": "14:50", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISMTWT04",
-						"calId": "ISLANDMTWT",
-						"stops": [
-							{ "id": "OBTERM", "time": "15:45", "seq": 1 },
-							{ "id": "FALMOUTH", "time": "16:20", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISFRIDAY08",
-						"calId": "ISLANDFRI",
-						"stops": [
-							{ "id": "OBTERM", "time": "15:45", "seq": 1 },
-							{ "id": "FALMOUTH", "time": "16:20", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISWKND09",
-						"calId": "ISLANDWKND",
-						"stops": [
-							{ "id": "OBTERM", "time": "15:45", "seq": 1 },
-							{ "id": "FALMOUTH", "time": "16:20", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISWKND10",
-						"calId": "ISLANDWKND",
-						"stops": [
-							{ "id": "OBTERM", "time": "17:15", "seq": 1 },
-							{ "id": "FALMOUTH", "time": "17:50", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISFRIDAY09",
-						"calId": "ISLANDFRI",
-						"stops": [
-							{ "id": "OBTERM", "time": "18:45", "seq": 1 },
-							{ "id": "FALMOUTH", "time": "19:20", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "ISFRIDAY10",
-						"calId": "ISLANDFRI",
-						"stops": [
-							{ "id": "OBTERM", "time": "20:45", "seq": 1 },
-							{ "id": "FALMOUTH", "time": "21:20", "seq": 2 }
-						],
-						"connections": [
-						]
-					}
-				],
-				"polyline": "_kr|Fhd|mL`@|An\\bQtMlRbDxCbGBv|DuqBbmE_eD`t@sc@pZ{Mv]_HrEjD"
-			}
-		]
-	},
-	{
-			"id": "HYANNISOBHS",
-			"agency": "HYLINE",
-			"shortName": "",
-			"longName": "Hyannis and Oak Bluffs - High Speed",
-			"colorCode": "",
-			"waypoint": "",
-			"vectors": [
-			{
-				"destination": "Oak Bluffs",
-				"trips": [
-					{
-						"tripId": "HYOBHYL01",
-						"calId": "HYLSPRING1_2",
-						"stops": [
-							{ "id": "HYANTERM", "time": "9:25:", "seq": 1 },
-							{ "id": "OBTERM", "time": "10:20", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "HYOBHYL03",
-						"calId": "HYLSPRING2",
-						"stops": [
-							{ "id": "HYANTERM", "time": "11:50", "seq": 1 },
-							{ "id": "OBTERM", "time": "12:45", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "HYOBHYL02",
-						"calId": "HYLSPRING1",
-						"stops": [
-							{ "id": "HYANTERM", "time": "15:20", "seq": 1 },
-							{ "id": "OBTERM", "time": "16:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "HYOBHYL04",
-						"calId": "HYLSPRING2",
-						"stops": [
-							{ "id": "HYANTERM", "time": "17:25", "seq": 1 },
-							{ "id": "OBTERM", "time": "18:20", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "HYOBHYL05",
-						"calId": "HYLSPRING3",
-						"stops": [
-							{ "id": "HYANTERM", "time": "19:45", "seq": 1 },
-							{ "id": "OBTERM", "time": "20:40", "seq": 2 }
-						],
-						"connections": [
-						]
-					}
-				],
-				"polyline": "q|e}Fp}|kLbA_@hAyA~DiCzH{AhB_BdFqIpJmMhHiHlMMb]nFpWdGp[pRhh@fsArPlLzUvB`YdQh^~[j`R`d`@znAzwCz}E~`K"
-			},
-			{
-				"destination": "Hyannis",
-				"trips": [
-					{
-						"tripId": "OBHYHYL01",
-						"calId": "HYLSPRING1_2",
-						"stops": [
-							{ "id": "OBTERM", "time": "10:35", "seq": 1 },
-							{ "id": "HYANTERM", "time": "11:30", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "OBHYHYL03",
-						"calId": "HYLSPRING2",
-						"stops": [
-							{ "id": "OBTERM", "time": "16:15", "seq": 1 },
-							{ "id": "HYANTERM", "time": "17:10", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "OBHYHYL02",
-						"calId": "HYLSPRING1",
-						"stops": [
-							{ "id": "OBTERM", "time": "16:25", "seq": 1 },
-							{ "id": "HYANTERM", "time": "17:20", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "OBHYHYL04",
-						"calId": "HYLSPRING2",
-						"stops": [
-							{ "id": "OBTERM", "time": "18:35", "seq": 1 },
-							{ "id": "HYANTERM", "time": "19:30", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "OBHYHYL05",
-						"calId": "HYLSPRING3",
-						"stops": [
-							{ "id": "OBTERM", "time": "20:50", "seq": 1 },
-							{ "id": "HYANTERM", "time": "21:45", "seq": 2 }
-						],
-						"connections": [
-						]
-					}
-				],
-				"polyline": "q|e}Fp}|kLbA_@hAyA~DiCzH{AhB_BdFqIpJmMhHiHlMMb]nFpWdGp[pRhh@fsArPlLzUvB`YdQh^~[j`R`d`@znAzwCz}E~`K"
-			}
-		]
-	},
-	{
-			"id": "HYANNISOBTRAD",
-			"agency": "HYLINE",
-			"shortName": "",
-			"longName": "Hyannis and Oak Bluffs - Traditional",
-			"colorCode": "",
-			"waypoint": "",
-			"vectors": [
-			{
-				"destination": "Oak Bluffs",
-				"trips": [
-					{
-						"tripId": "HYTSUMMER_OUT_1HYOB",
-						"calId": "HYTRADSUMM",
-						"stops": [
-							{ "id": "HYANTERM", "time": "09:25", "seq": 1 },
-							{ "id": "OBTERM", "time": "11:05", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "HYTSPRING_OUT_1HYOB",
-						"calId": "HYTRADSPRG",
-						"stops": [
-							{ "id": "HYANTERM", "time": "09:35", "seq": 1 },
-							{ "id": "OBTERM", "time": "11:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "HYTFALL_OUT_1HYOB",
-						"calId": "HYTRADFALL",
-						"stops": [
-							{ "id": "HYANTERM", "time": "09:35", "seq": 1 },
-							{ "id": "OBTERM", "time": "11:15", "seq": 2 }
-						],
-						"connections": [
-						]
-					}
-				],
-				"polyline": "q|e}Fp}|kLbA_@hAyA~DiCzH{AhB_BdFqIpJmMhHiHlMMb]nFpWdGp[pRhh@fsArPlLzUvB`YdQh^~[j`R`d`@znAzwCz}E~`K"
-			},
-			{
-				"destination": "Hyannis",
-				"trips": [
-					{
-						"tripId": "HYTSPRING_IN_1OBHY",
-						"calId": "HYTRADSPRG",
-						"stops": [
-							{ "id": "OBTERM", "time": "15:45", "seq": 1 },
-							{ "id": "HYANTERM", "time": "17:25", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "HYTFALL_IN_1OBHY",
-						"calId": "HYTRADFALL",
-						"stops": [
-							{ "id": "OBTERM", "time": "15:45", "seq": 1 },
-							{ "id": "HYANTERM", "time": "17:25", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "HYTSUMMER_IN_1OBHY",
-						"calId": "HYTRADSUMM",
-						"stops": [
-							{ "id": "OBTERM", "time": "17:15", "seq": 1 },
-							{ "id": "HYANTERM", "time": "18:55", "seq": 2 }
-						],
-						"connections": [
-						]
-					}
-				],
-				"polyline": "q|e}Fp}|kLbA_@hAyA~DiCzH{AhB_BdFqIpJmMhHiHlMMb]nFpWdGp[pRhh@fsArPlLzUvB`YdQh^~[j`R`d`@znAzwCz}E~`K"
-			}
-		]
-	},
-	{
-			"id": "RIFFBOAT",
-			"agency": "RIFF",
-			"shortName": "",
-			"longName": "Quonset RI and Oak Bluffs",
-			"colorCode": "",
-			"waypoint": "",
-			"vectors": [
-			{
-				"destination": "Oak Bluffs",
-				"trips": [
-					{
-						"tripId": "RIFFGRN_OUT_1QUOB",
-						"calId": "RIFFGREEN",
-						"stops": [
-							{ "id": "QUONSET", "time": "08:05", "seq": 1 },
-							{ "id": "OBTERM", "time": "09:40", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFYEL_OUT_1QUOB",
-						"calId": "RIFFYELLOW",
-						"stops": [
-							{ "id": "QUONSET", "time": "08:30", "seq": 1 },
-							{ "id": "OBTERM", "time": "10:05", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFTL_OUT_1QUOB",
-						"calId": "RIFFTEAL",
-						"stops": [
-							{ "id": "QUONSET", "time": "08:30", "seq": 1 },
-							{ "id": "OBTERM", "time": "10:05", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFG_OUT_1QUOB",
-						"calId": "RIFFGOLD",
-						"stops": [
-							{ "id": "QUONSET", "time": "09:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "10:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFB_OUT_1QUOB",
-						"calId": "RIFFBLUE",
-						"stops": [
-							{ "id": "QUONSET", "time": "09:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "10:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFP_OUT_1QUOB",
-						"calId": "RIFFPINK",
-						"stops": [
-							{ "id": "QUONSET", "time": "09:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "10:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFGRN_OUT_2QUOB",
-						"calId": "RIFFGREEN",
-						"stops": [
-							{ "id": "QUONSET", "time": "12:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "13:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFTL_OUT_2QUOB",
-						"calId": "RIFFTEAL",
-						"stops": [
-							{ "id": "QUONSET", "time": "12:30", "seq": 1 },
-							{ "id": "OBTERM", "time": "14:05", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFYEL_OUT_2QUOB",
-						"calId": "RIFFYELLOW",
-						"stops": [
-							{ "id": "QUONSET", "time": "13:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "14:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFP_OUT_2QUOB",
-						"calId": "RIFFPINK",
-						"stops": [
-							{ "id": "QUONSET", "time": "13:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "14:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFG_OUT_2QUOB",
-						"calId": "RIFFGOLD",
-						"stops": [
-							{ "id": "QUONSET", "time": "15:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "16:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFB_OUT_2QUOB",
-						"calId": "RIFFBLUE",
-						"stops": [
-							{ "id": "QUONSET", "time": "16:00", "seq": 1 },
-							{ "id": "OBTERM", "time": "17:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFGRN_OUT_3QUOB",
-						"calId": "RIFFGREEN",
-						"stops": [
-							{ "id": "QUONSET", "time": "16:30", "seq": 1 },
-							{ "id": "OBTERM", "time": "18:05", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFYEL_OUT_3QUOB",
-						"calId": "RIFFYELLOW",
-						"stops": [
-							{ "id": "QUONSET", "time": "17:30", "seq": 1 },
-							{ "id": "OBTERM", "time": "19:05", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFGRN_OUT_4QUOB",
-						"calId": "RIFFGREEN",
-						"stops": [
-							{ "id": "QUONSET", "time": "20:30", "seq": 1 },
-							{ "id": "OBTERM", "time": "22:05", "seq": 2 }
-						],
-						"connections": [
-						]
-					}
-				],
-				"polyline": "giy|FdwzrLxOas@hVwXtd@{Zvd@Q~oMnaApoGd_@zMaHt}@cjDlzFqlsAL{hCwR_iD}t@e{Fu{L_vj@q]apDr@qzCzMc|@bc@kp@tzAs{@xEjDdFtHr@mA"
-			},
-			{
-				"destination": "Quonset",
-				"trips": [
-					{
-						"tripId": "RIFFGRN_IN_1OBQU",
-						"calId": "RIFFGREEN",
-						"stops": [
-							{ "id": "OBTERM", "time": "10:00", "seq": 1 },
-							{ "id": "QUONSET", "time": "11:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFYEL_IN_1OBQU",
-						"calId": "RIFFYELLOW",
-						"stops": [
-							{ "id": "OBTERM", "time": "10:30", "seq": 1 },
-							{ "id": "QUONSET", "time": "12:10", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFTL_IN_1OBQU",
-						"calId": "RIFFTEAL",
-						"stops": [
-							{ "id": "OBTERM", "time": "10:30", "seq": 1 },
-							{ "id": "QUONSET", "time": "12:10", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFG_IN_1OBQU",
-						"calId": "RIFFGOLD",
-						"stops": [
-							{ "id": "OBTERM", "time": "11:00", "seq": 1 },
-							{ "id": "QUONSET", "time": "12:40", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFB_IN_1OBQU",
-						"calId": "RIFFBLUE",
-						"stops": [
-							{ "id": "OBTERM", "time": "11:00", "seq": 1 },
-							{ "id": "QUONSET", "time": "12:40", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFP_IN_1OBQU",
-						"calId": "RIFFPINK",
-						"stops": [
-							{ "id": "OBTERM", "time": "11:00", "seq": 1 },
-							{ "id": "QUONSET", "time": "12:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFGRN_IN_2OBQU",
-						"calId": "RIFFGREEN",
-						"stops": [
-							{ "id": "OBTERM", "time": "14:00", "seq": 1 },
-							{ "id": "QUONSET", "time": "15:35", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFP_IN_2OBQU",
-						"calId": "RIFFPINK",
-						"stops": [
-							{ "id": "OBTERM", "time": "15:00", "seq": 1 },
-							{ "id": "QUONSET", "time": "16:40", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFYEL_IN_2OBQU",
-						"calId": "RIFFYELLOW",
-						"stops": [
-							{ "id": "OBTERM", "time": "15:15", "seq": 1 },
-							{ "id": "QUONSET", "time": "17:10", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFTL_IN_2OBQU",
-						"calId": "RIFFTEAL",
-						"stops": [
-							{ "id": "OBTERM", "time": "15:30", "seq": 1 },
-							{ "id": "QUONSET", "time": "17:10", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFG_IN_2OBQU",
-						"calId": "RIFFGOLD",
-						"stops": [
-							{ "id": "OBTERM", "time": "17:00", "seq": 1 },
-							{ "id": "QUONSET", "time": "18:40", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFB_IN_2OBQU",
-						"calId": "RIFFBLUE",
-						"stops": [
-							{ "id": "OBTERM", "time": "18:00", "seq": 1 },
-							{ "id": "QUONSET", "time": "19:40", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFGRN_IN_3OBQU",
-						"calId": "RIFFGREEN",
-						"stops": [
-							{ "id": "OBTERM", "time": "18:30", "seq": 1 },
-							{ "id": "QUONSET", "time": "20:05", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFYEL_IN_3OBQU",
-						"calId": "RIFFYELLOW",
-						"stops": [
-							{ "id": "OBTERM", "time": "19:30", "seq": 1 },
-							{ "id": "QUONSET", "time": "21:10", "seq": 2 }
-						],
-						"connections": [
-						]
-					},
-
-					{
-						"tripId": "RIFFGRN_IN_4OBQU",
-						"calId": "RIFFGREEN",
-						"stops": [
-							{ "id": "OBTERM", "time": "22:15", "seq": 1 },
-							{ "id": "QUONSET", "time": "23:50", "seq": 2 }
-						],
-						"connections": [
-						]
-					}
-				],
-				"polyline": "giy|FdwzrLxOas@hVwXtd@{Zvd@Q~oMnaApoGd_@zMaHt}@cjDlzFqlsAL{hCwR_iD}t@e{Fu{L_vj@q]apDr@qzCzMc|@bc@kp@tzAs{@xEjDdFtHr@mA"
-			}
-		]
-	}
-	],
-	"stops": [
-		{"id": "OBTERM", "name": "Oak Bluffs Terminal", "lat": 41.45895, "lng": -70.55836},
-		{"id": "OBSSA", "name": "Oak Bluffs SSA Terminal", "lat": 41.45707, "lng": -70.55578},
-		{"id": "VHSSA", "name": "Vineyard Haven Terminal", "lat": 41.45527, "lng": -70.60131},
-		{"id": "WOODSHOLE", "name": "Woods Hole Terminal", "lat": 41.52225, "lng": -70.67005},
-		{"id": "HYANTERM", "name": "Hyannis Terminal", "lat": 41.6503, "lng": -70.27733},
-		{"id": "FALMOUTH", "name": "Falmouth", "lat": 41.550779, "lng": -70.600517},
-		{"id": "QUONSET", "name": "Quonset", "lat": 41.58715, "lng": -71.41394}
-	],
-	"calendars": [
-		{"serviceId": "SSADAILY", "days": [1,1,1,1,1,1,1], "startDate": "2015-04-15", "endDate": "2015-05-14",
-		 "addExceptions": [
-			
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "SSAPEAK", "days": [0,0,0,0,1,1,1], "startDate": "2015-04-15", "endDate": "2015-05-14",
-		 "addExceptions": [
-			
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "SSMAYJUNE", "days": [1,1,1,1,1,1,1], "startDate": "2015-05-15", "endDate": "2015-06-16",
-		 "addExceptions": [
-			
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "ISLANDMTWT", "days": [1,1,1,1,0,0,0], "startDate": "2015-05-22", "endDate": "2015-06-11",
-		 "addExceptions": [
-			
-		 ],
-		 "removeExceptions": [
-			"2015-05-25"
-		 ]
-		},
-		{"serviceId": "ISLANDFRI", "days": [0,0,0,0,1,0,0], "startDate": "2015-05-22", "endDate": "2015-06-11",
-		 "addExceptions": [
-			
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "ISLANDWKND", "days": [0,0,0,0,0,1,1], "startDate": "2015-05-22", "endDate": "2015-06-11",
-		 "addExceptions": [
-			"2015-05-25"
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "HYLSPRING1", "days": [1,1,1,1,1,1,1], "startDate": "2015-05-02", "endDate": "2015-05-22",
-		 "addExceptions": [
-			
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "HYLSPRING2", "days": [1,1,1,1,1,1,1], "startDate": "2015-05-23", "endDate": "2015-06-26",
-		 "addExceptions": [
-			
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "HYLSPRING1_2", "days": [1,1,1,1,1,1,1], "startDate": "2015-05-02", "endDate": "2015-06-26",
-		 "addExceptions": [
-			
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "HYLSPRING3", "days": [1,1,1,1,1,1,1], "startDate": "2015-06-20", "endDate": "2015-06-26",
-		 "addExceptions": [
-			
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "HYTRADSPRG", "days": [1,1,1,1,1,1,1], "startDate": "2015-05-23", "endDate": "2015-06-26",
-		 "addExceptions": [
-			
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "HYTRADSUMM", "days": [1,1,1,1,1,1,1], "startDate": "2015-06-27", "endDate": "2015-09-06",
-		 "addExceptions": [
-			
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "HYTRADFALL", "days": [1,1,1,1,1,1,1], "startDate": "2015-09-07", "endDate": "2015-10-18",
-		 "addExceptions": [
-			
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "RIFFYELLOW", "days": [0,0,0,0,0,0,0], "startDate": "2015-05-22", "endDate": "2015-10-12",
-		 "addExceptions": [
-			"2015-05-25","2015-06-26","2015-06-28","2015-07-01","2015-07-02","2015-07-05","2015-07-06","2015-07-09","2015-07-10","2015-07-11","2015-07-12","2015-07-16","2015-07-17","2015-07-18","2015-07-19","2015-07-23","2015-07-24","2015-07-25","2015-07-26","2015-07-30","2015-07-31","2015-08-01","2015-08-02","2015-08-06","2015-08-07","2015-08-08","2015-08-09","2015-08-10","2015-08-13","2015-08-14","2015-08-15","2015-08-16","2015-08-20","2015-08-21","2015-08-22","2015-08-23","2015-08-27","2015-08-28","2015-08-29","2015-08-30","2015-09-06","2015-09-07","2015-10-09"
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "RIFFGOLD", "days": [0,0,0,0,0,0,0], "startDate": "2015-05-22", "endDate": "2015-10-12",
-		 "addExceptions": [
-			"2015-05-24","2015-05-26","2015-06-06","2015-06-07","2015-06-11","2015-06-13","2015-06-14","2015-06-15","2015-06-17","2015-06-18","2015-06-20","2015-06-21","2015-09-08","2015-09-09","2015-09-10","2015-09-12","2015-09-13","2015-09-14","2015-09-17","2015-09-19","2015-09-20","2015-09-21","2015-09-24","2015-09-26","2015-09-27","2015-10-10","2015-10-11","2015-10-12"
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "RIFFGREEN", "days": [0,0,0,0,0,0,0], "startDate": "2015-05-22", "endDate": "2015-10-12",
-		 "addExceptions": [
-			"2015-05-22","2015-07-03","2015-09-04"
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "RIFFBLUE", "days": [0,0,0,0,0,0,0], "startDate": "2015-05-22", "endDate": "2015-10-12",
-		 "addExceptions": [
-			"2015-06-22","2015-06-23","2015-06-24","2015-06-25","2015-06-27","2015-06-29","2015-06-30","2015-07-07","2015-07-08","2015-07-13","2015-07-14","2015-07-15","2015-07-20","2015-07-21","2015-07-22","2015-07-27","2015-07-28","2015-07-29","2015-08-03","2015-08-04","2015-08-05","2015-08-11","2015-08-12","2015-08-17","2015-08-18","2015-08-19","2015-08-24","2015-08-25","2015-08-26","2015-08-31","2015-09-01","2015-09-02","2015-09-03"
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "RIFFPINK", "days": [0,0,0,0,0,0,0], "startDate": "2015-05-22", "endDate": "2015-10-12",
-		 "addExceptions": [
-			"2015-06-05","2015-06-12","2015-06-19","2015-09-11","2015-09-18","2015-09-25"
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		},
-		{"serviceId": "RIFFTEAL", "days": [0,0,0,0,0,0,0], "startDate": "2015-05-22", "endDate": "2015-10-12",
-		 "addExceptions": [
-			"2015-05-23","2015-07-04","2015-09-05"
-		 ],
-		 "removeExceptions": [
-			
-		 ]
-		}
-	]
+    "agencies": [
+                 {
+                 "id": "ISLAND",
+                 "name": "Island Commuter Corporation",
+                 "url": "http://www.islandqueen.com",
+                 "timezone": "America/New_York",
+                 "phone": "508-548-4800",
+                 "lang": "en"
+                 },
+                 {
+                 "id": "SSA",
+                 "name": "Steamship Authority",
+                 "url": "http://www.steamshipauthority.com/ssa/",
+                 "timezone": "America/New_York",
+                 "phone": "508-693-9130",
+                 "lang": "en"
+                 },
+                 {
+                 "id": "HYLINE",
+                 "name": "Hy-Line Cruises",
+                 "url": "http://www.hy-linecruises.com/",
+                 "timezone": "America/New_York",
+                 "phone": "800-492-8082",
+                 "lang": "en"
+                 },
+                 {
+                 "id": "RIFF",
+                 "name": "Rhode Island Fast Ferry",
+                 "url": "http://www.vineyardfastferry.com",
+                 "timezone": "America/New_York",
+                 "phone": "401-295-4040",
+                 "lang": "en"
+                 },
+                 {
+                 "id": "STREAK",
+                 "name": "Seastreak (New Bedford)",
+                 "url": "http://seastreak.com",
+                 "timezone": "America/New_York",
+                 "phone": "800-262-8743",
+                 "lang": "en"
+                 }
+                 ],
+    "routes": [
+               {
+               "id": "VINEYBOAT",
+               "agency": "SSA",
+               "shortName": "",
+               "longName": "Woods Hole and Vineyard Haven",
+               "colorCode": "",
+               "waypoint": "",
+               "vectors": [
+                           {
+                           "destination": "Woods Hole",
+                           "trips": [
+                                     {
+                                     "tripId": "VHWHSSA01",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "6:00:", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "6:45:", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_IN_1VHWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "06:00", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "06:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "VHWHSSA02",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "7:00:", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "7:45:", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_IN_2VHWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "07:00", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "07:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "VHWHSSA03",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "8:15:", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "9:00:", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_IN_3VHWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "08:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "09:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "VHWHSSA04",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "9:30:", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "10:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_IN_4VHWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "09:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "10:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "VHWHSSA05",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "10:45", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "11:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "VHWHSSA06",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "12:00", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "12:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_IN_5VHWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "12:00", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "12:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "VHWHSSA07",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "13:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "14:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "VHWHSSA08",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "14:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "15:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_IN_6VHWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "14:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "15:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "VHWHSSA09",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "15:45", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "16:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "VHWHSSA10",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "17:00", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "17:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_IN_7VHWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "17:00", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "17:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "VHWHSSA11",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "18:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "19:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "VHWHSSA12",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "19:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "20:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_IN_8VHWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "19:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "20:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "VHWHSSA13",
+                                     "calId": "SSAPEAK",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "20:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "21:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_IN_9VHWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "20:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "21:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "VHWHSSA14",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "21:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "22:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_IN_10VHWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "21:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "22:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     }
+                                     ],
+                           "polyline": "wyl|FtzinLlDjH`ViErXgSb^sg@`Uac@b]c|@|_@sgBxl@woDve@mm@p[gJ~d@wBn{@zK`SfJzErGxE~T"
+                           },
+                           {
+                           "destination": "Vineyard Haven",
+                           "trips": [
+                                     {
+                                     "tripId": "WHVHSSA01",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "6:00:", "seq": 1 },
+                                               { "id": "VHSSA", "time": "6:45:", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_OUT_1WHVH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "06:00", "seq": 1 },
+                                               { "id": "VHSSA", "time": "06:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "WHVHSSA02",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "7:00:", "seq": 1 },
+                                               { "id": "VHSSA", "time": "7:45:", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_OUT_2WHVH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "07:00", "seq": 1 },
+                                               { "id": "VHSSA", "time": "07:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "WHVHSSA03",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "8:15:", "seq": 1 },
+                                               { "id": "VHSSA", "time": "9:00:", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_OUT_3WHVH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "08:15", "seq": 1 },
+                                               { "id": "VHSSA", "time": "09:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "WHVHSSA04",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "9:30:", "seq": 1 },
+                                               { "id": "VHSSA", "time": "10:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "WHVHSSA05",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "10:45", "seq": 1 },
+                                               { "id": "VHSSA", "time": "11:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_OUT_4WHVH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "10:45", "seq": 1 },
+                                               { "id": "VHSSA", "time": "11:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "WHVHSSA06",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "12:00", "seq": 1 },
+                                               { "id": "VHSSA", "time": "12:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "WHVHSSA07",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "13:15", "seq": 1 },
+                                               { "id": "VHSSA", "time": "14:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_OUT_5WHVH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "13:15", "seq": 1 },
+                                               { "id": "VHSSA", "time": "14:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "WHVHSSA08",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "14:30", "seq": 1 },
+                                               { "id": "VHSSA", "time": "15:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "WHVHSSA09",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "15:45", "seq": 1 },
+                                               { "id": "VHSSA", "time": "16:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_OUT_6WHVH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "15:45", "seq": 1 },
+                                               { "id": "VHSSA", "time": "16:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "WHVHSSA10",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "17:00", "seq": 1 },
+                                               { "id": "VHSSA", "time": "17:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "WHVHSSA11",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "18:15", "seq": 1 },
+                                               { "id": "VHSSA", "time": "19:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_OUT_7WHVH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "18:15", "seq": 1 },
+                                               { "id": "VHSSA", "time": "19:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "WHVHSSA12",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "19:30", "seq": 1 },
+                                               { "id": "VHSSA", "time": "20:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_OUT_8WHVH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "19:30", "seq": 1 },
+                                               { "id": "VHSSA", "time": "20:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "WHVHSSA13",
+                                     "calId": "SSADAILY",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "20:30", "seq": 1 },
+                                               { "id": "VHSSA", "time": "21:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_OUT_9WHVH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "20:30", "seq": 1 },
+                                               { "id": "VHSSA", "time": "21:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "WHVHSSA14",
+                                     "calId": "SSAPEAK",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "21:45", "seq": 1 },
+                                               { "id": "VHSSA", "time": "22:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_OUT_10WHVH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "21:45", "seq": 1 },
+                                               { "id": "VHSSA", "time": "22:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     }
+                                     ],
+                           "polyline": "wyl|FtzinLlDjH`ViErXgSb^sg@`Uac@b]c|@|_@sgBxl@woDve@mm@p[gJ~d@wBn{@zK`SfJzErGxE~T"
+                           }
+                           ]
+               },
+               {
+               "id": "OAKBLBOAT",
+               "agency": "SSA",
+               "shortName": "",
+               "longName": "Woods Hole and Oak Bluffs",
+               "colorCode": "",
+               "waypoint": "",
+               "vectors": [
+                           {
+                           "destination": "Oak Bluffs",
+                           "trips": [
+                                     {
+                                     "tripId": "SSMJ_OUT_1WHOB",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "09:30", "seq": 1 },
+                                               { "id": "OBSSA", "time": "10:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_OUT_2WHOB",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "12:00", "seq": 1 },
+                                               { "id": "OBSSA", "time": "12:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_OUT_3WHOB",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "14:30", "seq": 1 },
+                                               { "id": "OBSSA", "time": "15:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_OUT_4WHOB",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "17:00", "seq": 1 },
+                                               { "id": "OBSSA", "time": "17:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     }
+                                     ],
+                           "polyline": "qyl|FvyinLfBvBjBPvV}FfVgSv^wv@l]soAbJck@z`@{~Cpc@qbCln@_uB|c@iw@xqA_r@hZoFvBr@"
+                           },
+                           {
+                           "destination": "Woods Hole",
+                           "trips": [
+                                     {
+                                     "tripId": "SSMJ_IN_1OBWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "10:45", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "11:30", "seq": 0 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_IN_2OBWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "13:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "14:00", "seq": 0 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_IN_3OBWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "15:45", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "16:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_IN_4OBWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "18:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "19:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     }
+                                     ],
+                           "polyline": "qyl|FvyinLfBvBjBPvV}FfVgSv^wv@l]soAbJck@z`@{~Cpc@qbCln@_uB|c@iw@xqA_r@hZoFvBr@"
+                           }
+                           ]
+               },
+               {
+               "id": "ISLANDBOAT",
+               "agency": "ISLAND",
+               "shortName": "",
+               "longName": "Island Queen",
+               "colorCode": "",
+               "waypoint": "",
+               "vectors": [
+                           {
+                           "destination": "Oak Bluffs",
+                           "trips": [
+                                     {
+                                     "tripId": "ISMTWT01",
+                                     "calId": "ISLANDMTWT",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "09:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "09:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISFRIDAY01",
+                                     "calId": "ISLANDFRI",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "09:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "09:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISWKND01",
+                                     "calId": "ISLANDWKND",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "09:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "09:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISMTWT02",
+                                     "calId": "ISLANDMTWT",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "10:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "11:05", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISFRIDAY02",
+                                     "calId": "ISLANDFRI",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "10:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "11:05", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISWKND02",
+                                     "calId": "ISLANDWKND",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "10:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "11:05", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISWKND03",
+                                     "calId": "ISLANDWKND",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "12:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "12:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISFRIDAY03",
+                                     "calId": "ISLANDFRI",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "15:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "15:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISWKND04",
+                                     "calId": "ISLANDWKND",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "15:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "15:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISWKND05",
+                                     "calId": "ISLANDWKND",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "16:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "17:05", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISFRIDAY04",
+                                     "calId": "ISLANDFRI",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "18:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "18:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISFRIDAY05",
+                                     "calId": "ISLANDFRI",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "20:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "20:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     }
+                                     ],
+                           "polyline": "_kr|Fhd|mL`@|An\\bQtMlRbDxCbGBv|DuqBbmE_eD`t@sc@pZ{Mv]_HrEjD"
+                           },
+                           {
+                           "destination": "Falmouth",
+                           "trips": [
+                                     {
+                                     "tripId": "ISFRIDAY06",
+                                     "calId": "ISLANDFRI",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "09:40", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "10:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISWKND06",
+                                     "calId": "ISLANDWKND",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "09:40", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "10:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISWKND07",
+                                     "calId": "ISLANDWKND",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "11:05", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "11:40", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISMTWT03",
+                                     "calId": "ISLANDMTWT",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "14:15", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "14:50", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISFRIDAY07",
+                                     "calId": "ISLANDFRI",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "14:15", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "14:50", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISWKND08",
+                                     "calId": "ISLANDWKND",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "14:15", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "14:50", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISMTWT04",
+                                     "calId": "ISLANDMTWT",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "15:45", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "16:20", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISFRIDAY08",
+                                     "calId": "ISLANDFRI",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "15:45", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "16:20", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISWKND09",
+                                     "calId": "ISLANDWKND",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "15:45", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "16:20", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISWKND10",
+                                     "calId": "ISLANDWKND",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "17:15", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "17:50", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISFRIDAY09",
+                                     "calId": "ISLANDFRI",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "18:45", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "19:20", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISFRIDAY10",
+                                     "calId": "ISLANDFRI",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "20:45", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "21:20", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     }
+                                     ],
+                           "polyline": "_kr|Fhd|mL`@|An\\bQtMlRbDxCbGBv|DuqBbmE_eD`t@sc@pZ{Mv]_HrEjD"
+                           }
+                           ]
+               },
+               {
+               "id": "HYANNISOBHS",
+               "agency": "HYLINE",
+               "shortName": "",
+               "longName": "Hyannis and Oak Bluffs - High Speed",
+               "colorCode": "",
+               "waypoint": "",
+               "vectors": [
+                           {
+                           "destination": "Oak Bluffs",
+                           "trips": [
+                                     {
+                                     "tripId": "HYOBHYL01",
+                                     "calId": "HYLSPRING1_2",
+                                     "stops": [
+                                               { "id": "HYANTERM", "time": "9:25:", "seq": 1 },
+                                               { "id": "OBTERM", "time": "10:20", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "HYOBHYL03",
+                                     "calId": "HYLSPRING2",
+                                     "stops": [
+                                               { "id": "HYANTERM", "time": "11:50", "seq": 1 },
+                                               { "id": "OBTERM", "time": "12:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "HYOBHYL02",
+                                     "calId": "HYLSPRING1",
+                                     "stops": [
+                                               { "id": "HYANTERM", "time": "15:20", "seq": 1 },
+                                               { "id": "OBTERM", "time": "16:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "HYOBHYL04",
+                                     "calId": "HYLSPRING2",
+                                     "stops": [
+                                               { "id": "HYANTERM", "time": "17:25", "seq": 1 },
+                                               { "id": "OBTERM", "time": "18:20", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "HYOBHYL05",
+                                     "calId": "HYLSPRING3",
+                                     "stops": [
+                                               { "id": "HYANTERM", "time": "19:45", "seq": 1 },
+                                               { "id": "OBTERM", "time": "20:40", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     }
+                                     ],
+                           "polyline": "q|e}Fp}|kLbA_@hAyA~DiCzH{AhB_BdFqIpJmMhHiHlMMb]nFpWdGp[pRhh@fsArPlLzUvB`YdQh^~[j`R`d`@znAzwCz}E~`K"
+                           },
+                           {
+                           "destination": "Hyannis",
+                           "trips": [
+                                     {
+                                     "tripId": "OBHYHYL01",
+                                     "calId": "HYLSPRING1_2",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "10:35", "seq": 1 },
+                                               { "id": "HYANTERM", "time": "11:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "OBHYHYL03",
+                                     "calId": "HYLSPRING2",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "16:15", "seq": 1 },
+                                               { "id": "HYANTERM", "time": "17:10", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "OBHYHYL02",
+                                     "calId": "HYLSPRING1",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "16:25", "seq": 1 },
+                                               { "id": "HYANTERM", "time": "17:20", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "OBHYHYL04",
+                                     "calId": "HYLSPRING2",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "18:35", "seq": 1 },
+                                               { "id": "HYANTERM", "time": "19:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "OBHYHYL05",
+                                     "calId": "HYLSPRING3",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "20:50", "seq": 1 },
+                                               { "id": "HYANTERM", "time": "21:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     }
+                                     ],
+                           "polyline": "q|e}Fp}|kLbA_@hAyA~DiCzH{AhB_BdFqIpJmMhHiHlMMb]nFpWdGp[pRhh@fsArPlLzUvB`YdQh^~[j`R`d`@znAzwCz}E~`K"
+                           }
+                           ]
+               },
+               {
+               "id": "HYANNISOBTRAD",
+               "agency": "HYLINE",
+               "shortName": "",
+               "longName": "Hyannis and Oak Bluffs - Traditional",
+               "colorCode": "",
+               "waypoint": "",
+               "vectors": [
+                           {
+                           "destination": "Oak Bluffs",
+                           "trips": [
+                                     {
+                                     "tripId": "HYTSUMMER_OUT_1HYOB",
+                                     "calId": "HYTRADSUMM",
+                                     "stops": [
+                                               { "id": "HYANTERM", "time": "09:25", "seq": 1 },
+                                               { "id": "OBTERM", "time": "11:05", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "HYTSPRING_OUT_1HYOB",
+                                     "calId": "HYTRADSPRG",
+                                     "stops": [
+                                               { "id": "HYANTERM", "time": "09:35", "seq": 1 },
+                                               { "id": "OBTERM", "time": "11:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "HYTFALL_OUT_1HYOB",
+                                     "calId": "HYTRADFALL",
+                                     "stops": [
+                                               { "id": "HYANTERM", "time": "09:35", "seq": 1 },
+                                               { "id": "OBTERM", "time": "11:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     }
+                                     ],
+                           "polyline": "q|e}Fp}|kLbA_@hAyA~DiCzH{AhB_BdFqIpJmMhHiHlMMb]nFpWdGp[pRhh@fsArPlLzUvB`YdQh^~[j`R`d`@znAzwCz}E~`K"
+                           },
+                           {
+                           "destination": "Hyannis",
+                           "trips": [
+                                     {
+                                     "tripId": "HYTSPRING_IN_1OBHY",
+                                     "calId": "HYTRADSPRG",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "15:45", "seq": 1 },
+                                               { "id": "HYANTERM", "time": "17:25", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "HYTFALL_IN_1OBHY",
+                                     "calId": "HYTRADFALL",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "15:45", "seq": 1 },
+                                               { "id": "HYANTERM", "time": "17:25", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "HYTSUMMER_IN_1OBHY",
+                                     "calId": "HYTRADSUMM",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "17:15", "seq": 1 },
+                                               { "id": "HYANTERM", "time": "18:55", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     }
+                                     ],
+                           "polyline": "q|e}Fp}|kLbA_@hAyA~DiCzH{AhB_BdFqIpJmMhHiHlMMb]nFpWdGp[pRhh@fsArPlLzUvB`YdQh^~[j`R`d`@znAzwCz}E~`K"
+                           }
+                           ]
+               },
+               {
+               "id": "RIFFBOAT",
+               "agency": "RIFF",
+               "shortName": "",
+               "longName": "Quonset RI and Oak Bluffs",
+               "colorCode": "",
+               "waypoint": "",
+               "vectors": [
+                           {
+                           "destination": "Oak Bluffs",
+                           "trips": [
+                                     {
+                                     "tripId": "RIFFGRN_OUT_1QUOB",
+                                     "calId": "RIFFGREEN",
+                                     "stops": [
+                                               { "id": "QUONSET", "time": "08:05", "seq": 1 },
+                                               { "id": "OBTERM", "time": "09:40", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFYEL_OUT_1QUOB",
+                                     "calId": "RIFFYELLOW",
+                                     "stops": [
+                                               { "id": "QUONSET", "time": "08:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "10:05", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFTL_OUT_1QUOB",
+                                     "calId": "RIFFTEAL",
+                                     "stops": [
+                                               { "id": "QUONSET", "time": "08:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "10:05", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFG_OUT_1QUOB",
+                                     "calId": "RIFFGOLD",
+                                     "stops": [
+                                               { "id": "QUONSET", "time": "09:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "10:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFB_OUT_1QUOB",
+                                     "calId": "RIFFBLUE",
+                                     "stops": [
+                                               { "id": "QUONSET", "time": "09:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "10:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFP_OUT_1QUOB",
+                                     "calId": "RIFFPINK",
+                                     "stops": [
+                                               { "id": "QUONSET", "time": "09:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "10:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFGRN_OUT_2QUOB",
+                                     "calId": "RIFFGREEN",
+                                     "stops": [
+                                               { "id": "QUONSET", "time": "12:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "13:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFTL_OUT_2QUOB",
+                                     "calId": "RIFFTEAL",
+                                     "stops": [
+                                               { "id": "QUONSET", "time": "12:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "14:05", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFYEL_OUT_2QUOB",
+                                     "calId": "RIFFYELLOW",
+                                     "stops": [
+                                               { "id": "QUONSET", "time": "13:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "14:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFP_OUT_2QUOB",
+                                     "calId": "RIFFPINK",
+                                     "stops": [
+                                               { "id": "QUONSET", "time": "13:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "14:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFG_OUT_2QUOB",
+                                     "calId": "RIFFGOLD",
+                                     "stops": [
+                                               { "id": "QUONSET", "time": "15:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "16:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFB_OUT_2QUOB",
+                                     "calId": "RIFFBLUE",
+                                     "stops": [
+                                               { "id": "QUONSET", "time": "16:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "17:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFGRN_OUT_3QUOB",
+                                     "calId": "RIFFGREEN",
+                                     "stops": [
+                                               { "id": "QUONSET", "time": "16:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "18:05", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFYEL_OUT_3QUOB",
+                                     "calId": "RIFFYELLOW",
+                                     "stops": [
+                                               { "id": "QUONSET", "time": "17:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "19:05", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFGRN_OUT_4QUOB",
+                                     "calId": "RIFFGREEN",
+                                     "stops": [
+                                               { "id": "QUONSET", "time": "20:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "22:05", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     }
+                                     ],
+                           "polyline": "giy|FdwzrLxOas@hVwXtd@{Zvd@Q~oMnaApoGd_@zMaHt}@cjDlzFqlsAL{hCwR_iD}t@e{Fu{L_vj@q]apDr@qzCzMc|@bc@kp@tzAs{@xEjDdFtHr@mA"
+                           },
+                           {
+                           "destination": "Quonset",
+                           "trips": [
+                                     {
+                                     "tripId": "RIFFGRN_IN_1OBQU",
+                                     "calId": "RIFFGREEN",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "10:00", "seq": 1 },
+                                               { "id": "QUONSET", "time": "11:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFYEL_IN_1OBQU",
+                                     "calId": "RIFFYELLOW",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "10:30", "seq": 1 },
+                                               { "id": "QUONSET", "time": "12:10", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFTL_IN_1OBQU",
+                                     "calId": "RIFFTEAL",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "10:30", "seq": 1 },
+                                               { "id": "QUONSET", "time": "12:10", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFG_IN_1OBQU",
+                                     "calId": "RIFFGOLD",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "11:00", "seq": 1 },
+                                               { "id": "QUONSET", "time": "12:40", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFB_IN_1OBQU",
+                                     "calId": "RIFFBLUE",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "11:00", "seq": 1 },
+                                               { "id": "QUONSET", "time": "12:40", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFP_IN_1OBQU",
+                                     "calId": "RIFFPINK",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "11:00", "seq": 1 },
+                                               { "id": "QUONSET", "time": "12:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFGRN_IN_2OBQU",
+                                     "calId": "RIFFGREEN",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "14:00", "seq": 1 },
+                                               { "id": "QUONSET", "time": "15:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFP_IN_2OBQU",
+                                     "calId": "RIFFPINK",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "15:00", "seq": 1 },
+                                               { "id": "QUONSET", "time": "16:40", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFYEL_IN_2OBQU",
+                                     "calId": "RIFFYELLOW",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "15:15", "seq": 1 },
+                                               { "id": "QUONSET", "time": "17:10", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFTL_IN_2OBQU",
+                                     "calId": "RIFFTEAL",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "15:30", "seq": 1 },
+                                               { "id": "QUONSET", "time": "17:10", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFG_IN_2OBQU",
+                                     "calId": "RIFFGOLD",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "17:00", "seq": 1 },
+                                               { "id": "QUONSET", "time": "18:40", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFB_IN_2OBQU",
+                                     "calId": "RIFFBLUE",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "18:00", "seq": 1 },
+                                               { "id": "QUONSET", "time": "19:40", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFGRN_IN_3OBQU",
+                                     "calId": "RIFFGREEN",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "18:30", "seq": 1 },
+                                               { "id": "QUONSET", "time": "20:05", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFYEL_IN_3OBQU",
+                                     "calId": "RIFFYELLOW",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "19:30", "seq": 1 },
+                                               { "id": "QUONSET", "time": "21:10", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "RIFFGRN_IN_4OBQU",
+                                     "calId": "RIFFGREEN",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "22:15", "seq": 1 },
+                                               { "id": "QUONSET", "time": "23:50", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     }
+                                     ],
+                           "polyline": "giy|FdwzrLxOas@hVwXtd@{Zvd@Q~oMnaApoGd_@zMaHt}@cjDlzFqlsAL{hCwR_iD}t@e{Fu{L_vj@q]apDr@qzCzMc|@bc@kp@tzAs{@xEjDdFtHr@mA"
+                           }
+                           ]
+               },
+               {
+               "id": "NEWBEDBOAT",
+               "agency": "STREAK",
+               "shortName": "",
+               "longName": "New Bedord and Oak Bluffs",
+               "colorCode": "",
+               "waypoint": "",
+               "vectors": [
+                           {
+                           "destination": "New Bedford",
+                           "trips": [
+                                     {
+                                     "tripId": "STRKDLY_IN_1OBNB",
+                                     "calId": "STRKDAILY",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "10:15", "seq": 1 },
+                                               { "id": "NEWBEDFORD", "time": "11:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "STRKDLY_IN_2OBNB",
+                                     "calId": "STRKDAILY",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "12:45", "seq": 1 },
+                                               { "id": "NEWBEDFORD", "time": "13:45", "seq": 0 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "STRKHGH_IN_1OBNB",
+                                     "calId": "STRKHIGH",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "15:15", "seq": 1 },
+                                               { "id": "NEWBEDFORD", "time": "16:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "STRKDLY_IN_3OBNB",
+                                     "calId": "STRKDAILY",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "17:45", "seq": 1 },
+                                               { "id": "NEWBEDFORD", "time": "18:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "STRKES_IN_1OBNB",
+                                     "calId": "STRKEVESPRING",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "20:15", "seq": 1 },
+                                               { "id": "NEWBEDFORD", "time": "21:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "STRKEM_IN_1OBNB",
+                                     "calId": "STRKEVESUMMER",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "20:15", "seq": 1 },
+                                               { "id": "NEWBEDFORD", "time": "21:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "STRKEF_IN_1OBNB",
+                                     "calId": "STRKEVEFALL",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "20:15", "seq": 1 },
+                                               { "id": "NEWBEDFORD", "time": "21:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "STRKFRI_IN_1OBNB",
+                                     "calId": "STRKFRIDAY",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "22:35", "seq": 1 },
+                                               { "id": "NEWBEDFORD", "time": "23:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     }
+                                     ],
+                           "polyline": "g|b}FhozoLuCw\\~gAqx@tsGwyEz[yThMaV`zH_h`@rQg\\tBgQm@_[v@cOhGmO|GkZ`i@}}@nd@ogAfaCw~Mtd@sv@hx@qd@pb@iRvP}CbB\\"
+                           },
+                           {
+                           "destination": "Oak Bluffs",
+                           "trips": [
+                                     {
+                                     "tripId": "STRKDLY_OUT_1NBOB",
+                                     "calId": "STRKDAILY",
+                                     "stops": [
+                                               { "id": "NEWBEDFORD", "time": "09:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "10:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "STRKDLY_OUT_2NBOB",
+                                     "calId": "STRKDAILY",
+                                     "stops": [
+                                               { "id": "NEWBEDFORD", "time": "11:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "12:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "STRKHGH_OUT_1NBOB",
+                                     "calId": "STRKHIGH",
+                                     "stops": [
+                                               { "id": "NEWBEDFORD", "time": "14:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "15:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "STRKDLY_OUT_3NBOB",
+                                     "calId": "STRKDAILY",
+                                     "stops": [
+                                               { "id": "NEWBEDFORD", "time": "16:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "17:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "STRKES_OUT_1NBOB",
+                                     "calId": "STRKEVESPRING",
+                                     "stops": [
+                                               { "id": "NEWBEDFORD", "time": "19:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "20:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "STRKEM_OUT_1NBOB",
+                                     "calId": "STRKEVESUMMER",
+                                     "stops": [
+                                               { "id": "NEWBEDFORD", "time": "19:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "20:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "STRKEF_OUT_1NBOB",
+                                     "calId": "STRKEVEFALL",
+                                     "stops": [
+                                               { "id": "NEWBEDFORD", "time": "19:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "20:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "STRKFRI_OUT_1NBOB",
+                                     "calId": "STRKFRIDAY",
+                                     "stops": [
+                                               { "id": "NEWBEDFORD", "time": "21:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "22:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     }
+                                     ],
+                           "polyline": "g|b}FhozoLuCw\\~gAqx@tsGwyEz[yThMaV`zH_h`@rQg\\tBgQm@_[v@cOhGmO|GkZ`i@}}@nd@ogAfaCw~Mtd@sv@hx@qd@pb@iRvP}CbB\\"
+                           }
+                           ]
+               }
+               ],
+    "stops": [
+              {"id": "OBTERM", "name": "Oak Bluffs Terminal", "lat": 41.45895, "lng": -70.55836},
+              {"id": "OBSSA", "name": "Oak Bluffs SSA Terminal", "lat": 41.45707, "lng": -70.55578},
+              {"id": "VHSSA", "name": "Vineyard Haven Terminal", "lat": 41.45527, "lng": -70.60131},
+              {"id": "WOODSHOLE", "name": "Woods Hole Terminal", "lat": 41.52225, "lng": -70.67005},
+              {"id": "HYANTERM", "name": "Hyannis Terminal", "lat": 41.6503, "lng": -70.27733},
+              {"id": "FALMOUTH", "name": "Falmouth", "lat": 41.550779, "lng": -70.600517},
+              {"id": "QUONSET", "name": "Quonset", "lat": 41.58715, "lng": -71.41394},
+              {"id": "NEWBEDFORD", "name": "New Bedford", "lat": 41.6354, "lng": -70.91973}
+              ],
+    "calendars": [
+                  {"serviceId": "SSADAILY", "days": [1,1,1,1,1,1,1], "startDate": "2015-04-15", "endDate": "2015-05-14",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "SSAPEAK", "days": [0,0,0,0,1,1,1], "startDate": "2015-04-15", "endDate": "2015-05-14",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "SSMAYJUNE", "days": [1,1,1,1,1,1,1], "startDate": "2015-05-15", "endDate": "2015-06-16",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "ISLANDMTWT", "days": [1,1,1,1,0,0,0], "startDate": "2015-05-22", "endDate": "2015-06-11",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                                       "2015-05-25"
+                                       ]
+                  },
+                  {"serviceId": "ISLANDFRI", "days": [0,0,0,0,1,0,0], "startDate": "2015-05-22", "endDate": "2015-06-11",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "ISLANDWKND", "days": [0,0,0,0,0,1,1], "startDate": "2015-05-22", "endDate": "2015-06-11",
+                  "addExceptions": [
+                                    "2015-05-25"
+                                    ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "HYLSPRING1", "days": [1,1,1,1,1,1,1], "startDate": "2015-05-02", "endDate": "2015-05-22",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "HYLSPRING2", "days": [1,1,1,1,1,1,1], "startDate": "2015-05-23", "endDate": "2015-06-26",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "HYLSPRING1_2", "days": [1,1,1,1,1,1,1], "startDate": "2015-05-02", "endDate": "2015-06-26",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "HYLSPRING3", "days": [1,1,1,1,1,1,1], "startDate": "2015-06-20", "endDate": "2015-06-26",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "HYTRADSPRG", "days": [1,1,1,1,1,1,1], "startDate": "2015-05-23", "endDate": "2015-06-26",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "HYTRADSUMM", "days": [1,1,1,1,1,1,1], "startDate": "2015-06-27", "endDate": "2015-09-06",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "HYTRADFALL", "days": [1,1,1,1,1,1,1], "startDate": "2015-09-07", "endDate": "2015-10-18",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "RIFFYELLOW", "days": [0,0,0,0,0,0,0], "startDate": "2015-05-22", "endDate": "2015-10-12",
+                  "addExceptions": [
+                                    "2015-05-25","2015-06-26","2015-06-28","2015-07-01","2015-07-02","2015-07-05","2015-07-06","2015-07-09","2015-07-10","2015-07-11","2015-07-12","2015-07-16","2015-07-17","2015-07-18","2015-07-19","2015-07-23","2015-07-24","2015-07-25","2015-07-26","2015-07-30","2015-07-31","2015-08-01","2015-08-02","2015-08-06","2015-08-07","2015-08-08","2015-08-09","2015-08-10","2015-08-13","2015-08-14","2015-08-15","2015-08-16","2015-08-20","2015-08-21","2015-08-22","2015-08-23","2015-08-27","2015-08-28","2015-08-29","2015-08-30","2015-09-06","2015-09-07","2015-10-09"
+                                    ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "RIFFGOLD", "days": [0,0,0,0,0,0,0], "startDate": "2015-05-22", "endDate": "2015-10-12",
+                  "addExceptions": [
+                                    "2015-05-24","2015-05-26","2015-06-06","2015-06-07","2015-06-11","2015-06-13","2015-06-14","2015-06-15","2015-06-17","2015-06-18","2015-06-20","2015-06-21","2015-09-08","2015-09-09","2015-09-10","2015-09-12","2015-09-13","2015-09-14","2015-09-17","2015-09-19","2015-09-20","2015-09-21","2015-09-24","2015-09-26","2015-09-27","2015-10-10","2015-10-11","2015-10-12"
+                                    ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "RIFFGREEN", "days": [0,0,0,0,0,0,0], "startDate": "2015-05-22", "endDate": "2015-10-12",
+                  "addExceptions": [
+                                    "2015-05-22","2015-07-03","2015-09-04"
+                                    ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "RIFFBLUE", "days": [0,0,0,0,0,0,0], "startDate": "2015-05-22", "endDate": "2015-10-12",
+                  "addExceptions": [
+                                    "2015-06-22","2015-06-23","2015-06-24","2015-06-25","2015-06-27","2015-06-29","2015-06-30","2015-07-07","2015-07-08","2015-07-13","2015-07-14","2015-07-15","2015-07-20","2015-07-21","2015-07-22","2015-07-27","2015-07-28","2015-07-29","2015-08-03","2015-08-04","2015-08-05","2015-08-11","2015-08-12","2015-08-17","2015-08-18","2015-08-19","2015-08-24","2015-08-25","2015-08-26","2015-08-31","2015-09-01","2015-09-02","2015-09-03"
+                                    ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "RIFFPINK", "days": [0,0,0,0,0,0,0], "startDate": "2015-05-22", "endDate": "2015-10-12",
+                  "addExceptions": [
+                                    "2015-06-05","2015-06-12","2015-06-19","2015-09-11","2015-09-18","2015-09-25"
+                                    ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "RIFFTEAL", "days": [0,0,0,0,0,0,0], "startDate": "2015-05-22", "endDate": "2015-10-12",
+                  "addExceptions": [
+                                    "2015-05-23","2015-07-04","2015-09-05"
+                                    ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "STRKDAILY", "days": [1,1,1,1,1,1,1], "startDate": "2015-05-20", "endDate": "2015-10-14",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "STRKHIGH", "days": [1,1,1,1,1,1,1], "startDate": "2015-05-20", "endDate": "2015-09-07",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "STRKEVESPRING", "days": [0,0,0,1,1,1,1], "startDate": "2015-05-20", "endDate": "2015-06-24",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "STRKEVESUMMER", "days": [1,1,1,1,1,1,1], "startDate": "2015-06-25", "endDate": "2015-09-06",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "STRKEVEFALL", "days": [0,0,0,1,1,1,1], "startDate": "2015-09-07", "endDate": "2015-10-12",
+                  "addExceptions": [
+                                    "2015-09-07","2015-10-12"
+                                    ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "STRKFRIDAY", "days": [0,0,0,0,1,0,0], "startDate": "2015-06-26", "endDate": "2015-09-11",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  }
+                  ]
 }
