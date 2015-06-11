@@ -76,6 +76,17 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSMR_IN_1VHWH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "06:00", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "06:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "VHWHSSA02",
                                      "calId": "SSADAILY",
                                      "stops": [
@@ -87,11 +98,33 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSMR_IN_2VHWH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "07:00", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "07:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "SSMJ_IN_2VHWH",
                                      "calId": "SSMAYJUNE",
                                      "stops": [
                                                { "id": "VHSSA", "time": "07:00", "seq": 1 },
                                                { "id": "WOODSHOLE", "time": "07:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSMR_IN_3VHWH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "08:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "09:00", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -131,6 +164,17 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSMR_IN_4VHWH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "09:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "10:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "SSMJ_IN_4VHWH",
                                      "calId": "SSMAYJUNE",
                                      "stops": [
@@ -153,6 +197,17 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSMJ_IN_5VHWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "12:00", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "12:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "VHWHSSA06",
                                      "calId": "SSADAILY",
                                      "stops": [
@@ -164,11 +219,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMJ_IN_5VHWH",
-                                     "calId": "SSMAYJUNE",
+                                     "tripId": "SSSMR_IN_5VHWH",
+                                     "calId": "SSSUMMER",
                                      "stops": [
                                                { "id": "VHSSA", "time": "12:00", "seq": 1 },
-                                               { "id": "WOODSHOLE", "time": "12:45", "seq": 2 }
+                                               { "id": "WOODSHOLE", "time": "12:45", "seq": 0 }
                                                ],
                                      "connections": [
                                      ]
@@ -186,6 +241,17 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSMJ_IN_6VHWH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "14:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "15:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "VHWHSSA08",
                                      "calId": "SSADAILY",
                                      "stops": [
@@ -197,8 +263,8 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMJ_IN_6VHWH",
-                                     "calId": "SSMAYJUNE",
+                                     "tripId": "SSSMR_IN_6VHWH",
+                                     "calId": "SSSUMMER",
                                      "stops": [
                                                { "id": "VHSSA", "time": "14:30", "seq": 1 },
                                                { "id": "WOODSHOLE", "time": "15:15", "seq": 2 }
@@ -213,6 +279,17 @@
                                      "stops": [
                                                { "id": "VHSSA", "time": "15:45", "seq": 1 },
                                                { "id": "WOODSHOLE", "time": "16:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSMR_IN_7VHWH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "17:00", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "17:45", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -274,6 +351,17 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSMR_IN_8VHWH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "19:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "20:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "VHWHSSA13",
                                      "calId": "SSAPEAK",
                                      "stops": [
@@ -315,6 +403,17 @@
                                                ],
                                      "connections": [
                                      ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSMR_IN_9VHWH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "VHSSA", "time": "21:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "22:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
                                      }
                                      ],
                            "polyline": "wyl|FtzinLlDjH`ViErXgSb^sg@`Uac@b]c|@|_@sgBxl@woDve@mm@p[gJ~d@wBn{@zK`SfJzErGxE~T"
@@ -345,6 +444,17 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSMR_OUT_1WHVH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "06:00", "seq": 1 },
+                                               { "id": "VHSSA", "time": "06:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "WHVHSSA02",
                                      "calId": "SSADAILY",
                                      "stops": [
@@ -356,11 +466,33 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSMR_OUT_2WHVH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "07:00", "seq": 1 },
+                                               { "id": "VHSSA", "time": "07:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "SSMJ_OUT_2WHVH",
                                      "calId": "SSMAYJUNE",
                                      "stops": [
                                                { "id": "WOODSHOLE", "time": "07:00", "seq": 1 },
                                                { "id": "VHSSA", "time": "07:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSMR_OUT_3WHVH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "08:15", "seq": 1 },
+                                               { "id": "VHSSA", "time": "09:00", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -422,6 +554,17 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSMR_OUT_4WHVH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "10:45", "seq": 1 },
+                                               { "id": "VHSSA", "time": "11:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "WHVHSSA06",
                                      "calId": "SSADAILY",
                                      "stops": [
@@ -455,11 +598,33 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSMR_OUT_5WHVH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "13:15", "seq": 1 },
+                                               { "id": "VHSSA", "time": "14:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "WHVHSSA08",
                                      "calId": "SSADAILY",
                                      "stops": [
                                                { "id": "WOODSHOLE", "time": "14:30", "seq": 1 },
                                                { "id": "VHSSA", "time": "15:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSMR_OUT_6WHVH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "15:45", "seq": 1 },
+                                               { "id": "VHSSA", "time": "16:30", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -493,6 +658,17 @@
                                      "stops": [
                                                { "id": "WOODSHOLE", "time": "17:00", "seq": 1 },
                                                { "id": "VHSSA", "time": "17:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSMR_OUT_7WHVH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "18:15", "seq": 1 },
+                                               { "id": "VHSSA", "time": "19:00", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -543,6 +719,17 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSMJ_OUT_9WHVH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "20:30", "seq": 1 },
+                                               { "id": "VHSSA", "time": "21:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "WHVHSSA13",
                                      "calId": "SSADAILY",
                                      "stops": [
@@ -554,11 +741,22 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMJ_OUT_9WHVH",
-                                     "calId": "SSMAYJUNE",
+                                     "tripId": "SSSMR_OUT_8WHVH",
+                                     "calId": "SSSUMMER",
                                      "stops": [
                                                { "id": "WOODSHOLE", "time": "20:30", "seq": 1 },
                                                { "id": "VHSSA", "time": "21:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMJ_OUT_10WHVH",
+                                     "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "21:45", "seq": 1 },
+                                               { "id": "VHSSA", "time": "22:30", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -576,8 +774,8 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMJ_OUT_10WHVH",
-                                     "calId": "SSMAYJUNE",
+                                     "tripId": "SSSMR_OUT_9WHVH",
+                                     "calId": "SSSUMMER",
                                      "stops": [
                                                { "id": "WOODSHOLE", "time": "21:45", "seq": 1 },
                                                { "id": "VHSSA", "time": "22:30", "seq": 2 }
@@ -613,8 +811,30 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSMR_OUT_1WHOB",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "09:30", "seq": 1 },
+                                               { "id": "OBSSA", "time": "10:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "SSMJ_OUT_2WHOB",
                                      "calId": "SSMAYJUNE",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "12:00", "seq": 1 },
+                                               { "id": "OBSSA", "time": "12:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSMR_OUT_2WHOB",
+                                     "calId": "SSSUMMER",
                                      "stops": [
                                                { "id": "WOODSHOLE", "time": "12:00", "seq": 1 },
                                                { "id": "OBSSA", "time": "12:45", "seq": 2 }
@@ -635,11 +855,44 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSMR_OUT_3WHOB",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "14:30", "seq": 1 },
+                                               { "id": "OBSSA", "time": "15:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "SSMJ_OUT_4WHOB",
                                      "calId": "SSMAYJUNE",
                                      "stops": [
                                                { "id": "WOODSHOLE", "time": "17:00", "seq": 1 },
                                                { "id": "OBSSA", "time": "17:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSMR_OUT_4WHOB",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "17:00", "seq": 1 },
+                                               { "id": "OBSSA", "time": "17:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSMR_OUT_5WHOB",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "19:30", "seq": 1 },
+                                               { "id": "OBSSA", "time": "20:15", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -662,11 +915,33 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSMR_IN_1OBWH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "10:45", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "11:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "SSMJ_IN_2OBWH",
                                      "calId": "SSMAYJUNE",
                                      "stops": [
                                                { "id": "OBSSA", "time": "13:15", "seq": 1 },
                                                { "id": "WOODSHOLE", "time": "14:00", "seq": 0 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSMR_IN_2OBWH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "13:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "14:00", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -684,11 +959,44 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSMR_IN_3OBWH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "15:45", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "16:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "SSMJ_IN_4OBWH",
                                      "calId": "SSMAYJUNE",
                                      "stops": [
                                                { "id": "OBSSA", "time": "18:15", "seq": 1 },
                                                { "id": "WOODSHOLE", "time": "19:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSMR_IN_4OBWH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "18:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "19:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSMR_IN_5OBWH",
+                                     "calId": "SSSUMMER",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "20:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "21:15", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -721,6 +1029,17 @@
                                      },
                                      
                                      {
+                                     "tripId": "ISWKND01",
+                                     "calId": "ISLANDWKND",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "09:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "09:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "ISFRIDAY01",
                                      "calId": "ISLANDFRI",
                                      "stops": [
@@ -732,8 +1051,8 @@
                                      },
                                      
                                      {
-                                     "tripId": "ISWKND01",
-                                     "calId": "ISLANDWKND",
+                                     "tripId": "ISLDLY_OUT_1FALOB",
+                                     "calId": "ISLSMRDAILY",
                                      "stops": [
                                                { "id": "FALMOUTH", "time": "09:00", "seq": 1 },
                                                { "id": "OBTERM", "time": "09:35", "seq": 2 }
@@ -754,6 +1073,17 @@
                                      },
                                      
                                      {
+                                     "tripId": "ISWKND02",
+                                     "calId": "ISLANDWKND",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "10:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "11:05", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "ISFRIDAY02",
                                      "calId": "ISLANDFRI",
                                      "stops": [
@@ -765,8 +1095,8 @@
                                      },
                                      
                                      {
-                                     "tripId": "ISWKND02",
-                                     "calId": "ISLANDWKND",
+                                     "tripId": "ISLDLY_OUT_2FALOB",
+                                     "calId": "ISLSMRDAILY",
                                      "stops": [
                                                { "id": "FALMOUTH", "time": "10:30", "seq": 1 },
                                                { "id": "OBTERM", "time": "11:05", "seq": 2 }
@@ -781,6 +1111,28 @@
                                      "stops": [
                                                { "id": "FALMOUTH", "time": "12:00", "seq": 1 },
                                                { "id": "OBTERM", "time": "12:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISLDLY_OUT_3FALOB",
+                                     "calId": "ISLSMRDAILY",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "12:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "12:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISLDLY_OUT_4FALOB",
+                                     "calId": "ISLSMRDAILY",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "13:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "14:05", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -809,8 +1161,30 @@
                                      },
                                      
                                      {
+                                     "tripId": "ISLDLY_OUT_5FALOB",
+                                     "calId": "ISLSMRDAILY",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "15:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "15:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "ISWKND05",
                                      "calId": "ISLANDWKND",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "16:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "17:05", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISLDLY_OUT_6FALOB",
+                                     "calId": "ISLSMRDAILY",
                                      "stops": [
                                                { "id": "FALMOUTH", "time": "16:30", "seq": 1 },
                                                { "id": "OBTERM", "time": "17:05", "seq": 2 }
@@ -831,8 +1205,41 @@
                                      },
                                      
                                      {
+                                     "tripId": "ISLDLY_OUT_7FALOB",
+                                     "calId": "ISLSMRDAILY",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "18:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "18:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISLSUN_OUT_1FALOB",
+                                     "calId": "ISLSMRSUNDAY",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "19:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "20:05", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "ISFRIDAY05",
                                      "calId": "ISLANDFRI",
+                                     "stops": [
+                                               { "id": "FALMOUTH", "time": "20:00", "seq": 1 },
+                                               { "id": "OBTERM", "time": "20:35", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISLFRI_OUT_1FALOB",
+                                     "calId": "ISLSMRFRIDAY",
                                      "stops": [
                                                { "id": "FALMOUTH", "time": "20:00", "seq": 1 },
                                                { "id": "OBTERM", "time": "20:35", "seq": 2 }
@@ -847,6 +1254,17 @@
                            "destination": "Falmouth",
                            "trips": [
                                      {
+                                     "tripId": "ISWKND06",
+                                     "calId": "ISLANDWKND",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "09:40", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "10:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "ISFRIDAY06",
                                      "calId": "ISLANDFRI",
                                      "stops": [
@@ -858,11 +1276,22 @@
                                      },
                                      
                                      {
-                                     "tripId": "ISWKND06",
-                                     "calId": "ISLANDWKND",
+                                     "tripId": "ISLDLY_IN_1OBFAL",
+                                     "calId": "ISLSMRDAILY",
                                      "stops": [
                                                { "id": "OBTERM", "time": "09:40", "seq": 1 },
                                                { "id": "FALMOUTH", "time": "10:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISLDLY_IN_2OBFAL",
+                                     "calId": "ISLSMRDAILY",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "11:05", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "11:40", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -880,19 +1309,19 @@
                                      },
                                      
                                      {
-                                     "tripId": "ISMTWT03",
-                                     "calId": "ISLANDMTWT",
+                                     "tripId": "ISLDLY_IN_3OBFAL",
+                                     "calId": "ISLSMRDAILY",
                                      "stops": [
-                                               { "id": "OBTERM", "time": "14:15", "seq": 1 },
-                                               { "id": "FALMOUTH", "time": "14:50", "seq": 2 }
+                                               { "id": "OBTERM", "time": "12:35", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "13:10", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
                                      },
                                      
                                      {
-                                     "tripId": "ISFRIDAY07",
-                                     "calId": "ISLANDFRI",
+                                     "tripId": "ISMTWT03",
+                                     "calId": "ISLANDMTWT",
                                      "stops": [
                                                { "id": "OBTERM", "time": "14:15", "seq": 1 },
                                                { "id": "FALMOUTH", "time": "14:50", "seq": 2 }
@@ -913,8 +1342,30 @@
                                      },
                                      
                                      {
-                                     "tripId": "ISMTWT04",
-                                     "calId": "ISLANDMTWT",
+                                     "tripId": "ISFRIDAY07",
+                                     "calId": "ISLANDFRI",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "14:15", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "14:50", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISLDLY_IN_4OBFAL",
+                                     "calId": "ISLSMRDAILY",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "14:15", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "14:50", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISWKND09",
+                                     "calId": "ISLANDWKND",
                                      "stops": [
                                                { "id": "OBTERM", "time": "15:45", "seq": 1 },
                                                { "id": "FALMOUTH", "time": "16:20", "seq": 2 }
@@ -935,8 +1386,19 @@
                                      },
                                      
                                      {
-                                     "tripId": "ISWKND09",
-                                     "calId": "ISLANDWKND",
+                                     "tripId": "ISMTWT04",
+                                     "calId": "ISLANDMTWT",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "15:45", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "16:20", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISLDLY_IN_5OBFAL",
+                                     "calId": "ISLSMRDAILY",
                                      "stops": [
                                                { "id": "OBTERM", "time": "15:45", "seq": 1 },
                                                { "id": "FALMOUTH", "time": "16:20", "seq": 2 }
@@ -957,6 +1419,17 @@
                                      },
                                      
                                      {
+                                     "tripId": "ISLDLY_IN_6OBFAL",
+                                     "calId": "ISLSMRDAILY",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "17:15", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "17:40", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "ISFRIDAY09",
                                      "calId": "ISLANDFRI",
                                      "stops": [
@@ -968,8 +1441,41 @@
                                      },
                                      
                                      {
+                                     "tripId": "ISLDLY_IN_7OBFAL",
+                                     "calId": "ISLSMRDAILY",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "18:45", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "19:20", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISLSUN_IN_1OBFAL",
+                                     "calId": "ISLSMRSUNDAY",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "20:15", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "20:50", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "ISFRIDAY10",
                                      "calId": "ISLANDFRI",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "20:45", "seq": 1 },
+                                               { "id": "FALMOUTH", "time": "21:20", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "ISLFRI_IN_1OBFAL",
+                                     "calId": "ISLSMRFRIDAY",
                                      "stops": [
                                                { "id": "OBTERM", "time": "20:45", "seq": 1 },
                                                { "id": "FALMOUTH", "time": "21:20", "seq": 2 }
@@ -1552,7 +2058,7 @@
                "id": "NEWBEDBOAT",
                "agency": "STREAK",
                "shortName": "",
-               "longName": "New Bedord and Oak Bluffs",
+               "longName": "New Bedford and Oak Bluffs",
                "colorCode": "",
                "waypoint": "",
                "vectors": [
@@ -1780,6 +2286,14 @@
                   
                   ]
                   },
+                  {"serviceId": "SSSUMMER", "days": [1,1,1,1,1,1,1], "startDate": "2015-06-17", "endDate": "2015-09-08",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
                   {"serviceId": "ISLANDMTWT", "days": [1,1,1,1,0,0,0], "startDate": "2015-05-22", "endDate": "2015-06-11",
                   "addExceptions": [
                   
@@ -1799,6 +2313,30 @@
                   {"serviceId": "ISLANDWKND", "days": [0,0,0,0,0,1,1], "startDate": "2015-05-22", "endDate": "2015-06-11",
                   "addExceptions": [
                                     "2015-05-25"
+                                    ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "ISLSMRDAILY", "days": [1,1,1,1,1,1,1], "startDate": "2015-06-12", "endDate": "2015-09-13",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "ISLSMRFRIDAY", "days": [0,0,0,0,1,0,0], "startDate": "2015-06-12", "endDate": "2015-09-13",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "ISLSMRSUNDAY", "days": [0,0,0,0,0,0,1], "startDate": "2015-06-12", "endDate": "2015-09-13",
+                  "addExceptions": [
+                                    "2015-09-07"
                                     ],
                   "removeExceptions": [
                   
