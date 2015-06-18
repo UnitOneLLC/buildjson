@@ -11,9 +11,9 @@ import CoreLocation
 
 //var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/vta_google_transit/"
 //var basePath = "/Users/fred/Downloads/brta_google_transit/"
-//var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/vta-2015/"
-var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/ferries/"
-var allowConnections: Bool = false
+var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/vta-2015/"
+//var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/ferries/"
+var allowConnections: Bool = true
 
 
 struct Agency {

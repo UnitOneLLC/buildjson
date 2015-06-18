@@ -40,6 +40,7 @@
 		B666B3071AB73D4200107C2C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B666B30E1AB73F4C00107C2C /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
 		B666B3101AB8CFDB00107C2C /* Polyline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polyline.swift; sourceTree = "<group>"; };
+		B6731F0D1B321C9800CDD537 /* vta-trips-summer.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "vta-trips-summer.csv"; sourceTree = "<group>"; };
 		B699E79A1B0CCF2C00AEA0A0 /* generated */ = {isa = PBXFileReference; lastKnownFileType = folder; path = generated; sourceTree = "<group>"; };
 		B6AF7D731AF552450005B221 /* bus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bus.json; sourceTree = "<group>"; };
 		B6DD78FF1AE2F7170080207C /* agency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = agency.txt; sourceTree = "<group>"; };
@@ -93,6 +94,7 @@
 				B61E44901AEC34C100A58835 /* vta-trips-spring.csv */,
 				B61E448F1AEC343400A58835 /* vtatrips.csv */,
 				B6F2E3E51B03826800A1E152 /* ferrytrips-spring-2015.csv */,
+				B6731F0D1B321C9800CDD537 /* vta-trips-summer.csv */,
 			);
 			path = meta;
 			sourceTree = "<group>";
