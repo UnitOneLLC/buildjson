@@ -80,3 +80,4 @@ FELIXNECK,,Felix Neck,,41.408045, -70.567063
 MVCAMP,,Across from Martha's Vineyard Campground,,41.434632, -70.607970
 GTPLAINSRD,,Great Plains Road,,41.424720,-70.644162
 BUNGVTA,,Beetlebung Corner,,41.343006,-70.743987
+EDGPOSTOFC,,Edgartown Post Office,,41.395065,-70.529370
