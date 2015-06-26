@@ -1500,6 +1500,17 @@
                            "destination": "Oak Bluffs",
                            "trips": [
                                      {
+                                     "tripId": "HYLS_OUT_1HYOB",
+                                     "calId": "HYLSUMMER",
+                                     "stops": [
+                                               { "id": "HYANTERM", "time": "08:15", "seq": 1 },
+                                               { "id": "OBTERM", "time": "09:10", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "HYOBHYL01",
                                      "calId": "HYLSPRING1_2",
                                      "stops": [
@@ -1511,11 +1522,33 @@
                                      },
                                      
                                      {
+                                     "tripId": "HYLS_OUT_2HYOB",
+                                     "calId": "HYLSUMMER",
+                                     "stops": [
+                                               { "id": "HYANTERM", "time": "10:30", "seq": 1 },
+                                               { "id": "OBTERM", "time": "11:25", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "HYOBHYL03",
                                      "calId": "HYLSPRING2",
                                      "stops": [
                                                { "id": "HYANTERM", "time": "11:50", "seq": 1 },
                                                { "id": "OBTERM", "time": "12:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "HYLS_OUT_3HYOB",
+                                     "calId": "HYLSUMMER",
+                                     "stops": [
+                                               { "id": "HYANTERM", "time": "12:50", "seq": 1 },
+                                               { "id": "OBTERM", "time": "13:45", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -1544,11 +1577,33 @@
                                      },
                                      
                                      {
+                                     "tripId": "HYLS_OUT_4HYOB",
+                                     "calId": "HYLSUMMER",
+                                     "stops": [
+                                               { "id": "HYANTERM", "time": "17:50", "seq": 1 },
+                                               { "id": "OBTERM", "time": "18:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "HYOBHYL05",
                                      "calId": "HYLSPRING3",
                                      "stops": [
                                                { "id": "HYANTERM", "time": "19:45", "seq": 1 },
                                                { "id": "OBTERM", "time": "20:40", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "HYLS_OUT_5HYOB",
+                                     "calId": "HYLSUMMER",
+                                     "stops": [
+                                               { "id": "HYANTERM", "time": "20:05", "seq": 1 },
+                                               { "id": "OBTERM", "time": "21:00", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -1560,11 +1615,33 @@
                            "destination": "Hyannis",
                            "trips": [
                                      {
+                                     "tripId": "HYLS_IN_1OBHY",
+                                     "calId": "HYLSUMMER",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "09:20", "seq": 1 },
+                                               { "id": "HYANTERM", "time": "10:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "OBHYHYL01",
                                      "calId": "HYLSPRING1_2",
                                      "stops": [
                                                { "id": "OBTERM", "time": "10:35", "seq": 1 },
                                                { "id": "HYANTERM", "time": "11:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "HYLS_IN_2OBHY",
+                                     "calId": "HYLSUMMER",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "11:40", "seq": 1 },
+                                               { "id": "HYANTERM", "time": "12:35", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -1593,6 +1670,17 @@
                                      },
                                      
                                      {
+                                     "tripId": "HYLS_IN_3OBHY",
+                                     "calId": "HYLSUMMER",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "16:45", "seq": 1 },
+                                               { "id": "HYANTERM", "time": "17:40", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "OBHYHYL04",
                                      "calId": "HYLSPRING2",
                                      "stops": [
@@ -1604,11 +1692,33 @@
                                      },
                                      
                                      {
+                                     "tripId": "HYLS_IN_4OBHY",
+                                     "calId": "HYLSUMMER",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "19:00", "seq": 1 },
+                                               { "id": "HYANTERM", "time": "19:55", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "OBHYHYL05",
                                      "calId": "HYLSPRING3",
                                      "stops": [
                                                { "id": "OBTERM", "time": "20:50", "seq": 1 },
                                                { "id": "HYANTERM", "time": "21:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "HYLS_IN_5OBHY",
+                                     "calId": "HYLSUMMER",
+                                     "stops": [
+                                               { "id": "OBTERM", "time": "21:10", "seq": 1 },
+                                               { "id": "HYANTERM", "time": "22:05", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -2367,6 +2477,14 @@
                   ]
                   },
                   {"serviceId": "HYLSPRING3", "days": [1,1,1,1,1,1,1], "startDate": "2015-06-20", "endDate": "2015-06-26",
+                  "addExceptions": [
+                  
+                  ],
+                  "removeExceptions": [
+                  
+                  ]
+                  },
+                  {"serviceId": "HYLSUMMER", "days": [1,1,1,1,1,1,1], "startDate": "2015-06-27", "endDate": "2015-09-06",
                   "addExceptions": [
                   
                   ],
