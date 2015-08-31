@@ -77,6 +77,7 @@ XCROCKVTA,,Across from Crocker Drive,,41.366862,-70.512956
 YMCAVTA,,YMCA,,41.419493,-70.592955
 LIGHTVTA,,West Chop Lighthouse,,41.4805,-70.5999
 FELIXNECK,,Felix Neck,,41.408045, -70.567063
+XFELIXNECK,,Across from Felix Neck,,41.408045, -70.567063
 MVCAMP,,Across from Martha's Vineyard Campground,,41.434632, -70.607970
 GTPLAINSRD,,Great Plains Road,,41.424720,-70.644162
 BUNGVTA,,Beetlebung Corner,,41.343006,-70.743987

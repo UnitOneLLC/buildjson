@@ -11,6 +11,4 @@ route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_
 10VTA,VTA,10,Tisbury Park-and-Ride,Note that bus may be flagged anywhere along route. Service on Thanksgiving and Christmas operated by the Steamship Authority.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,E12C26, 
 10AVTA,VTA,10A,West Chop Loop,Note that bus may be flagged anywhere along route.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,E12C26, 
 11VTA,VTA,8,Downtown Edgartown,Note that bus may be flagged anywhere along route. Some routes run only in fair weather conditions; see vineyardtransit.org for more details.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,CCCCCC,
-12ITVTA,VTA,12,Chilmark In-Town Loop,,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,808000,
-12SSVTA,VTA,12,Menemsha Sunset,,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,808000,
 13VTA,VTA,13,Edgartown-Oak Bluffs-Vineyard Haven via Beach Road,Note that bus may be flagged anywhere along route.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,FEC657,
