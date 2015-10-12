@@ -118,7 +118,7 @@ struct TimeOfDay : Comparable, Equatable {
     let minute: Int!
     
     init(fromString string: String) {
-        let array = split(string) {$0 == ":"}
+        let array = string.characters.split {$0 == ":"}.map { String($0) }
         
         self.hour = (array[0] as NSString).integerValue
         self.minute = (array[1] as NSString).integerValue
@@ -152,14 +152,14 @@ func ==(lhs: TimeOfDay, rhs: TimeOfDay) -> Bool {
 
 func trim(string: String) -> String {
     let components = string.componentsSeparatedByCharactersInSet(
-        NSCharacterSet.whitespaceAndNewlineCharacterSet()).filter({!isEmpty($0)}
+        NSCharacterSet.whitespaceAndNewlineCharacterSet()).filter({!$0.characters.isEmpty}
     )
-    return join(" ", components)
+    return components.joinWithSeparator(" ")
 }
 
 func isBlank(line: String) -> Bool {
-    return (count(line) == 0) || ((count(line) == 1) &&
-        (line.substringToIndex(advance(line.startIndex,1)) == "\r"))
+    return (line.characters.count == 0) || ((line.characters.count == 1) &&
+        (line.substringToIndex(line.startIndex.advancedBy(1)) == "\r"))
 }
 
 func decomposeCsv(line: String) -> [String] {
@@ -185,7 +185,7 @@ func decomposeCsv(line: String) -> [String] {
                 result.append(build)
             }
             else {
-                build = s.substringFromIndex(advance(s.startIndex, 1))
+                build = s.substringFromIndex(s.startIndex.advancedBy(1))
                 combine = true
             }
         }
@@ -220,7 +220,7 @@ func getFieldMap(fieldList: String) -> [String: Int] {
     return result
 }
 
-func getField(field: String, #map: [String: Int], #list: [String]) -> String {
+func getField(field: String, map: [String: Int], list: [String]) -> String {
     return map[field] == nil ? "" : trim(list[map[field]!])
 
 }
@@ -441,8 +441,8 @@ func parseStopTimes() -> [StopTime] {
             let parts = decomposeCsv(line)
             
             let tripId = getField("trip_id", map: fieldMap, list: parts)
-            let arrivalTime = trim(getField("arrival_time", map: fieldMap, list: parts)).substringToIndex(advance(parts[1].startIndex, 5))
-            let departureTime = trim(getField("departure_time", map: fieldMap, list: parts)).substringToIndex(advance(parts[1].startIndex, 5))
+            let arrivalTime = trim(getField("arrival_time", map: fieldMap, list: parts)).substringToIndex(parts[1].startIndex.advancedBy(5))
+            let departureTime = trim(getField("departure_time", map: fieldMap, list: parts)).substringToIndex(parts[1].startIndex.advancedBy(5))
             let stopId = getField("stop_id", map: fieldMap, list: parts)
             let stopSequence = (getField("stop_sequence", map: fieldMap, list: parts) as NSString).integerValue
             
@@ -495,16 +495,16 @@ func parseDate(var yyyymmdd: String) -> String {
     yyyymmdd = trim(yyyymmdd)
     
     var start = yyyymmdd.startIndex
-    var end = advance(start, 4)
+    var end = start.advancedBy(4)
     
     let year = yyyymmdd.substringWithRange(Range<String.Index>(start: start, end: end))
     
     start = end
-    end = advance(start, 2)
+    end = start.advancedBy(2)
     let month = yyyymmdd.substringWithRange(Range<String.Index>(start: start, end: end))
     
     start = end
-    end = advance(start, 2)
+    end = start.advancedBy(2)
     let day = yyyymmdd.substringWithRange(Range<String.Index>(start: start, end: end))
     
     let dateString = "\(year)-\(month)-\(day)"
@@ -610,7 +610,7 @@ func getStopTimesForTrip(tripId: String, gtfs: GTFS) -> [StopTime] {
 func getUniqueDestinationsFromTrips(trips: [Trip]) -> [String] {
     var uniqueDestinations = [String]()
     for trip in trips {
-        if !trip.tripHeadsign.isEmpty && !contains(uniqueDestinations, trip.tripHeadsign) {
+        if !trip.tripHeadsign.isEmpty && !uniqueDestinations.contains(trip.tripHeadsign) {
             uniqueDestinations.append(trip.tripHeadsign)
         }
     }
@@ -632,7 +632,7 @@ func getConnectionsForTrip(trip: Trip, gtfs: GTFS) -> [Connection] {
     if !allowConnections {
         return result
     }
-    let stopTimes = getStopTimesForTrip(trip.tripId, gtfs)
+    let stopTimes = getStopTimesForTrip(trip.tripId, gtfs: gtfs)
     if stopTimes.count == 0 {
         return result
     }
@@ -706,49 +706,49 @@ func getConnectionsForTrip(trip: Trip, gtfs: GTFS) -> [Connection] {
 func generateJsonForTrip(trip: Trip, isLast: Bool, gtfs: GTFS) {
     let level = 5
 
-    println("\(indent(level: level)){")
-    println("\(indent(level: level+1))\"tripId\": \"\(trip.tripId)\",")
-    println("\(indent(level: level+1))\"calId\": \"\(trip.serviceId)\",")
-    println("\(indent(level: level+1))\"stops\": [")
+    print("\(indent(level)){")
+    print("\(indent(level+1))\"tripId\": \"\(trip.tripId)\",")
+    print("\(indent(level+1))\"calId\": \"\(trip.serviceId)\",")
+    print("\(indent(level+1))\"stops\": [")
     
-    let stopTimes = getStopTimesForTrip(trip.tripId, gtfs)
+    let stopTimes = getStopTimesForTrip(trip.tripId, gtfs: gtfs)
     var first = stopTimes.count > 1
     for st in stopTimes {
     
-        print("\(indent(level: level+2)){ \"id\": \"\(st.stopId)\", \"time\": \"\(st.arrivalTime)\", \"seq\": \(st.stopSequence) }")
+        print("\(indent(level+2)){ \"id\": \"\(st.stopId)\", \"time\": \"\(st.arrivalTime)\", \"seq\": \(st.stopSequence) }", terminator: "")
         if first || (st.stopId != stopTimes.last!.stopId) {
-            print(",")
+            print(",", terminator: "")
         }
         first = false
-        println("")
+        print("")
     }
     
-    println("\(indent(level: level+1))],")
+    print("\(indent(level+1))],")
     
-    println("\(indent(level: level+1))\"connections\": [")
+    print("\(indent(level+1))\"connections\": [")
 
-    let connections = getConnectionsForTrip(trip, gtfs)
+    let connections = getConnectionsForTrip(trip, gtfs: gtfs)
     if connections.count > 0 {
         let lastRoute = connections.last!.routeId
         for c in connections {
-            print("\(indent(level: level+2)){\"routeId\": \"\(c.routeId)\", \"headsign\": \"\(c.headSign)\", \"tripId\": \"\(c.tripId)\", \"shortName\": \"\(c.shortName)\", \"time\": \"\(formatTimeOfDay(c.time))\"}")
+            print("\(indent(level+2)){\"routeId\": \"\(c.routeId)\", \"headsign\": \"\(c.headSign)\", \"tripId\": \"\(c.tripId)\", \"shortName\": \"\(c.shortName)\", \"time\": \"\(formatTimeOfDay(c.time))\"}", terminator: "")
             if c.routeId != lastRoute {
-                print(",")
+                print(",", terminator: "")
             }
-            println("")
+            print("")
         }
     }
     
-    println("\(indent(level: level+1))]")
+    print("\(indent(level+1))]")
     
-    print("\(indent(level: level))}")
+    print("\(indent(level))}", terminator: "")
     if (!isLast) {
-        println(",")
+        print(",")
     }
-    println("")
+    print("")
 }
 
-func getTripsToDestination(#destination: String, #fromTrips: [Trip]) -> [Trip] {
+func getTripsToDestination(destination destination: String, fromTrips: [Trip]) -> [Trip] {
     var result = [Trip]()
     for t in fromTrips {
         if t.tripHeadsign == destination {
@@ -782,7 +782,7 @@ func getWayPointForRoute(routeId: String, gtfs: GTFS) -> String {
 }
 
 func getTripStartTime(trip: Trip) -> TimeOfDay? {
-    let stopTimes = getStopTimesForTrip(trip.tripId, gtfs)
+    let stopTimes = getStopTimesForTrip(trip.tripId, gtfs: gtfs)
     if stopTimes.count > 0 {
         return TimeOfDay(fromString: stopTimes[0].arrivalTime)
     }
@@ -790,7 +790,7 @@ func getTripStartTime(trip: Trip) -> TimeOfDay? {
 }
 
 func sortTripsByStartTime(inout trips: [Trip]) {
-    sort(&trips) { (t1, t2) in
+    trips.sortInPlace { (t1, t2) in
         let time1 = getTripStartTime(t1)
         let time2 = getTripStartTime(t2)
         if (time1 == nil) || (time2 == nil) {
@@ -804,21 +804,21 @@ func sortTripsByStartTime(inout trips: [Trip]) {
 func generateJsonForRoute(route: Route, isLast: Bool, gtfs: GTFS) {
     let level = 3
 
-    let trips = getTripsForRoute(route.routeId, gtfs)
+    let trips = getTripsForRoute(route.routeId, gtfs: gtfs)
     if trips.isEmpty {
         return
     }
     
-    let wp = getWayPointForRoute(route.routeId, gtfs)
+    let wp = getWayPointForRoute(route.routeId, gtfs: gtfs)
     
-    println("\(indent()){")
-    println("\(indent(level: level))\"id\": \"\(route.routeId)\",")
-    println("\(indent(level: level))\"agency\": \"\(route.agencyId)\",")
-    println("\(indent(level: level))\"shortName\": \"\(route.shortName)\",")
-    println("\(indent(level: level))\"longName\": \"\(route.longName)\",")
-    println("\(indent(level: level))\"colorCode\": \"\(route.color)\",")
-    println("\(indent(level: level))\"waypoint\": \"\(wp)\",")
-    println("\(indent(level: level))\"vectors\": [")
+    print("\(indent()){")
+    print("\(indent(level))\"id\": \"\(route.routeId)\",")
+    print("\(indent(level))\"agency\": \"\(route.agencyId)\",")
+    print("\(indent(level))\"shortName\": \"\(route.shortName)\",")
+    print("\(indent(level))\"longName\": \"\(route.longName)\",")
+    print("\(indent(level))\"colorCode\": \"\(route.color)\",")
+    print("\(indent(level))\"waypoint\": \"\(wp)\",")
+    print("\(indent(level))\"vectors\": [")
     
     // a vector is an array of Trip that have the same routeId and Heading
     var destinations = getUniqueDestinationsFromTrips(trips)
@@ -837,37 +837,37 @@ func generateJsonForRoute(route: Route, isLast: Bool, gtfs: GTFS) {
         
         sortTripsByStartTime(&tripsToDest!)
         
-        println("\(indent(level: level)){")
-        println("\(indent(level: level+1))\"destination\": \"\(dest)\",")
-        println("\(indent(level: level+1))\"trips\": [")
+        print("\(indent(level)){")
+        print("\(indent(level+1))\"destination\": \"\(dest)\",")
+        print("\(indent(level+1))\"trips\": [")
         for trip in tripsToDest {
-            generateJsonForTrip(trip, trip.tripId == tripsToDest.last!.tripId, gtfs)
+            generateJsonForTrip(trip, isLast: trip.tripId == tripsToDest.last!.tripId, gtfs: gtfs)
         }
-        println("\(indent(level: level+1))],")
+        print("\(indent(level+1))],")
 
         if (tripsToDest.count > 0) {
             let shapeId = trim(tripsToDest[0].shapeId)
-            let coords = getCoordinatesForShape(shapeId, gtfs)
+            let coords = getCoordinatesForShape(shapeId, gtfs: gtfs)
             let poly = Polyline(coordinates: coords, levels: nil)
             let polyString = poly.encodedPolyline.stringByReplacingOccurrencesOfString("\\", withString: "\\\\", options: NSStringCompareOptions.LiteralSearch, range: nil)
-            println("\(indent(level: level+1))\"polyline\": \"\(polyString)\"")
+            print("\(indent(level+1))\"polyline\": \"\(polyString)\"")
         }
         
-        print("\(indent(level: level))}")
+        print("\(indent(level))}", terminator: "")
         if dest != destinations.last {
-            print(",")
+            print(",", terminator: "")
         }
-        println("")
+        print("")
     }
     
 
-    println("\(indent())\(indent())]")
+    print("\(indent())\(indent())]")
     // more route properties
-    print("\(indent())}")
+    print("\(indent())}", terminator: "")
     if !isLast {
-        print(",")
+        print(",", terminator: "")
     }
-    println("")
+    print("")
 }
 
 func getDayArrayString(array: [Bool]) -> String {
@@ -891,7 +891,7 @@ func getDayArrayString(array: [Bool]) -> String {
 func getCalendarsReferencedByTrips(gtfs: GTFS) -> [String] {
     var calendarIds = [String]()
     for t in gtfs.trips {
-        if !contains(calendarIds, t.serviceId) {
+        if !calendarIds.contains(t.serviceId) {
             calendarIds.append(t.serviceId)
         }
     }
@@ -925,19 +925,19 @@ func getExceptionsJsonForCalendar(serviceId: String, exceptionType: Int, gtfs: G
 func generateJsonForCalendar(cal: Calendar, isLast: Bool, gtfs: GTFS) {
     let level = 2
     
-    println("\(indent(level: level)){\"serviceId\": \"\(cal.serviceId)\", \"days\": [\(getDayArrayString(cal.daysMonToSun))], \"startDate\": \"\(cal.startDate)\", \"endDate\": \"\(cal.endDate)\",")
-    println("\(indent(level: level)) \"addExceptions\": [")
-    println("\(indent(level: level+1))\(getExceptionsJsonForCalendar(cal.serviceId, 1, gtfs))")
-    println("\(indent(level: level)) ],")
-    println("\(indent(level: level)) \"removeExceptions\": [")
-    println("\(indent(level: level+1))\(getExceptionsJsonForCalendar(cal.serviceId, 2, gtfs))")
-    println("\(indent(level: level)) ]")
-    print("\(indent(level: level))}")
+    print("\(indent(level)){\"serviceId\": \"\(cal.serviceId)\", \"days\": [\(getDayArrayString(cal.daysMonToSun))], \"startDate\": \"\(cal.startDate)\", \"endDate\": \"\(cal.endDate)\",")
+    print("\(indent(level)) \"addExceptions\": [")
+    print("\(indent(level+1))\(getExceptionsJsonForCalendar(cal.serviceId, exceptionType: 1, gtfs: gtfs))")
+    print("\(indent(level)) ],")
+    print("\(indent(level)) \"removeExceptions\": [")
+    print("\(indent(level+1))\(getExceptionsJsonForCalendar(cal.serviceId, exceptionType: 2, gtfs: gtfs))")
+    print("\(indent(level)) ]")
+    print("\(indent(level))}", terminator: "")
     
     if !isLast {
-        print(",")
+        print(",", terminator: "")
     }
-    println()
+    print("")
 }
 
 func generateJsonForAgency(agency: Agency, isLast: Bool, gtfs: GTFS) {
@@ -945,19 +945,19 @@ func generateJsonForAgency(agency: Agency, isLast: Bool, gtfs: GTFS) {
     let level = 2
 
     
-    println("\(indent(level: level)){")
-    println("\(indent(level: level+1))\"id\": \"\(agency.id)\",")
-    println("\(indent(level: level+1))\"name\": \"\(agency.name)\",")
-    println("\(indent(level: level+1))\"url\": \"\(agency.url)\",")
-    println("\(indent(level: level+1))\"timezone\": \"\(agency.timezone)\",")
-    println("\(indent(level: level+1))\"phone\": \"\(agency.phone)\",")
-    println("\(indent(level: level+1))\"lang\": \"\(agency.lang)\"")
+    print("\(indent(level)){")
+    print("\(indent(level+1))\"id\": \"\(agency.id)\",")
+    print("\(indent(level+1))\"name\": \"\(agency.name)\",")
+    print("\(indent(level+1))\"url\": \"\(agency.url)\",")
+    print("\(indent(level+1))\"timezone\": \"\(agency.timezone)\",")
+    print("\(indent(level+1))\"phone\": \"\(agency.phone)\",")
+    print("\(indent(level+1))\"lang\": \"\(agency.lang)\"")
     
-    print("\(indent(level: level))}")
+    print("\(indent(level))}", terminator: "")
     if !isLast {
-        print(",")
+        print(",", terminator: "")
     }
-    println()
+    print("")
 }
 
 
@@ -965,56 +965,56 @@ func generateJsonForAgency(agency: Agency, isLast: Bool, gtfs: GTFS) {
 
 func generateJson(gtfs: GTFS) {
     
-    println("{")
+    print("{")
     
     
     
-    println("\(indent())\"agencies\": [")
+    print("\(indent())\"agencies\": [")
     
     for agency in gtfs.agencies {
-        generateJsonForAgency(agency, agency.id == gtfs.agencies.last!.id, gtfs)
+        generateJsonForAgency(agency, isLast: agency.id == gtfs.agencies.last!.id, gtfs: gtfs)
     }
     
     
-    println("\(indent())],")
+    print("\(indent())],")
     
-    println("\(indent())\"routes\": [")
+    print("\(indent())\"routes\": [")
 
     for route in gtfs.routes {
-        generateJsonForRoute(route, route.routeId == gtfs.routes.last!.routeId, gtfs)
+        generateJsonForRoute(route, isLast: route.routeId == gtfs.routes.last!.routeId, gtfs: gtfs)
     }
 
-    println("\(indent())],")
+    print("\(indent())],")
     
-    println("\(indent())\"stops\": [")
+    print("\(indent())\"stops\": [")
     let lastStopId = gtfs.stops.last!.id
     for stop in gtfs.stops {
-        print("\(indent(level: 2)){\"id\": \"\(stop.id)\", \"name\": \"\(stop.name)\", \"lat\": \(stop.lat), \"lng\": \(stop.lng)}")
+        print("\(indent(2)){\"id\": \"\(stop.id)\", \"name\": \"\(stop.name)\", \"lat\": \(stop.lat), \"lng\": \(stop.lng)}", terminator: "")
         if stop.id != lastStopId {
-            print(",")
+            print(",", terminator: "")
         }
-        println("")
+        print("")
     }
-    println("\(indent())],")
+    print("\(indent())],")
     
-    println("\(indent())\"calendars\": [")
+    print("\(indent())\"calendars\": [")
 
     let referencedCalendars = getCalendarsReferencedByTrips(gtfs)
     var lastCalId: String = ""
     for cal in gtfs.calendars {
-        if contains(referencedCalendars, cal.serviceId) {
+        if referencedCalendars.contains(cal.serviceId) {
             lastCalId = cal.serviceId
         }
     }
 
     for cal in gtfs.calendars {
-        if contains(referencedCalendars, cal.serviceId) {
-            generateJsonForCalendar(cal, (cal.serviceId == lastCalId) || (gtfs.calendars.count == 1), gtfs)
+        if referencedCalendars.contains(cal.serviceId) {
+            generateJsonForCalendar(cal, isLast: (cal.serviceId == lastCalId) || (gtfs.calendars.count == 1), gtfs: gtfs)
         }
     }
     
-    println("\(indent())]")
-    println("}")
+    print("\(indent())]")
+    print("}")
 }
 
 var gtfs: GTFS!

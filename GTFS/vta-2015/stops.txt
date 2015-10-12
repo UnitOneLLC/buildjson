@@ -19,6 +19,7 @@ HEALEVTA,,Healey Way,,41.45591,-70.55691
 HILLSVTA,,Hillside Village Community Bldg,,41.43943,-70.60929
 ISLANDQUEEN,,Across from Island Queen,,41.459753,-70.557500
 JOHNHVTA,,John Hoft Road,,41.44965,-70.63719
+XJOHNHVTA,,Across from John Hoft Road,,41.44965,-70.63719
 KATAMVTA,,Katama Airfield,,41.36356,-70.52344
 LOBSTVTA,,Lighthouse & Lobsterville Road,,41.35032,-70.79712
 MVHIGVTA,,M.V. High School Bench Stop,,41.41883,-70.59436
@@ -36,6 +37,7 @@ OAKSSAVTA,,Oak Bluffs SSA Terminal,,41.45707,-70.55578
 OAKLIBVTA,,Oak Bluffs Library,,41.45401,-70.56823
 OCEANVTA,,Ocean Park,,41.45692,-70.55626
 POLLYVTA,,Polly Hill Arboretum,,41.39761,-70.67689
+XPOLLYVTA,,Across from Polly Hill Arboretum,,41.39761,-70.67689
 PONDVVTA,,Pond View Drive,,41.44141,-70.58807
 XPONDVVTA,,Across from Pond View Drive,,41.44141,-70.58807
 SKATEVTA,,Skate Park,,41.41868,-70.59347
@@ -67,9 +69,12 @@ WESTSCHVTA,,West Tisbury Elementary School,,41.40225,-70.6617
 WESTGRANGEVTA,,West Tisbury Grange Hall,,41.380169,-70.674784
 WESTHALVTA,,West Tisbury Town Hall,,41.38082,-70.67487
 WOODSVTA,,Woodside Village / MVCS,,41.42249,-70.59515
+HOLLYVTA,,Holly Bear Lane,,41.39939,-70.54577
 XHOLLYVTA,,Across from Holly Bear Lane,,41.39939,-70.54577
 XOAKLNVTA,,Across from Oak Lane,,41.42274,-70.64578
+OAKLNVTA,,Oak Lane,,41.42274,-70.64578
 DEEPBMVTA,,Deep Bottom Road,,41.38393,-70.63072
+XDEEPBMVTA,,Across from Deep Bottom Road,,41.38393,-70.63072
 METDRVTA,,Across from Metcalf Drive,,41.38764,-70.56608
 EDPOLICEVTA,,Edgartown Police Station,,41.387213,-70.51949
 DEACONVTA,,Deacon Vincent Way,,41.3774653,-70.518656

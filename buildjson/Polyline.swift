@@ -58,8 +58,8 @@ public struct Polyline {
     
 	/// This designated init encodes an [CLLocationCoordinate2D] to a String
 	///
-	/// :param: coordinates The array of CLLocationCoordinate2D that you want to encode
-	/// :param: levels The optional array of levels  that you want to encode
+	/// - parameter coordinates: The array of CLLocationCoordinate2D that you want to encode
+	/// - parameter levels: The optional array of levels  that you want to encode
 	public init(coordinates: [CLLocationCoordinate2D], levels: [UInt32]? = nil) {
 		
 		self.coordinates = coordinates
@@ -74,8 +74,8 @@ public struct Polyline {
 	
 	/// This designated init decodes a polyline String to an [CLLocation]
 	///
-	/// :param: encodedPolyline The polyline that you want to decode
-	/// :param: encodedLevels The levels that you want to decode
+	/// - parameter encodedPolyline: The polyline that you want to decode
+	/// - parameter encodedLevels: The levels that you want to decode
     public init(encodedPolyline: String, encodedLevels: String? = nil) {
         var locLevels: [UInt32]? = nil
         self.encodedPolyline = encodedPolyline
@@ -97,8 +97,8 @@ public struct Polyline {
 	
 	/// This init encodes an [CLLocation] to a String
 	///
-	/// :param: locations The array of CLLocation that you want to encode
-	/// :param: levels The optional array of levels  that you want to encode
+	/// - parameter locations: The array of CLLocation that you want to encode
+	/// - parameter levels: The optional array of levels  that you want to encode
 	public init(locations: [CLLocation], levels: [UInt32]? = nil) {
 		
 		let coordinates = toCoordinates(locations)
@@ -110,9 +110,9 @@ public struct Polyline {
 
 /// This function encodes an [CLLocationCoordinate2D] to a String
 ///
-/// :param: coordinates The array of CLLocationCoordinate2D that you want to encode
+/// - parameter coordinates: The array of CLLocationCoordinate2D that you want to encode
 ///
-/// :returns: A String representing the encoded Polyline
+/// - returns: A String representing the encoded Polyline
 public func encodeCoordinates(coordinates: [CLLocationCoordinate2D]) -> String {
     
     var previousCoordinate = IntegerCoordinates(0, 0)
@@ -134,9 +134,9 @@ public func encodeCoordinates(coordinates: [CLLocationCoordinate2D]) -> String {
 
 /// This function encodes an [CLLocationCoordinate2D] to a String
 ///
-/// :param: coordinates The array of CLLocationCoordinate2D that you want to encode
+/// - parameter coordinates: The array of CLLocationCoordinate2D that you want to encode
 ///
-/// :returns: A String representing the encoded Polyline
+/// - returns: A String representing the encoded Polyline
 public func encodeLocations(locations: [CLLocation]) -> String {
     
     return encodeCoordinates(toCoordinates(locations))
@@ -144,9 +144,9 @@ public func encodeLocations(locations: [CLLocation]) -> String {
 
 /// This function encodes an [UInt32] to a String
 ///
-/// :param: levels The array of UInt32 levels that you want to encode
+/// - parameter levels: The array of UInt32 levels that you want to encode
 ///
-/// :returns: A String representing the encoded Levels
+/// - returns: A String representing the encoded Levels
 public func encodeLevels(levels: [UInt32]) -> String {
     return levels.reduce("") {
         $0 + encodeLevel($1)
@@ -155,9 +155,9 @@ public func encodeLevels(levels: [UInt32]) -> String {
 
 /// This function decodes a String to an [CLLocationCoordinate2D]
 ///
-/// :param: encodedPolyline String representing the encoded Polyline
+/// - parameter encodedPolyline: String representing the encoded Polyline
 ///
-/// :returns: A [CLLocationCoordinate2D] representing the decoded polyline if valid, nil otherwise
+/// - returns: A [CLLocationCoordinate2D] representing the decoded polyline if valid, nil otherwise
 public func decodePolyline(encodedPolyline: String) -> [CLLocationCoordinate2D]? {
     
     let data = encodedPolyline.dataUsingEncoding(NSUTF8StringEncoding)!
@@ -189,9 +189,9 @@ public func decodePolyline(encodedPolyline: String) -> [CLLocationCoordinate2D]?
 
 /// This function decodes a String to an [CLLocation]
 ///
-/// :param: encodedPolyline String representing the encoded Polyline
+/// - parameter encodedPolyline: String representing the encoded Polyline
 ///
-/// :returns: A [CLLocation] representing the decoded polyline if valid, nil otherwise
+/// - returns: A [CLLocation] representing the decoded polyline if valid, nil otherwise
 public func decodePolyline(encodedPolyline: String) -> [CLLocation]? {
     
     return decodePolyline(encodedPolyline).map(toLocations)
@@ -199,15 +199,15 @@ public func decodePolyline(encodedPolyline: String) -> [CLLocation]? {
 
 /// This function decodes a String to an [UInt32]
 ///
-/// :param: encodedLevels The String representing the levels to decode
+/// - parameter encodedLevels: The String representing the levels to decode
 ///
-/// :returns: A [UInt32] representing the decoded Levels if the String is valid, nil otherwise
+/// - returns: A [UInt32] representing the decoded Levels if the String is valid, nil otherwise
 public func decodeLevels(encodedLevels: String) -> [UInt32]? {
     var remainingLevels = encodedLevels.unicodeScalars
     var decodedLevels   = [UInt32]()
     
-    while count(remainingLevels) > 0 {
-        var result = extractNextChunk(&remainingLevels)
+    while remainingLevels.count > 0 {
+        let result = extractNextChunk(&remainingLevels)
         if result.failed {
             return nil
         }else{
@@ -258,7 +258,7 @@ private func encodeFiveBitComponents(value: Int) -> String {
     var fiveBitComponent = 0
     var returnString = ""
     
-    do {
+    repeat {
         fiveBitComponent = remainingComponents & 0x1F
         
         if remainingComponents >= 0x20 {
@@ -278,7 +278,7 @@ private func encodeFiveBitComponents(value: Int) -> String {
 
 // We use a byte array (UnsafePointer<Int8>) here for performance reasons. Check with swift 1.2 if we can 
 // go back to using [Int8]
-private func decodeSingleCoordinate(#byteArray: UnsafePointer<Int8>, #length: Int, inout #position: Int ) -> Result<Double> {
+private func decodeSingleCoordinate(byteArray byteArray: UnsafePointer<Int8>, length: Int, inout position: Int ) -> Result<Double> {
     
     if position >= length {
         return Result.Failure
@@ -292,7 +292,7 @@ private func decodeSingleCoordinate(#byteArray: UnsafePointer<Int8>, #length: In
     var componentCounter: Int32 = 0
     var component: Int32 = 0
     
-    do {
+    repeat {
         currentChar = byteArray[position] - 63
         component = Int32(currentChar & bitMask)
         coordinate |= (component << (5*componentCounter))
@@ -342,8 +342,8 @@ private func decodeLevel(encodedLevel: String) -> UInt32 {
 private func agregateScalarArray(scalars: [UnicodeScalar]) -> Int32 {
     let lastValue = Int32(scalars.last!.value)
     
-    var fiveBitComponents: [Int32] = scalars.map { scalar in
-        var value = Int32(scalar.value)
+    let fiveBitComponents: [Int32] = scalars.map { scalar in
+        let value = Int32(scalar.value)
         if value != lastValue {
             return (value - 63) ^ 0x20
         } else {
@@ -351,7 +351,7 @@ private func agregateScalarArray(scalars: [UnicodeScalar]) -> Int32 {
         }
     }
     
-    return fiveBitComponents.reverse().reduce(0) { ($0 << 5 ) | $1 }
+    return Array(fiveBitComponents.reverse()).reduce(0) { ($0 << 5 ) | $1 }
 }
 
 // MARK: Utilities
