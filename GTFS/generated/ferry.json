@@ -690,7 +690,7 @@
               {"id": "NEWBEDFORD", "name": "New Bedford", "lat": 41.6354, "lng": -70.91973}
               ],
     "calendars": [
-                  {"serviceId": "SSMARCH16", "days": [1,1,1,1,1,1,1], "startDate": "2016-03-16", "endDate": "2016-04-11",
+                  {"serviceId": "SSMARCH16", "days": [1,1,1,1,1,1,1], "startDate": "2016-03-16", "endDate": "2016-05-17",
                   "addExceptions": [
                   
                   ],
@@ -698,7 +698,7 @@
                   
                   ]
                   },
-                  {"serviceId": "SSMARCH16WKND", "days": [0,0,0,0,1,1,1], "startDate": "2016-03-16", "endDate": "2016-04-11",
+                  {"serviceId": "SSMARCH16WKND", "days": [0,0,0,0,1,1,1], "startDate": "2016-03-16", "endDate": "2016-05-17",
                   "addExceptions": [
                   
                   ],
