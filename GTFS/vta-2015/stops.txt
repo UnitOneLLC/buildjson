@@ -79,7 +79,7 @@ SOUTHWATERVTA,,South Water Street,,41.38437,-70.51868
 MATTAVTA,,Mattakesett Resort,,41.35316,-70.51051
 //
 //Route 9
-OAKLIBVTA,,Oak Bluffs Library,,41.45401,-70.56823
+OAKLIBVTA,,Oak Bluffs Library,,41.454838,-70.567511
 
 BLINKVTA,,Blinker Intersection,,41.42082,-70.60172
 RIDGEVTA,,County & Tower Ridge Rd.,,41.43429,-70.57422

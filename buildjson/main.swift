@@ -9,8 +9,8 @@
 import Foundation
 import CoreLocation
 
-//var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/vta-2015/";var allowConnections: Bool = true
-var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/ferries/";var allowConnections: Bool = false
+var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/vta-2015/";var allowConnections: Bool = true
+//var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/ferries/";var allowConnections: Bool = false
 
 struct Agency {
     // agency_id, agency_name, agency_url, agency_timezone, agency_phone, agency_lang
@@ -162,6 +162,10 @@ func isBlank(line: String) -> Bool {
         (line.substringToIndex(line.startIndex.advancedBy(1)) == "\r"))
 }
 
+func isCommentLine(line: String) -> Bool {
+    return (line.characters.count >= 2) && (line.substringToIndex(line.startIndex.advancedBy(2)) == "//")
+}
+
 func decomposeCsv(line: String) -> [String] {
     var parts = line.componentsSeparatedByString(",")
     
@@ -274,7 +278,7 @@ func parseStops() -> [Stop] {
         var fieldMap: [String: Int]!
         
         while let line = reader.nextLine() {
-            if isBlank(line) {
+            if isBlank(line) || isCommentLine(line){
                 continue
             }
             if isFirst {
@@ -430,7 +434,7 @@ func parseStopTimes() -> [StopTime] {
         var isFirst = true
         var fieldMap: [String: Int]!
         while let line = reader.nextLine() {
-            if isBlank(line) {
+            if isBlank(line) || isCommentLine(line) {
                 continue
             }
             if isFirst {

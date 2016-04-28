@@ -1,6 +1,7 @@
 waypoint_id,route_id,waypoint_name
 WPMENEMSHA,4VTA,Menemsha
 WPAIRPORT,6VTA,Airport
+WPHOSPITAL2,7VTA,MV Hospital
 WPSOBEACH,8VTA,South Beach
 WPVHAVEN,10VTA,Vineyard Haven
 WPHOSPITAL,9VTA,MV Hospital
