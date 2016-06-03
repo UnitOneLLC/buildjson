@@ -1,2 +1,2 @@
 service_id,date,exception_type
-
+IQSUNDAY16,20160905,1
