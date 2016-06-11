@@ -54,11 +54,11 @@
                            "destination": "Woods Hole",
                            "trips": [
                                      {
-                                     "tripId": "SSMARCH_IN_1VHWH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSSUMR16_IN_1VHWH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "VHSSA", "time": "06:00", "seq": 1 },
-                                               { "id": "WOODSHOLE", "time": "06:45", "seq": 2 }
+                                               { "id": "VHSSA", "time": "05:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "06:15", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -76,11 +76,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_IN_2VHWH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSSUMR16_IN_2VHWH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "VHSSA", "time": "07:00", "seq": 1 },
-                                               { "id": "WOODSHOLE", "time": "07:45", "seq": 2 }
+                                               { "id": "VHSSA", "time": "06:00", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "06:45", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -98,11 +98,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_IN_3VHWH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSSUMR16_IN_3VHWH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "VHSSA", "time": "08:15", "seq": 1 },
-                                               { "id": "WOODSHOLE", "time": "09:00", "seq": 2 }
+                                               { "id": "VHSSA", "time": "07:00", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "07:45", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -120,11 +120,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_IN_4VHWH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSSUMR16_IN_4VHWH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "VHSSA", "time": "09:30", "seq": 1 },
-                                               { "id": "WOODSHOLE", "time": "10:15", "seq": 2 }
+                                               { "id": "VHSSA", "time": "08:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "09:00", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -142,22 +142,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_IN_5VHWH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSSUMR16_IN_5VHWH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "VHSSA", "time": "10:45", "seq": 1 },
-                                               { "id": "WOODSHOLE", "time": "11:30", "seq": 2 }
-                                               ],
-                                     "connections": [
-                                     ]
-                                     },
-                                     
-                                     {
-                                     "tripId": "SSMARCH_IN_6VHWH",
-                                     "calId": "SSMARCH16",
-                                     "stops": [
-                                               { "id": "VHSSA", "time": "12:00", "seq": 1 },
-                                               { "id": "WOODSHOLE", "time": "12:45", "seq": 2 }
+                                               { "id": "VHSSA", "time": "09:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "10:15", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -175,22 +164,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_IN_7VHWH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSSUMR16_IN_6VHWH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "VHSSA", "time": "13:15", "seq": 1 },
-                                               { "id": "WOODSHOLE", "time": "14:00", "seq": 2 }
-                                               ],
-                                     "connections": [
-                                     ]
-                                     },
-                                     
-                                     {
-                                     "tripId": "SSMARCH_IN_8VHWH",
-                                     "calId": "SSMARCH16",
-                                     "stops": [
-                                               { "id": "VHSSA", "time": "14:30", "seq": 1 },
-                                               { "id": "WOODSHOLE", "time": "15:15", "seq": 2 }
+                                               { "id": "VHSSA", "time": "12:00", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "12:45", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -208,22 +186,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_IN_9VHWH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSSUMR16_IN_7VHWH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "VHSSA", "time": "15:45", "seq": 1 },
-                                               { "id": "WOODSHOLE", "time": "16:30", "seq": 2 }
-                                               ],
-                                     "connections": [
-                                     ]
-                                     },
-                                     
-                                     {
-                                     "tripId": "SSMARCH_IN_10VHWH",
-                                     "calId": "SSMARCH16",
-                                     "stops": [
-                                               { "id": "VHSSA", "time": "17:00", "seq": 1 },
-                                               { "id": "WOODSHOLE", "time": "17:45", "seq": 2 }
+                                               { "id": "VHSSA", "time": "14:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "15:15", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -241,22 +208,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_IN_11VHWH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSSUMR16_IN_8VHWH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "VHSSA", "time": "18:15", "seq": 1 },
-                                               { "id": "WOODSHOLE", "time": "19:00", "seq": 2 }
-                                               ],
-                                     "connections": [
-                                     ]
-                                     },
-                                     
-                                     {
-                                     "tripId": "SSMARCH_IN_12VHWH",
-                                     "calId": "SSMARCH16",
-                                     "stops": [
-                                               { "id": "VHSSA", "time": "19:15", "seq": 1 },
-                                               { "id": "WOODSHOLE", "time": "20:00", "seq": 2 }
+                                               { "id": "VHSSA", "time": "17:00", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "17:45", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -274,11 +230,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMAR16W_IN_1VHWH",
-                                     "calId": "SSMARCH16WKND",
+                                     "tripId": "SSSUMR16_IN_9VHWH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "VHSSA", "time": "20:30", "seq": 1 },
-                                               { "id": "WOODSHOLE", "time": "21:15", "seq": 2 }
+                                               { "id": "VHSSA", "time": "19:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "20:00", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -296,8 +252,8 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_IN_13VHWH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSMAY_IN_10VHWH",
+                                     "calId": "SSMAY16",
                                      "stops": [
                                                { "id": "VHSSA", "time": "21:30", "seq": 1 },
                                                { "id": "WOODSHOLE", "time": "22:15", "seq": 2 }
@@ -307,8 +263,8 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMAY_IN_10VHWH",
-                                     "calId": "SSMAY16",
+                                     "tripId": "SSSUMR16_IN_10VHWH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
                                                { "id": "VHSSA", "time": "21:30", "seq": 1 },
                                                { "id": "WOODSHOLE", "time": "22:15", "seq": 2 }
@@ -323,17 +279,6 @@
                            "destination": "Vineyard Haven",
                            "trips": [
                                      {
-                                     "tripId": "SSMARCH_OUT_1WHVH",
-                                     "calId": "SSMARCH16",
-                                     "stops": [
-                                               { "id": "WOODSHOLE", "time": "06:00", "seq": 1 },
-                                               { "id": "VHSSA", "time": "06:45", "seq": 2 }
-                                               ],
-                                     "connections": [
-                                     ]
-                                     },
-                                     
-                                     {
                                      "tripId": "SSMAY_OUT_1WHVH",
                                      "calId": "SSMAY16",
                                      "stops": [
@@ -345,11 +290,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_OUT_2WHVH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSSUMR16_OUT_1WHVH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "WOODSHOLE", "time": "07:00", "seq": 1 },
-                                               { "id": "VHSSA", "time": "07:45", "seq": 2 }
+                                               { "id": "WOODSHOLE", "time": "06:00", "seq": 1 },
+                                               { "id": "VHSSA", "time": "06:45", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -367,11 +312,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_OUT_3WHVH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSSUMR16_OUT_2WHVH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "WOODSHOLE", "time": "08:15", "seq": 1 },
-                                               { "id": "VHSSA", "time": "09:00", "seq": 2 }
+                                               { "id": "WOODSHOLE", "time": "07:00", "seq": 1 },
+                                               { "id": "VHSSA", "time": "07:45", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -389,22 +334,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_OUT_4WHVH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSSUMR16_OUT_3WHVH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "WOODSHOLE", "time": "09:30", "seq": 1 },
-                                               { "id": "VHSSA", "time": "10:15", "seq": 2 }
-                                               ],
-                                     "connections": [
-                                     ]
-                                     },
-                                     
-                                     {
-                                     "tripId": "SSMARCH_OUT_5WHVH",
-                                     "calId": "SSMARCH16",
-                                     "stops": [
-                                               { "id": "WOODSHOLE", "time": "10:45", "seq": 1 },
-                                               { "id": "VHSSA", "time": "11:30", "seq": 2 }
+                                               { "id": "WOODSHOLE", "time": "08:15", "seq": 1 },
+                                               { "id": "VHSSA", "time": "09:00", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -422,22 +356,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_OUT_6WHVH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSSUMR16_OUT_4WHVH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "WOODSHOLE", "time": "12:00", "seq": 1 },
-                                               { "id": "VHSSA", "time": "12:45", "seq": 2 }
-                                               ],
-                                     "connections": [
-                                     ]
-                                     },
-                                     
-                                     {
-                                     "tripId": "SSMARCH_OUT_7WHVH",
-                                     "calId": "SSMARCH16",
-                                     "stops": [
-                                               { "id": "WOODSHOLE", "time": "13:15", "seq": 1 },
-                                               { "id": "VHSSA", "time": "14:00", "seq": 2 }
+                                               { "id": "WOODSHOLE", "time": "10:45", "seq": 1 },
+                                               { "id": "VHSSA", "time": "11:30", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -455,22 +378,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_OUT_8WHVH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSSUMR16_OUT_5WHVH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "WOODSHOLE", "time": "14:30", "seq": 1 },
-                                               { "id": "VHSSA", "time": "15:15", "seq": 2 }
-                                               ],
-                                     "connections": [
-                                     ]
-                                     },
-                                     
-                                     {
-                                     "tripId": "SSMARCH_OUT_9WHVH",
-                                     "calId": "SSMARCH16",
-                                     "stops": [
-                                               { "id": "WOODSHOLE", "time": "15:45", "seq": 1 },
-                                               { "id": "VHSSA", "time": "16:30", "seq": 2 }
+                                               { "id": "WOODSHOLE", "time": "13:15", "seq": 1 },
+                                               { "id": "VHSSA", "time": "14:00", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -488,22 +400,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_OUT_10WHVH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSSUMR16_OUT_6WHVH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "WOODSHOLE", "time": "17:00", "seq": 1 },
-                                               { "id": "VHSSA", "time": "17:45", "seq": 2 }
-                                               ],
-                                     "connections": [
-                                     ]
-                                     },
-                                     
-                                     {
-                                     "tripId": "SSMARCH_OUT_11WHVH",
-                                     "calId": "SSMARCH16",
-                                     "stops": [
-                                               { "id": "WOODSHOLE", "time": "18:15", "seq": 1 },
-                                               { "id": "VHSSA", "time": "19:00", "seq": 2 }
+                                               { "id": "WOODSHOLE", "time": "15:45", "seq": 1 },
+                                               { "id": "VHSSA", "time": "16:30", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -521,11 +422,11 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_OUT_12WHVH",
-                                     "calId": "SSMARCH16",
+                                     "tripId": "SSSUMR16_OUT_7WHVH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
-                                               { "id": "WOODSHOLE", "time": "19:30", "seq": 1 },
-                                               { "id": "VHSSA", "time": "20:15", "seq": 2 }
+                                               { "id": "WOODSHOLE", "time": "18:15", "seq": 1 },
+                                               { "id": "VHSSA", "time": "19:00", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -543,17 +444,6 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMARCH_OUT_13WHVH",
-                                     "calId": "SSMARCH16",
-                                     "stops": [
-                                               { "id": "WOODSHOLE", "time": "20:30", "seq": 1 },
-                                               { "id": "VHSSA", "time": "21:15", "seq": 2 }
-                                               ],
-                                     "connections": [
-                                     ]
-                                     },
-                                     
-                                     {
                                      "tripId": "SSMAY_OUT_9WHVH",
                                      "calId": "SSMAY16",
                                      "stops": [
@@ -565,8 +455,30 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMAR16W_OUT_1WHVH",
-                                     "calId": "SSMARCH16WKND",
+                                     "tripId": "SSSUMR16_OUT_8WHVH",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "20:30", "seq": 1 },
+                                               { "id": "VHSSA", "time": "21:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSUMR16_OUT_9WHVH",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "20:45", "seq": 1 },
+                                               { "id": "VHSSA", "time": "21:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSMAY_OUT_10WHVH",
+                                     "calId": "SSMAY16",
                                      "stops": [
                                                { "id": "WOODSHOLE", "time": "21:45", "seq": 1 },
                                                { "id": "VHSSA", "time": "22:30", "seq": 2 }
@@ -576,8 +488,8 @@
                                      },
                                      
                                      {
-                                     "tripId": "SSMAY_OUT_10WHVH",
-                                     "calId": "SSMAY16",
+                                     "tripId": "SSSUMR16_OUT_10WHVH",
+                                     "calId": "SSSUMR16",
                                      "stops": [
                                                { "id": "WOODSHOLE", "time": "21:45", "seq": 1 },
                                                { "id": "VHSSA", "time": "22:30", "seq": 2 }
@@ -613,11 +525,55 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSUMR16_IN_1OBWH",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "10:45", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "11:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSUMR16_IN_2OBWH",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "12:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "13:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "SSMAY_IN_2OBWH",
                                      "calId": "SSMAY16",
                                      "stops": [
                                                { "id": "OBSSA", "time": "13:15", "seq": 1 },
                                                { "id": "WOODSHOLE", "time": "14:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSUMR16_IN_3OBWH",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "13:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "14:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSUMR16_IN_4OBWH",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "14:45", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "15:30", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -635,11 +591,66 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSUMR16_IN_5OBWH",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "15:45", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "16:30", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSUMR16_IN_6OBWH",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "17:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "18:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "SSMAY_IN_4OBWH",
                                      "calId": "SSMAY16",
                                      "stops": [
                                                { "id": "OBSSA", "time": "18:15", "seq": 1 },
                                                { "id": "WOODSHOLE", "time": "19:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSUMR16_IN_7OBWH",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "18:15", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "19:00", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSUMR16_IN_8OBWH",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "19:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "20:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSUMR16_IN_9OBWH",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "OBSSA", "time": "20:30", "seq": 1 },
+                                               { "id": "WOODSHOLE", "time": "21:15", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -651,11 +662,44 @@
                            "destination": "Oak Bluffs",
                            "trips": [
                                      {
+                                     "tripId": "SSSUMR16_OUT_1WHOB",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "08:30", "seq": 1 },
+                                               { "id": "OBSSA", "time": "09:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "SSMAY_OUT_1WHOB",
                                      "calId": "SSMAY16",
                                      "stops": [
                                                { "id": "WOODSHOLE", "time": "09:30", "seq": 1 },
                                                { "id": "OBSSA", "time": "10:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSUMR16_OUT_2WHOB",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "09:30", "seq": 1 },
+                                               { "id": "OBSSA", "time": "10:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSUMR16_OUT_3WHOB",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "11:00", "seq": 1 },
+                                               { "id": "OBSSA", "time": "11:45", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -673,6 +717,28 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSUMR16_OUT_4WHOB",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "12:00", "seq": 1 },
+                                               { "id": "OBSSA", "time": "12:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSUMR16_OUT_5WHOB",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "13:30", "seq": 1 },
+                                               { "id": "OBSSA", "time": "14:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "SSMAY_OUT_3WHOB",
                                      "calId": "SSMAY16",
                                      "stops": [
@@ -684,11 +750,66 @@
                                      },
                                      
                                      {
+                                     "tripId": "SSSUMR16_OUT_6WHOB",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "14:30", "seq": 1 },
+                                               { "id": "OBSSA", "time": "15:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSUMR16_OUT_7WHOB",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "16:00", "seq": 1 },
+                                               { "id": "OBSSA", "time": "16:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
                                      "tripId": "SSMAY_OUT_4WHOB",
                                      "calId": "SSMAY16",
                                      "stops": [
                                                { "id": "WOODSHOLE", "time": "17:00", "seq": 1 },
                                                { "id": "OBSSA", "time": "17:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSUMR16_OUT_8WHOB",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "17:00", "seq": 1 },
+                                               { "id": "OBSSA", "time": "17:45", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSUMR16_OUT_9WHOB",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "18:30", "seq": 1 },
+                                               { "id": "OBSSA", "time": "19:15", "seq": 2 }
+                                               ],
+                                     "connections": [
+                                     ]
+                                     },
+                                     
+                                     {
+                                     "tripId": "SSSUMR16_OUT_10WHOB",
+                                     "calId": "SSSUMR16",
+                                     "stops": [
+                                               { "id": "WOODSHOLE", "time": "19:30", "seq": 1 },
+                                               { "id": "OBSSA", "time": "20:15", "seq": 2 }
                                                ],
                                      "connections": [
                                      ]
@@ -1231,7 +1352,7 @@
                "waypoint": "",
                "vectors": [
                            {
-                           "destination": "Quonset",
+                           "destination": "Oak Bluffs",
                            "trips": [
                                      {
                                      "tripId": "RIGREEN_OUT_1QUOB",
@@ -1401,7 +1522,7 @@
                            "polyline": "giy|FdwzrLxOas@hVwXtd@{Zvd@Q~oMnaApoGd_@zMaHt}@cjDlzFqlsAL{hCwR_iD}t@e{Fu{L_vj@q]apDr@qzCzMc|@bc@kp@tzAs{@xEjDdFtHr@mA"
                            },
                            {
-                           "destination": "Oak Bluffs",
+                           "destination": "Quonset",
                            "trips": [
                                      {
                                      "tripId": "RIGREEN_IN_1OBQU",
@@ -1784,15 +1905,7 @@
                   
                   ]
                   },
-                  {"serviceId": "SSMARCH16", "days": [1,1,1,1,1,1,1], "startDate": "2016-03-16", "endDate": "2016-05-17",
-                  "addExceptions": [
-                  
-                  ],
-                  "removeExceptions": [
-                  
-                  ]
-                  },
-                  {"serviceId": "SSMARCH16WKND", "days": [0,0,0,0,1,1,1], "startDate": "2016-03-16", "endDate": "2016-05-17",
+                  {"serviceId": "SSSUMR16", "days": [1,1,1,1,1,1,1], "startDate": "2016-06-17", "endDate": "2016-09-08",
                   "addExceptions": [
                   
                   ],
