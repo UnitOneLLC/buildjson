@@ -1,5 +1,6 @@
 waypoint_id,route_id,waypoint_name
 WPMENEMSHA,4VTA,Menemsha
+WPMENEMSHA,12VTA,Menemsha
 WPAIRPORT,6VTA,Airport
 WPHOSPITAL,7VTA,MV Hospital
 WPSOBEACH,8VTA,South Beach
@@ -7,4 +8,3 @@ WPVHAVEN,10VTA,Vineyard Haven
 WPHOSPITAL,9VTA,MV Hospital
 WPWCHOP,10AVTA,West Chop
 WPOAKBLF,13VTA,Oak Bluffs
-WPCHILM,12ITVTA,Town Parking Lot

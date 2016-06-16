@@ -37,6 +37,7 @@ TOWNPKGLOTVTA,,Town Parking Lot (off Tabor House),,41.366492,-70.726296
 TABORVTA,,Tabor House Road,,41.37154,-70.73277
 XTABORVTA,,Across from Tabor House Road,,41.371588,-70.732797
 MENEMBVTA,,Menemsha Beach,,41.35418,-70.76598
+MENEMBVTA2,,Menemsha Beach,,41.35418,-70.76598
 CHILMVTA,,Chilmark Community Center,,41.34254,-70.74248
 //
 //Route 5

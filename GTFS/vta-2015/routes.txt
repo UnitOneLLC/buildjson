@@ -10,4 +10,5 @@ route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_
 9VTA,VTA,9,Oak Bluffs - Hospital - Airport via Barnes & County Roads,Note that bus may be flagged anywhere along route.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,90268F, 
 10VTA,VTA,10,Tisbury Park-and-Ride,Note that bus may be flagged anywhere along route. Service on Thanksgiving and Christmas operated by the Steamship Authority.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,E12C26, 
 10AVTA,VTA,10A,West Chop Loop,Note that bus may be flagged anywhere along route.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,E12C26, 
+12VTA,VTA,12,Chilmark In-Town Route,Note,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,EE8F3E,
 13VTA,VTA,13,Edgartown-Oak Bluffs-Vineyard Haven via Beach Road,Note that bus may be flagged anywhere along route.,3,http://www.vineyardtransit.com/Pages/VTA_Schedule/dates,FEC657,
