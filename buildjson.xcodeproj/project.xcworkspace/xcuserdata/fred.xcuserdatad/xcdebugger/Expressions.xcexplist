@@ -3,6 +3,17 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "encodeFiveBitComponents(Int) -&gt; String:Polyline.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(describing: UnicodeScalar(fiveBitComponent!)!)">
+            </PersistentString>
+            <PersistentString
+               value = "UnicodeScalar(fiveBitComponent)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "buildjson.generateJson (buildjson.GTFS) -&gt; ():main.swift">
          <PersistentStrings>
             <PersistentString

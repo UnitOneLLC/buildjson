@@ -9,8 +9,8 @@
 import Foundation
 import CoreLocation
 
-var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/vta-2015/";var allowConnections: Bool = true
-//var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/ferries/";var allowConnections: Bool = false
+//var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/vta-2015/";var allowConnections: Bool = true
+var basePath = "/Users/fred/Documents/xc/buildjson/GTFS/ferries/";var allowConnections: Bool = false
 
 struct Agency {
     // agency_id, agency_name, agency_url, agency_timezone, agency_phone, agency_lang
@@ -150,46 +150,46 @@ func ==(lhs: TimeOfDay, rhs: TimeOfDay) -> Bool {
 }
 
 
-func trim(string: String) -> String {
-    let components = string.componentsSeparatedByCharactersInSet(
-        NSCharacterSet.whitespaceAndNewlineCharacterSet()).filter({!$0.characters.isEmpty}
+func trim(_ string: String) -> String {
+    let components = string.components(
+        separatedBy: CharacterSet.whitespacesAndNewlines).filter({!$0.characters.isEmpty}
     )
-    return components.joinWithSeparator(" ")
+    return components.joined(separator: " ")
 }
 
-func isBlank(line: String) -> Bool {
+func isBlank(_ line: String) -> Bool {
     return (line.characters.count == 0) || ((line.characters.count == 1) &&
-        (line.substringToIndex(line.startIndex.advancedBy(1)) == "\r"))
+        (line.substring(to: line.characters.index(line.startIndex, offsetBy: 1)) == "\r"))
 }
 
-func isCommentLine(line: String) -> Bool {
-    return (line.characters.count >= 2) && (line.substringToIndex(line.startIndex.advancedBy(2)) == "//")
+func isCommentLine(_ line: String) -> Bool {
+    return (line.characters.count >= 2) && (line.substring(to: line.characters.index(line.startIndex, offsetBy: 2)) == "//")
 }
 
-func decomposeCsv(line: String) -> [String] {
-    var parts = line.componentsSeparatedByString(",")
+func decomposeCsv(_ line: String) -> [String] {
+    var parts = line.components(separatedBy: ",")
     
     var result = [String]()
 
     var combine = false
     var build: String = ""
     
-    for (var i=0; i < parts.count; ++i) {
+    for i in (0 ..< parts.count) {
         var s = trim(parts[i])
-        if s.rangeOfString("\"") != nil {
+        if s.range(of: "\"") != nil {
             
-            if s.substringToIndex(s.startIndex.successor()) == "\"" && s.substringFromIndex(s.endIndex.predecessor()) == "\"" {
-                s = s.substringWithRange(Range<String.Index>(start: s.startIndex.successor(), end: s.endIndex.predecessor()))
+            if s.substring(to: s.characters.index(after: s.startIndex)) == "\"" && s.substring(from: s.characters.index(before: s.endIndex)) == "\"" {
+                s = s.substring(with: (s.characters.index(after: s.startIndex) ..< s.characters.index(before: s.endIndex)))
                 result.append(s)
             }
             else if combine {
                 combine = false
-                s = s.substringToIndex(s.endIndex.predecessor())
+                s = s.substring(to: s.characters.index(before: s.endIndex))
                 build += "," + s
                 result.append(build)
             }
             else {
-                build = s.substringFromIndex(s.startIndex.advancedBy(1))
+                build = s.substring(from: s.characters.index(s.startIndex, offsetBy: 1))
                 combine = true
             }
         }
@@ -205,7 +205,7 @@ func decomposeCsv(line: String) -> [String] {
     return result
 }
 
-func formatTimeOfDay(tod: TimeOfDay) -> String {
+func formatTimeOfDay(_ tod: TimeOfDay) -> String {
     let minutes = tod.minute < 10 ? "0" + String(tod.minute) : String(tod.minute)
     let hour = tod.hour < 10 ? " " + String(tod.hour) : String(tod.hour)
     
@@ -213,18 +213,18 @@ func formatTimeOfDay(tod: TimeOfDay) -> String {
 }
 
 
-func getFieldMap(fieldList: String) -> [String: Int] {
+func getFieldMap(_ fieldList: String) -> [String: Int] {
     var result = [String: Int]()
-    let parts = fieldList.componentsSeparatedByString(",")
-    
-    for (var i=0; i < parts.count; ++i) {
+    let parts = fieldList.components(separatedBy: ",")
+  
+    for i in 0 ..< parts.count {
         result[trim(parts[i])] = i
     }
     
     return result
 }
 
-func getField(field: String, map: [String: Int], list: [String]) -> String {
+func getField(_ field: String, map: [String: Int], list: [String]) -> String {
     return map[field] == nil ? "" : trim(list[map[field]!])
 
 }
@@ -445,8 +445,8 @@ func parseStopTimes() -> [StopTime] {
             let parts = decomposeCsv(line)
             
             let tripId = getField("trip_id", map: fieldMap, list: parts)
-            let arrivalTime = trim(getField("arrival_time", map: fieldMap, list: parts)).substringToIndex(parts[1].startIndex.advancedBy(5))
-            let departureTime = trim(getField("departure_time", map: fieldMap, list: parts)).substringToIndex(parts[1].startIndex.advancedBy(5))
+            let arrivalTime = trim(getField("arrival_time", map: fieldMap, list: parts)).substring(to: parts[1].characters.index(parts[1].startIndex, offsetBy: 5))
+            let departureTime = trim(getField("departure_time", map: fieldMap, list: parts)).substring(to: parts[1].characters.index(parts[1].startIndex, offsetBy: 5))
             let stopId = getField("stop_id", map: fieldMap, list: parts)
             let stopSequence = (getField("stop_sequence", map: fieldMap, list: parts) as NSString).integerValue
             
@@ -495,21 +495,22 @@ func parseShapes() -> [Shape] {
     return shapes
 }
 
-func parseDate(var yyyymmdd: String) -> String {
+func parseDate(_ yyyymmdd: String) -> String {
+    var yyyymmdd = yyyymmdd
     yyyymmdd = trim(yyyymmdd)
     
     var start = yyyymmdd.startIndex
-    var end = start.advancedBy(4)
+    var end = yyyymmdd.index(start, offsetBy: 4)
     
-    let year = yyyymmdd.substringWithRange(Range<String.Index>(start: start, end: end))
-    
-    start = end
-    end = start.advancedBy(2)
-    let month = yyyymmdd.substringWithRange(Range<String.Index>(start: start, end: end))
+    let year = yyyymmdd.substring(with: (start ..< end))
     
     start = end
-    end = start.advancedBy(2)
-    let day = yyyymmdd.substringWithRange(Range<String.Index>(start: start, end: end))
+    end = yyyymmdd.index(start, offsetBy: 2)
+    let month = yyyymmdd.substring(with: (start ..< end))
+    
+    start = end
+    end = yyyymmdd.index(start, offsetBy: 2)
+    let day = yyyymmdd.substring(with: (start ..< end))
     
     let dateString = "\(year)-\(month)-\(day)"
     return dateString
@@ -536,8 +537,8 @@ func parseCalendars() -> [Calendar] {
             
             let serviceId = parts[0]
             
-            var days = [Bool](count: 7, repeatedValue: false)
-            for (var i=1; i <= 7; ++i) {
+            var days = [Bool](repeating: false, count: 7)
+            for i in (1 ... 7) {
                 if parts[i] == "1" {
                     days[i-1] = true
                 }
@@ -588,7 +589,7 @@ func parseCalendarDates() -> [CalendarDate] {
     return calendarDates
 }
 
-func getTripsForRoute(routeId: String, gtfs: GTFS) -> [Trip] {
+func getTripsForRoute(_ routeId: String, gtfs: GTFS) -> [Trip] {
     var trips = [Trip]()
     for trip in gtfs.trips {
         if trip.routeId == routeId {
@@ -598,7 +599,7 @@ func getTripsForRoute(routeId: String, gtfs: GTFS) -> [Trip] {
     return trips
 }
 
-func getStopTimesForTrip(tripId: String, gtfs: GTFS) -> [StopTime] {
+func getStopTimesForTrip(_ tripId: String, gtfs: GTFS) -> [StopTime] {
     var stopTimes = [StopTime]()
     
     for st in gtfs.stopTimes {
@@ -611,7 +612,7 @@ func getStopTimesForTrip(tripId: String, gtfs: GTFS) -> [StopTime] {
 }
 
 
-func getUniqueDestinationsFromTrips(trips: [Trip]) -> [String] {
+func getUniqueDestinationsFromTrips(_ trips: [Trip]) -> [String] {
     var uniqueDestinations = [String]()
     for trip in trips {
         if !trip.tripHeadsign.isEmpty && !uniqueDestinations.contains(trip.tripHeadsign) {
@@ -621,17 +622,17 @@ func getUniqueDestinationsFromTrips(trips: [Trip]) -> [String] {
     return uniqueDestinations
 }
 
-func indent(level: Int = 1) -> String {
+func indent(_ level: Int = 1) -> String {
     let indent = "\t"
     var result = ""
-    for (var i=0; i < level; ++i) {
+    for _ in (0 ..< level) {
         result += indent
     }
     return result
 }
 
 
-func getConnectionsForTrip(trip: Trip, gtfs: GTFS) -> [Connection] {
+func getConnectionsForTrip(_ trip: Trip, gtfs: GTFS) -> [Connection] {
     var result = [Connection]()
     if !allowConnections {
         return result
@@ -707,7 +708,7 @@ func getConnectionsForTrip(trip: Trip, gtfs: GTFS) -> [Connection] {
     return result
 }
 
-func generateJsonForTrip(trip: Trip, isLast: Bool, gtfs: GTFS) {
+func generateJsonForTrip(_ trip: Trip, isLast: Bool, gtfs: GTFS) {
     let level = 5
 
     print("\(indent(level)){")
@@ -752,7 +753,7 @@ func generateJsonForTrip(trip: Trip, isLast: Bool, gtfs: GTFS) {
     print("")
 }
 
-func getTripsToDestination(destination destination: String, fromTrips: [Trip]) -> [Trip] {
+func getTripsToDestination(destination: String, fromTrips: [Trip]) -> [Trip] {
     var result = [Trip]()
     for t in fromTrips {
         if t.tripHeadsign == destination {
@@ -763,7 +764,7 @@ func getTripsToDestination(destination destination: String, fromTrips: [Trip]) -
     return result
 }
 
-func getCoordinatesForShape(shapeId: String, gtfs: GTFS) -> [CLLocationCoordinate2D] {
+func getCoordinatesForShape(_ shapeId: String, gtfs: GTFS) -> [CLLocationCoordinate2D] {
     var coords = [CLLocationCoordinate2D]()
     for shape in gtfs.shapes {
         if shape.shapeId == shapeId {
@@ -775,7 +776,7 @@ func getCoordinatesForShape(shapeId: String, gtfs: GTFS) -> [CLLocationCoordinat
     return coords
 }
 
-func getWayPointForRoute(routeId: String, gtfs: GTFS) -> String {
+func getWayPointForRoute(_ routeId: String, gtfs: GTFS) -> String {
     for wp in gtfs.waypoints {
         if wp.routeId == routeId {
             return wp.name
@@ -785,7 +786,7 @@ func getWayPointForRoute(routeId: String, gtfs: GTFS) -> String {
     return ""
 }
 
-func getTripStartTime(trip: Trip) -> TimeOfDay? {
+func getTripStartTime(_ trip: Trip) -> TimeOfDay? {
     let stopTimes = getStopTimesForTrip(trip.tripId, gtfs: gtfs)
     if stopTimes.count > 0 {
         return TimeOfDay(fromString: stopTimes[0].arrivalTime)
@@ -793,8 +794,8 @@ func getTripStartTime(trip: Trip) -> TimeOfDay? {
     return nil
 }
 
-func sortTripsByStartTime(inout trips: [Trip]) {
-    trips.sortInPlace { (t1, t2) in
+func sortTripsByStartTime(_ trips: inout [Trip]) {
+    trips.sort { (t1, t2) in
         let time1 = getTripStartTime(t1)
         let time2 = getTripStartTime(t2)
         if (time1 == nil) || (time2 == nil) {
@@ -805,7 +806,7 @@ func sortTripsByStartTime(inout trips: [Trip]) {
     }
 }
 
-func generateJsonForRoute(route: Route, isLast: Bool, gtfs: GTFS) {
+func generateJsonForRoute(_ route: Route, isLast: Bool, gtfs: GTFS) {
     let level = 3
 
     let trips = getTripsForRoute(route.routeId, gtfs: gtfs)
@@ -853,7 +854,7 @@ func generateJsonForRoute(route: Route, isLast: Bool, gtfs: GTFS) {
             let shapeId = trim(tripsToDest[0].shapeId)
             let coords = getCoordinatesForShape(shapeId, gtfs: gtfs)
             let poly = Polyline(coordinates: coords, levels: nil)
-            let polyString = poly.encodedPolyline.stringByReplacingOccurrencesOfString("\\", withString: "\\\\", options: NSStringCompareOptions.LiteralSearch, range: nil)
+            let polyString = poly.encodedPolyline.replacingOccurrences(of: "\\", with: "\\\\", options: NSString.CompareOptions.literal, range: nil)
             print("\(indent(level+1))\"polyline\": \"\(polyString)\"")
         }
         
@@ -874,9 +875,9 @@ func generateJsonForRoute(route: Route, isLast: Bool, gtfs: GTFS) {
     print("")
 }
 
-func getDayArrayString(array: [Bool]) -> String {
+func getDayArrayString(_ array: [Bool]) -> String {
     var s = ""
-    for (var i=0; i < array.count; ++i) {
+    for i in (0 ..< array.count) {
         let b = array[i]
         if b {
             s += "1"
@@ -892,7 +893,7 @@ func getDayArrayString(array: [Bool]) -> String {
     return s
 }
 
-func getCalendarsReferencedByTrips(gtfs: GTFS) -> [String] {
+func getCalendarsReferencedByTrips(_ gtfs: GTFS) -> [String] {
     var calendarIds = [String]()
     for t in gtfs.trips {
         if !calendarIds.contains(t.serviceId) {
@@ -903,7 +904,7 @@ func getCalendarsReferencedByTrips(gtfs: GTFS) -> [String] {
     return calendarIds
 }
 
-func getExceptionsJsonForCalendar(serviceId: String, exceptionType: Int, gtfs: GTFS) -> String {
+func getExceptionsJsonForCalendar(_ serviceId: String, exceptionType: Int, gtfs: GTFS) -> String {
     var found = [CalendarDate]()
     for exc in gtfs.calendarDates {
         if exc.serviceId == serviceId {
@@ -914,7 +915,7 @@ func getExceptionsJsonForCalendar(serviceId: String, exceptionType: Int, gtfs: G
     }
     
     var result = ""
-    for (var i=0; i < found.count; ++i){
+    for i in (0 ..< found.count){
         result += "\"" + found[i].date + "\""
         if i != found.count - 1 {
             result += ","
@@ -926,7 +927,7 @@ func getExceptionsJsonForCalendar(serviceId: String, exceptionType: Int, gtfs: G
 }
 
 
-func generateJsonForCalendar(cal: Calendar, isLast: Bool, gtfs: GTFS) {
+func generateJsonForCalendar(_ cal: Calendar, isLast: Bool, gtfs: GTFS) {
     let level = 2
     
     print("\(indent(level)){\"serviceId\": \"\(cal.serviceId)\", \"days\": [\(getDayArrayString(cal.daysMonToSun))], \"startDate\": \"\(cal.startDate)\", \"endDate\": \"\(cal.endDate)\",")
@@ -944,7 +945,7 @@ func generateJsonForCalendar(cal: Calendar, isLast: Bool, gtfs: GTFS) {
     print("")
 }
 
-func generateJsonForAgency(agency: Agency, isLast: Bool, gtfs: GTFS) {
+func generateJsonForAgency(_ agency: Agency, isLast: Bool, gtfs: GTFS) {
     // agency_id, agency_name, agency_url, agency_timezone, agency_phone, agency_lang
     let level = 2
 
@@ -967,7 +968,7 @@ func generateJsonForAgency(agency: Agency, isLast: Bool, gtfs: GTFS) {
 
 
 
-func generateJson(gtfs: GTFS) {
+func generateJson(_ gtfs: GTFS) {
     
     print("{")
     
@@ -1024,8 +1025,8 @@ func generateJson(gtfs: GTFS) {
 var gtfs: GTFS!
 
 func process() {
-    if (Process.arguments.count > 1) {
-       basePath = Process.arguments[1]
+    if (CommandLine.arguments.count > 1) {
+       basePath = CommandLine.arguments[1]
     }
     
     let agencies = parseAgencies()
